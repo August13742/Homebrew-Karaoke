@@ -1,0 +1,41 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="PitchControlledFlappyBird"
+run/main_scene="res://scenes/TestScene.tscn"
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
+config/icon="res://icon.svg"
+
+[audio]
+
+buses/default_bus_layout="uid://dvt2twtcrgvm2"
+driver/enable_input=true
+
+[autoload]
+
+AudioManager="*res://AudioSystem/AudioManager.cs"
+
+[dotnet]
+
+project/assembly_name="PitchControlledFlappyBird"
+
+[editor]
+
+naming/scene_name_casing=1
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"

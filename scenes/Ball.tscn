@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://fc4dxq16gc13"]
+
+[ext_resource type="Script" uid="uid://b7ckwg1qo0fuf" path="res://scripts/Ball.cs" id="1_script"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ball"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ball"]
+albedo_color = Color(0.1, 0.6, 1, 1)
+emission_enabled = true
+emission = Color(0.1, 0.6, 1, 1)
+emission_energy_multiplier = 2.0
+
+[node name="Ball" type="CharacterBody3D" unique_id=1893787083]
+script = ExtResource("1_script")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1501833805]
+shape = SubResource("SphereShape3D_ball")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=1573781439]
+material = SubResource("StandardMaterial3D_ball")
