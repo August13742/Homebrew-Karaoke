@@ -1,12 +1,11 @@
-[gd_scene load_steps=7 format=3]
+[gd_scene format=3 uid="uid://d2w0rs4e88ob4"]
 
-[ext_resource type="PackedScene" path="res://scenes/Ball.tscn" id="1_ball"]
-[ext_resource type="PackedScene" path="res://scenes/PitchWall.tscn" id="2_wall"]
-[ext_resource type="Script" path="res://scripts/PitchDetector.cs" id="3_detector"]
-[ext_resource type="Script" path="res://scripts/WallManager.cs" id="4_manager"]
-[ext_resource type="Script" path="res://scripts/HUD.cs" id="5_hud"]
-[ext_resource type="Script" path="res://scripts/AudioMenu.cs" id="6_audiomenu"]
-[ext_resource type="Script" path="res://scripts/AudioVisualizer.cs" id="7_visualizer"]
+[ext_resource type="PackedScene" uid="uid://fc4dxq16gc13" path="res://scenes/Ball.tscn" id="1_ball"]
+[ext_resource type="Script" uid="uid://nv425cvjscbu" path="res://scripts/PitchDetector.cs" id="3_detector"]
+[ext_resource type="Script" uid="uid://cgsm42uph3fjc" path="res://scripts/WallManager.cs" id="4_manager"]
+[ext_resource type="Script" uid="uid://o71h6d3a1vdw" path="res://scripts/HUD.cs" id="5_hud"]
+[ext_resource type="Script" uid="uid://b7wgfo70ybjoj" path="res://scripts/AudioMenu.cs" id="6_audiomenu"]
+[ext_resource type="Script" uid="uid://bsumcxck0phqx" path="res://scripts/AudioVisualizer.cs" id="7_visualizer"]
 
 [sub_resource type="Environment" id="Environment_test"]
 background_mode = 1
@@ -17,36 +16,35 @@ ambient_light_energy = 0.5
 
 [sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_mic"]
 
-[node name="TestScene" type="Node3D"]
+[node name="TestScene" type="Node3D" unique_id=781279037]
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=355064453]
 environment = SubResource("Environment_test")
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1415537312]
 transform = Transform3D(0.707107, -0.5, 0.5, 0, 0.707107, 0.707107, -0.707107, -0.5, 0.5, 0, 10, 0)
 shadow_enabled = true
 
-[node name="Camera3D" type="Camera3D" parent="."]
+[node name="Camera3D" type="Camera3D" parent="." unique_id=185098375]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 15, 0, 0)
 projection = 1
 size = 12.0
 
-[node name="PitchDetector" type="Node" parent="."]
+[node name="PitchDetector" type="Node" parent="." unique_id=1496580228]
 script = ExtResource("3_detector")
 
-[node name="MicInput" type="AudioStreamPlayer" parent="."]
+[node name="MicInput" type="AudioStreamPlayer" parent="." unique_id=40780477]
 stream = SubResource("AudioStreamMicrophone_mic")
 autoplay = true
 bus = &"Record"
 
-[node name="Ball" parent="." node_paths=PackedStringArray("Detector") instance=ExtResource("1_ball")]
+[node name="Ball" parent="." unique_id=556083718 node_paths=PackedStringArray("Detector") instance=ExtResource("1_ball")]
 Detector = NodePath("../PitchDetector")
 
-[node name="WallManager" type="Node3D" parent="." node_paths=PackedStringArray("WallScene")]
+[node name="WallManager" type="Node3D" parent="." unique_id=848828676]
 script = ExtResource("4_manager")
-WallScene = ExtResource("2_wall")
 
-[node name="UI" type="Control" parent="." node_paths=PackedStringArray("Detector")]
+[node name="UI" type="Control" parent="." unique_id=1017154849 node_paths=PackedStringArray("Detector")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -56,7 +54,7 @@ grow_vertical = 2
 script = ExtResource("5_hud")
 Detector = NodePath("../PitchDetector")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="UI"]
+[node name="VBoxContainer" type="VBoxContainer" parent="UI" unique_id=845712363]
 layout_mode = 0
 offset_left = 20.0
 offset_top = 20.0
@@ -64,18 +62,19 @@ offset_right = 400.0
 offset_bottom = 200.0
 theme_override_constants/separation = 10
 
-[node name="PitchLabel" type="Label" parent="UI/VBoxContainer"]
+[node name="PitchLabel" type="Label" parent="UI/VBoxContainer" unique_id=118075191]
 layout_mode = 2
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 24
 text = "Pitch: ---"
+text_overrun_behavior = 3
 
-[node name="AudioMenu" type="Control" parent="UI/VBoxContainer" node_paths=PackedStringArray("DeviceSelector")]
+[node name="AudioMenu" type="Control" parent="UI/VBoxContainer" unique_id=146644631 node_paths=PackedStringArray("DeviceSelector")]
 custom_minimum_size = Vector2(0, 40)
 layout_mode = 2
 script = ExtResource("6_audiomenu")
 DeviceSelector = NodePath("OptionButton")
 
-[node name="OptionButton" type="OptionButton" parent="UI/VBoxContainer/AudioMenu"]
+[node name="OptionButton" type="OptionButton" parent="UI/VBoxContainer/AudioMenu" unique_id=349942690]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -83,15 +82,16 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tooltip_text = "Select Input Device"
+text_overrun_behavior = 3
 item_count = 1
 popup/item_0/text = "Default"
 popup/item_0/id = 0
 
-[node name="VisualizerContainer" type="PanelContainer" parent="UI/VBoxContainer"]
+[node name="VisualizerContainer" type="PanelContainer" parent="UI/VBoxContainer" unique_id=2030157332]
 custom_minimum_size = Vector2(0, 160)
 layout_mode = 2
 
-[node name="Visualizer" type="Control" parent="UI/VBoxContainer/VisualizerContainer"]
+[node name="Visualizer" type="Control" parent="UI/VBoxContainer/VisualizerContainer" unique_id=519492474]
 layout_mode = 2
 script = ExtResource("7_visualizer")
 DecaySpeed = 10.0
