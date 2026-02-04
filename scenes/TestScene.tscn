@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://o71h6d3a1vdw" path="res://scripts/HUD.cs" id="5_hud"]
 [ext_resource type="Script" uid="uid://b7wgfo70ybjoj" path="res://scripts/AudioMenu.cs" id="6_audiomenu"]
 [ext_resource type="Script" uid="uid://bsumcxck0phqx" path="res://scripts/AudioVisualizer.cs" id="7_visualizer"]
+[ext_resource type="Script" path="res://scripts/MovementRangeIndicator.cs" id="8_rangeindicator"]
 
 [sub_resource type="Environment" id="Environment_test"]
 background_mode = 1
@@ -43,6 +44,10 @@ Detector = NodePath("../PitchDetector")
 
 [node name="WallManager" type="Node3D" parent="." unique_id=848828676]
 script = ExtResource("4_manager")
+
+[node name="MovementRangeIndicator" type="Node3D" parent="." unique_id="999999999" node_paths=PackedStringArray("BallNode")]
+script = ExtResource("8_rangeindicator")
+BallNode = NodePath("../Ball")
 
 [node name="UI" type="Control" parent="." unique_id=1017154849 node_paths=PackedStringArray("Detector")]
 layout_mode = 3
