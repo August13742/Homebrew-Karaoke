@@ -11,10 +11,10 @@ namespace PitchGame
         [Export] public string BusName = "Record";
         [Export] public float AmplitudeThreshold = 0.02f;
         [Export] public float MinFreq = 65f;   
-        [Export] public float MaxFreq = 800f;
+        [Export] public float MaxFreq = 1200f;
         
         [ExportGroup("Filtering")]
-        [Export] public float FilterCutoffHz = 600f; 
+        [Export] public float FilterCutoffHz = 2000f; 
 
         [ExportGroup("Stabilization")]
         [Export] public float SmoothingSpeed = 15.0f;
@@ -376,22 +376,33 @@ namespace PitchGame
         }
         
         /// <summary>
-        /// Evaluate pitch accuracy against a target note (for karaoke scoring).
+        /// Evaluate pitch accuracy. Allows octave transposition (e.g., singing C3 for C4 is OK).
         /// </summary>
         public PitchAccuracy EvaluateAccuracy(int targetMidiNote)
         {
             if (!IsDetected)
                 return PitchAccuracy.Silent;
-                
-            int noteDiff = CurrentMidiNote - targetMidiNote;
-            float totalCentsOff = noteDiff * 100f + CentDeviation;
-            float absCents = Mathf.Abs(totalCentsOff);
+
+            // 1. Calculate the raw semitone difference including cents
+            float currentPitchFloat = CurrentMidiNote + (CentDeviation / 100f);
+            float diff = currentPitchFloat - targetMidiNote;
+
+            // 2. Handle Octave Equivalence (Modulo 12)
+            // We want the difference to be within -6 to +6 range regardless of octave
+            // e.g. If target is 60 and I sing 48 (diff -12), this should become 0.
             
-            if (absCents <= PerfectCentWindow)
+            // Wrap to +/- 6 semitones
+            while (diff > 6.0f) diff -= 12.0f;
+            while (diff < -6.0f) diff += 12.0f;
+
+            // 3. Convert back to absolute cents for scoring
+            float absCentsError = Mathf.Abs(diff * 100f);
+
+            if (absCentsError <= PerfectCentWindow)
                 return PitchAccuracy.Perfect;
-            else if (absCents <= GoodCentWindow)
+            else if (absCentsError <= GoodCentWindow)
                 return PitchAccuracy.Good;
-            else if (absCents <= 100f) // Within a semitone
+            else if (absCentsError <= 100f) // Within a semitone
                 return PitchAccuracy.Ok;
             else
                 return PitchAccuracy.Miss;
