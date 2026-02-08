@@ -19,11 +19,11 @@ namespace PitchGame
 
             if (Detector.IsDetected)
             {
-                _pitchLabel.Text = $"Pitch: {Detector.CurrentFrequency:#} Hz | MIDI: {Detector.CurrentMidiNote}\nDev: {Detector.CentDeviation:+0.00;-0.00} cents | Amp: {Detector.CurrentAmplitude:F4}";
+                _pitchLabel.Text = $"Pitch: {Detector.CurrentFrequency:#} Hz | MIDI: {Detector.CurrentMidiNote:F0}\nDev: {Detector.CentDeviation:+0.00;-0.00} cents | Amp: {Detector.CurrentAmplitude:F2}";
             }
             else
             {
-                _pitchLabel.Text = $"Pitch: --- (Silence)\nAmp: {Detector.CurrentAmplitude:F4}";
+                _pitchLabel.Text = $"Pitch: --- (Silence)\nAmp: {Detector.CurrentAmplitude:F2}";
             }
         }
     }

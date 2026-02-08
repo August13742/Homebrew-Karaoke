@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="PitchControlledFlappyBird"
-run/main_scene="res://scenes/TestScene.tscn"
+config/name="HomebrewKaraoke"
+run/main_scene="res://scenes/TestScene2D.tscn"
 config/features=PackedStringArray("4.6", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -26,7 +26,7 @@ AudioManager="*res://AudioSystem/AudioManager.cs"
 
 [dotnet]
 
-project/assembly_name="PitchControlledFlappyBird"
+project/assembly_name="HomebrewKaraoke"
 
 [editor]
 
