@@ -4,6 +4,7 @@ namespace AudioSystem{
     public partial class MusicResource : Resource
     {
         [Export] public AudioStream Clip { get; set; }
+        [Export] public AudioStream VocalClip { get; set; }
         [Export(PropertyHint.Range, "0,1")] public float Volume { get; set; } = 1f;
         [Export] public bool Loop { get; set; } = true;
         [Export] public float FadeTime { get; set; } = 1.5f;

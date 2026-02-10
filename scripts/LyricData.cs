@@ -11,6 +11,24 @@ public class LyricData
 
     [JsonPropertyName("lines")]
     public List<LyricLine> Lines { get; set; }
+
+    [JsonPropertyName("words")]
+    public List<LyricWord> Words { get; set; }
+}
+
+public class LyricWord
+{
+    [JsonPropertyName("text")]
+    public string Text { get; set; }
+
+    [JsonPropertyName("start")]
+    public double Start { get; set; }
+
+    [JsonPropertyName("end")]
+    public double End { get; set; }
+
+    [JsonPropertyName("line_id")]
+    public int LineId { get; set; }
 }
 
 public class LyricMetadata

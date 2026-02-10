@@ -48,6 +48,8 @@ public partial class AudioManager : Node
     // Music
     private AudioStreamPlayer _musicSourceA;
     private AudioStreamPlayer _musicSourceB;
+    private AudioStreamPlayer _vocalSourceA;
+    private AudioStreamPlayer _vocalSourceB;
     private bool _isUsingMusicA = true;
     private Tween _musicFadeTween;
 
@@ -148,9 +150,13 @@ public partial class AudioManager : Node
 
         _musicSourceA = new AudioStreamPlayer { Name = "MusicA", Bus = _musicBusName };
         _musicSourceB = new AudioStreamPlayer { Name = "MusicB", Bus = _musicBusName };
+        _vocalSourceA = new AudioStreamPlayer { Name = "VocalA", Bus = _musicBusName };
+        _vocalSourceB = new AudioStreamPlayer { Name = "VocalB", Bus = _musicBusName };
         
         musicRoot.AddChild(_musicSourceA);
         musicRoot.AddChild(_musicSourceB);
+        musicRoot.AddChild(_vocalSourceA);
+        musicRoot.AddChild(_vocalSourceB);
     }
     #endregion
 
@@ -287,13 +293,19 @@ public partial class AudioManager : Node
         StopPlaylist();
         
         AudioStreamPlayer active = _isUsingMusicA ? _musicSourceA : _musicSourceB;
+        AudioStreamPlayer activeVocal = _isUsingMusicA ? _vocalSourceA : _vocalSourceB;
+        
         if (!active.Playing) return;
 
         if (_musicFadeTween != null && _musicFadeTween.IsValid()) _musicFadeTween.Kill();
         _musicFadeTween = CreateTween();
+        _musicFadeTween.SetParallel(true);
         
         _musicFadeTween.TweenProperty(active, "volume_db", -80f, fadeOutDuration);
-        _musicFadeTween.TweenCallback(Callable.From(active.Stop));
+        _musicFadeTween.TweenProperty(activeVocal, "volume_db", -80f, fadeOutDuration);
+        
+        _musicFadeTween.Chain().TweenCallback(Callable.From(active.Stop));
+        _musicFadeTween.Chain().TweenCallback(Callable.From(activeVocal.Stop));
         
         CurrentMusicName = "None";
     }
@@ -422,10 +434,6 @@ public partial class AudioManager : Node
         // If same song, just update loop
         if (active.Playing && active.Stream == music.Clip)
         {
-            // Godot streams generally bake looping into the import settings,
-            // but we can simulate it if the resource has loop points or via logic.
-            // For now, we assume Stream Import settings handle internal looping,
-            // or we manually re-trigger in playlist logic.
             return; 
         }
 
@@ -434,11 +442,16 @@ public partial class AudioManager : Node
         // Swap Sources
         AudioStreamPlayer fadingOut = _isUsingMusicA ? _musicSourceA : _musicSourceB;
         AudioStreamPlayer fadingIn = _isUsingMusicA ? _musicSourceB : _musicSourceA;
+        
+        AudioStreamPlayer vocalFadingOut = _isUsingMusicA ? _vocalSourceA : _vocalSourceB;
+        AudioStreamPlayer vocalFadingIn = _isUsingMusicA ? _vocalSourceB : _vocalSourceA;
+        
         _isUsingMusicA = !_isUsingMusicA;
 
         // Setup Fade
         if (_musicFadeTween != null && _musicFadeTween.IsValid()) _musicFadeTween.Kill();
         _musicFadeTween = CreateTween();
+        _musicFadeTween.SetParallel(true);
         
         // Setup In
         fadingIn.Stream = music.Clip;
@@ -446,15 +459,32 @@ public partial class AudioManager : Node
         fadingIn.VolumeDb = -80f;
         fadingIn.Play();
 
+        if (music.VocalClip != null)
+        {
+            vocalFadingIn.Stream = music.VocalClip;
+            vocalFadingIn.Bus = string.IsNullOrEmpty(music.BusName) ? _musicBusName : music.BusName;
+            vocalFadingIn.VolumeDb = -80f;
+            vocalFadingIn.Play();
+            
+            // Sync start
+            vocalFadingIn.Seek(fadingIn.GetPlaybackPosition());
+        }
+
         float targetDb = Mathf.LinearToDb(music.Volume);
         
         // Parallel Fade
-        _musicFadeTween.SetParallel(true);
         _musicFadeTween.TweenProperty(fadingIn, "volume_db", targetDb, music.FadeTime);
         _musicFadeTween.TweenProperty(fadingOut, "volume_db", -80f, music.FadeTime);
         
+        if (music.VocalClip != null)
+        {
+            _musicFadeTween.TweenProperty(vocalFadingIn, "volume_db", targetDb, music.FadeTime);
+        }
+        _musicFadeTween.TweenProperty(vocalFadingOut, "volume_db", -80f, music.FadeTime);
+        
         // Cleanup Out
         _musicFadeTween.Chain().TweenCallback(Callable.From(fadingOut.Stop));
+        _musicFadeTween.Chain().TweenCallback(Callable.From(vocalFadingOut.Stop));
     }
 
     private void UpdatePlaylistLogic()

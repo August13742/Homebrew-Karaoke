@@ -15,8 +15,10 @@ public partial class ScrollingLyrics : Control
 
     private Control _container;
     private LyricData _data;
-    private List<Label> _labels = new();
+    private List<HBoxContainer> _lineContainers = new();
+    private List<List<Label>> _wordLabels = new();
     private int _currentLineIndex = -1;
+    private int _currentWordIndex = -1;
 
     public override void _Ready()
     {
@@ -24,7 +26,6 @@ public partial class ScrollingLyrics : Control
         _container.Name = "LyricsContainer";
         AddChild(_container);
         
-        // Center the container horizontally
         _container.SetAnchorsAndOffsetsPreset(LayoutPreset.CenterTop);
 
         LoadLyrics();
@@ -45,6 +46,8 @@ public partial class ScrollingLyrics : Control
         try
         {
             _data = JsonSerializer.Deserialize<LyricData>(json);
+            
+            // Re-map words to lines if necessary (it should be in the JSON)
             CreateLabels();
         }
         catch (Exception e)
@@ -57,28 +60,51 @@ public partial class ScrollingLyrics : Control
     {
         if (_data == null || _data.Lines == null) return;
 
+        var wordsByLine = _data.Words.GroupBy(w => w.LineId).ToDictionary(g => g.Key, g => g.ToList());
+
         foreach (var line in _data.Lines)
         {
-            Label label = new Label();
-            label.Text = line.Text;
-            label.HorizontalAlignment = HorizontalAlignment.Center;
-            label.VerticalAlignment = VerticalAlignment.Center;
+            HBoxContainer lineBox = new HBoxContainer();
+            lineBox.Alignment = BoxContainer.AlignmentMode.Center;
+            lineBox.CustomMinimumSize = new Vector2(0, LineHeight);
+            _container.AddChild(lineBox);
+            _lineContainers.Add(lineBox);
+
+            List<Label> labelsInLine = new List<Label>();
             
-            // Set some default style/font size if possible
-            label.AddThemeFontSizeOverride("font_size", 32);
-            label.Modulate = InactiveColor;
+            if (wordsByLine.ContainsKey(line.Id))
+            {
+                foreach (var word in wordsByLine[line.Id])
+                {
+                    Label label = new Label();
+                    label.Text = word.Text + " ";
+                    label.AddThemeFontSizeOverride("font_size", 32);
+                    label.Modulate = InactiveColor;
+                    lineBox.AddChild(label);
+                    labelsInLine.Add(label);
+                }
+            }
+            else
+            {
+                // Fallback for lines without word data
+                Label label = new Label();
+                label.Text = line.Text;
+                label.AddThemeFontSizeOverride("font_size", 32);
+                label.Modulate = InactiveColor;
+                lineBox.AddChild(label);
+                labelsInLine.Add(label);
+            }
             
-            _container.AddChild(label);
-            _labels.Add(label);
+            _wordLabels.Add(labelsInLine);
             
-            // Initial positioning
-            label.Position = new Vector2(-label.Size.X / 2, _labels.Count * LineHeight);
+            // Initial vertical positioning
+            lineBox.Position = new Vector2(-lineBox.Size.X / 2, (_lineContainers.Count - 1) * LineHeight);
         }
     }
 
     public override void _Process(double delta)
     {
-        if (_data == null || _labels.Count == 0) return;
+        if (_data == null || _lineContainers.Count == 0) return;
 
         double currentTime = AudioManager.Instance.GetMusicPlaybackPosition();
         UpdateHighlighting(currentTime);
@@ -87,43 +113,76 @@ public partial class ScrollingLyrics : Control
 
     private void UpdateHighlighting(double currentTime)
     {
-        int foundIndex = -1;
+        int foundLineIndex = -1;
+        int foundWordIndex = -1;
+
+        // Find the current line and word
         for (int i = 0; i < _data.Lines.Count; i++)
         {
             if (currentTime >= _data.Lines[i].Start && currentTime <= _data.Lines[i].End)
             {
-                foundIndex = i;
+                foundLineIndex = i;
+                
+                // Find word within this line
+                var lineWords = _data.Words.Where(w => w.LineId == _data.Lines[i].Id).ToList();
+                for (int j = 0; j < lineWords.Count; j++)
+                {
+                    if (currentTime >= lineWords[j].Start && currentTime <= lineWords[j].End)
+                    {
+                        foundWordIndex = j;
+                        break;
+                    }
+                    else if (currentTime > lineWords[j].End)
+                    {
+                        // Word already passed
+                        foundWordIndex = j;
+                    }
+                }
                 break;
             }
         }
 
-        if (foundIndex != _currentLineIndex)
+        if (foundLineIndex != _currentLineIndex || foundWordIndex != _currentWordIndex)
         {
-            if (_currentLineIndex >= 0 && _currentLineIndex < _labels.Count)
+            // Reset previous highlighting if line changed
+            if (_currentLineIndex != -1 && _currentLineIndex != foundLineIndex)
             {
-                _labels[_currentLineIndex].Modulate = InactiveColor;
-                _labels[_currentLineIndex].AddThemeFontSizeOverride("font_size", 32);
+                foreach (var label in _wordLabels[_currentLineIndex])
+                {
+                    label.Modulate = InactiveColor;
+                    label.AddThemeFontSizeOverride("font_size", 32);
+                }
             }
-            
-            _currentLineIndex = foundIndex;
-            
-            if (_currentLineIndex >= 0 && _currentLineIndex < _labels.Count)
+
+            _currentLineIndex = foundLineIndex;
+            _currentWordIndex = foundWordIndex;
+
+            if (_currentLineIndex != -1)
             {
-                _labels[_currentLineIndex].Modulate = ActiveColor;
-                _labels[_currentLineIndex].AddThemeFontSizeOverride("font_size", 40);
+                // Highlight words up to and including currentWordIndex
+                var labels = _wordLabels[_currentLineIndex];
+                for (int j = 0; j < labels.Count; j++)
+                {
+                    if (j <= _currentWordIndex)
+                    {
+                        labels[j].Modulate = ActiveColor;
+                        labels[j].AddThemeFontSizeOverride("font_size", j == _currentWordIndex ? 40 : 36);
+                    }
+                    else
+                    {
+                        labels[j].Modulate = InactiveColor;
+                        labels[j].AddThemeFontSizeOverride("font_size", 32);
+                    }
+                }
             }
         }
     }
 
     private void UpdateScrolling(double currentTime)
     {
-        // Find the "target" line to center on. 
-        // If we are between lines, we might want to interpolate.
-        
         int targetIndex = _currentLineIndex;
         if (targetIndex == -1)
         {
-            // Find the next line
             for (int i = 0; i < _data.Lines.Count; i++)
             {
                 if (currentTime < _data.Lines[i].Start)
@@ -136,17 +195,12 @@ public partial class ScrollingLyrics : Control
 
         if (targetIndex == -1) return;
 
-        // Calculate target Y position for the container
-        // We want the targetIndex line to be at vertical center (Size.Y / 2)
         float targetY = (float)(Size.Y / 2 - targetIndex * LineHeight + CenterOffset);
-        
-        // Smooth scroll
         _container.Position = _container.Position.Lerp(new Vector2(Size.X / 2, targetY), (float)(0.1f));
         
-        // Update individual label horizontal centering
-        for (int i = 0; i < _labels.Count; i++)
+        for (int i = 0; i < _lineContainers.Count; i++)
         {
-            _labels[i].Position = new Vector2(-_labels[i].Size.X / 2, i * LineHeight);
+            _lineContainers[i].Position = new Vector2(-_lineContainers[i].Size.X / 2, i * LineHeight);
         }
     }
 }
