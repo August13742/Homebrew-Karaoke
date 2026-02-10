@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/ScrollingLyrics.tscn" id="1_lyrics"]
+[ext_resource type="Resource" path="res://TestSong.tres" id="2_song"]
+
+[sub_resource type="GDScript" id="GDScript_test"]
+script/source = "extends Node
+
+func _input(event):
+	if event.is_action_pressed(\"ui_select\"):
+		AudioManager.PlayMusic(load(\"res://TestSong.tres\"))
+"
+
+[node name="TestScene" type="Node"]
+script = SubResource("GDScript_test")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.12549, 0.12549, 0.12549, 1)
+
+[node name="ScrollingLyrics" parent="CanvasLayer" instance=ExtResource("1_lyrics")]
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 220.0
+offset_bottom = 43.0
+text = "Press SPACE to Play Music"

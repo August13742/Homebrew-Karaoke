@@ -304,6 +304,16 @@ public partial class AudioManager : Node
         _activePlaylist = null;
         _playlistQueue.Clear();
     }
+
+    public double GetMusicPlaybackPosition()
+    {
+        AudioStreamPlayer active = _isUsingMusicA ? _musicSourceA : _musicSourceB;
+        if (active != null && active.Playing)
+        {
+            return active.GetPlaybackPosition();
+        }
+        return 0.0;
+    }
     #endregion
 
     #region Internal Logic (SFX)

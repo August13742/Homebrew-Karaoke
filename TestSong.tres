@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MusicResource" load_steps=3 format=3]
+
+[ext_resource type="AudioStream" uid="uid://ddpobxov6j830" path="res://TestSong/Voyaging Star's Farewell_instrumental.wav" id="1_audio"]
+[ext_resource type="Script" path="res://AudioSystem/MusicResource.cs" id="2_script"]
+
+[resource]
+script = ExtResource("2_script")
+Clip = ExtResource("1_audio")
+Volume = 1.0
+Loop = true
+FadeTime = 1.5
+BusName = "Music"

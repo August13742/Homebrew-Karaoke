@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ScrollingLyrics.cs" id="1_scrolling_lyrics"]
+
+[node name="ScrollingLyrics" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_scrolling_lyrics")
+LyricsFilePath = "TestSong/Voyaging Star's Farewell_karaoke.json"
+ActiveColor = Color(1, 1, 0, 1)
+InactiveColor = Color(1, 1, 1, 1)
+ScrollSpeed = 300.0
+LineHeight = 60.0
+CenterOffset = 0
