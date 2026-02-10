@@ -67,6 +67,8 @@ namespace PitchGame
         public override void _Ready()
         {
             int busIdx = AudioServer.GetBusIndex(BusName);
+            GD.Print($"PitchDetector: Initializing on bus '{BusName}' (Index: {busIdx})");
+
             if (busIdx == -1)
             {
                 GD.PrintErr($"PitchDetector: Bus '{BusName}' not found.");
@@ -80,6 +82,7 @@ namespace PitchGame
             }
             else
             {
+                GD.Print("PitchDetector: Successfully found AudioEffectCapture.");
                 _capture.ClearBuffer();
             }
 
@@ -93,17 +96,19 @@ namespace PitchGame
             if (_capture == null) return;
             int frames = _capture.GetFramesAvailable();
             
-            // INCREASED MINIMUM: 60Hz needs ~735 samples for ONE wave. 
-            if (frames < 1024) return; 
+            if (frames == 0) return;
+
+            if (frames < 512) return; 
 
             // 1. Read & Mono Mix
             Vector2[] raw = _capture.GetBuffer(frames);
+
             // Optimization: Process only the freshest data
             int neededLen = Mathf.Min(raw.Length, 2048); 
             
             // Fill buffer from the END of the raw stream (freshest audio)
             int offset = raw.Length - neededLen;
-            float maxAmp = 0;
+            float maxAmp = 0; // Main variable for processing logic
             
             // Calculate Filter Coefficient (One-pole Lowpass)
             float rc = 1.0f / (Mathf.Tau * FilterCutoffHz);
@@ -378,7 +383,7 @@ namespace PitchGame
         /// <summary>
         /// Evaluate pitch accuracy. Allows octave transposition (e.g., singing C3 for C4 is OK).
         /// </summary>
-        public PitchAccuracy EvaluateAccuracy(int targetMidiNote)
+        public PitchAccuracy EvaluateAccuracy(float targetMidiNote)
         {
             if (!IsDetected)
                 return PitchAccuracy.Silent;

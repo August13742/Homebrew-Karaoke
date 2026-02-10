@@ -1,0 +1,167 @@
+[gd_scene format=3 uid="uid://b8x0y7g506a1"]
+
+[ext_resource type="Script" uid="uid://chh8sl52np22e" path="res://scripts/Game.gd" id="1_43g1r"]
+[ext_resource type="Script" uid="uid://c0bcnevik4s7g" path="res://scripts/PitchGrid.cs" id="2_7jgis"]
+[ext_resource type="Script" uid="uid://vjlol1ynntgt" path="res://scripts/TargetPitchVisualizer.cs" id="3_oduh4"]
+[ext_resource type="Script" uid="uid://d4m3p4a3jbsmc" path="res://scripts/KaraokeCursor.cs" id="4_mina7"]
+[ext_resource type="PackedScene" path="res://scenes/ScrollingLyrics.tscn" id="5_kwhlp"]
+[ext_resource type="Script" uid="uid://o71h6d3a1vdw" path="res://scripts/HUD.cs" id="6_ndug7"]
+[ext_resource type="Script" uid="uid://b7wgfo70ybjoj" path="res://scripts/AudioMenu.cs" id="7_xgwdr"]
+[ext_resource type="PackedScene" uid="uid://08h24ixt4lfm" path="res://Quarantine/SongControlPanel.tscn" id="8_g05c3"]
+[ext_resource type="Script" uid="uid://nv425cvjscbu" path="res://scripts/PitchDetector.cs" id="9_m4voo"]
+[ext_resource type="Script" uid="uid://o1l3yjt2ab8l" path="res://scripts/KaraokeScorer.cs" id="10_1f8to"]
+
+[sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_mic"]
+
+[node name="GameScene" type="Node" unique_id=2037345888]
+script = ExtResource("1_43g1r")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=685560382]
+
+[node name="Background" type="ColorRect" parent="CanvasLayer" unique_id=1137706933]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.05, 0.05, 0.08, 1)
+
+[node name="PitchArea" type="Control" parent="CanvasLayer" unique_id=1295198169]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -250.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Grid" type="Control" parent="CanvasLayer/PitchArea" unique_id=983159116]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_7jgis")
+
+[node name="TargetVisualizer" type="Control" parent="CanvasLayer/PitchArea" unique_id=1601180428 node_paths=PackedStringArray("LyricsSource", "Grid")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_oduh4")
+LyricsSource = NodePath("../../ScrollingLyrics")
+Grid = NodePath("../Grid")
+PixelsPerSecond = 150.0
+
+[node name="Cursor" type="Control" parent="CanvasLayer/PitchArea" unique_id=956986116 node_paths=PackedStringArray("Detector", "Grid")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_mina7")
+Detector = NodePath("../../../PitchDetector")
+Grid = NodePath("../Grid")
+
+[node name="Visual" type="ColorRect" parent="CanvasLayer/PitchArea/Cursor" unique_id=573783214]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.785398
+color = Color(1, 1, 0, 1)
+
+[node name="ScrollingLyrics" parent="CanvasLayer" unique_id=271799868 instance=ExtResource("5_kwhlp")]
+unique_name_in_owner = true
+anchors_preset = 12
+anchor_top = 1.0
+offset_top = -320.0
+offset_bottom = -120.0
+grow_vertical = 0
+
+[node name="HUD" type="Control" parent="CanvasLayer" unique_id=1342039164 node_paths=PackedStringArray("Detector")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("6_ndug7")
+Detector = NodePath("../../PitchDetector")
+
+[node name="TopInfo" type="HBoxContainer" parent="CanvasLayer/HUD" unique_id=1292037503]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 80.0
+grow_horizontal = 2
+theme_override_constants/separation = 50
+
+[node name="PitchLabel" type="Label" parent="CanvasLayer/HUD/TopInfo" unique_id=1326077322]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Pitch: ---"
+
+[node name="AudioMenu" type="Control" parent="CanvasLayer/HUD/TopInfo" unique_id=456127130 node_paths=PackedStringArray("DeviceSelector")]
+custom_minimum_size = Vector2(250, 40)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("7_xgwdr")
+DeviceSelector = NodePath("OptionButton")
+
+[node name="OptionButton" type="OptionButton" parent="CanvasLayer/HUD/TopInfo/AudioMenu" unique_id=1953746979]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScoreLabel" type="Label" parent="CanvasLayer/HUD/TopInfo" unique_id=676410488]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.8, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "Score: 0"
+
+[node name="SongControlPanel" parent="CanvasLayer" unique_id=1161724150 instance=ExtResource("8_g05c3")]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -80.0
+offset_bottom = 0.0
+grow_vertical = 0
+
+[node name="PitchDetector" type="Node" parent="." unique_id=993996035]
+unique_name_in_owner = true
+script = ExtResource("9_m4voo")
+
+[node name="KaraokeScorer" type="Node" parent="." unique_id=2127883295 node_paths=PackedStringArray("LyricsSource", "Detector")]
+script = ExtResource("10_1f8to")
+LyricsSource = NodePath("../CanvasLayer/ScrollingLyrics")
+Detector = NodePath("../PitchDetector")
+
+[node name="MicInput" type="AudioStreamPlayer" parent="." unique_id=1645096116 groups=["Microphones"]]
+unique_name_in_owner = true
+stream = SubResource("AudioStreamMicrophone_mic")
+autoplay = true
+bus = &"Record"
+
+[connection signal="ScoreUpdated" from="KaraokeScorer" to="CanvasLayer/HUD" method="OnScoreUpdated"]

@@ -23,7 +23,7 @@ public partial class ScrollingLyrics : Control
     private GDScript _rendererScript;
 
     // State
-    private LyricData _data;
+    public LyricData Data { get; private set; }
     private List<List<LyricWord>> _wordsByLine = new();
     private int _currentLineIndex = -1;
     private double _lastTime = -1.0;
@@ -115,12 +115,12 @@ public partial class ScrollingLyrics : Control
         try 
         {
             using var file = FileAccess.Open(path, FileAccess.ModeFlags.Read);
-            _data = JsonSerializer.Deserialize<LyricData>(file.GetAsText());
+            Data = JsonSerializer.Deserialize<LyricData>(file.GetAsText());
             
-            if (_data?.Words == null) return;
+            if (Data?.Words == null) return;
 
             // Bucket sort words
-            var grouped = _data.Words.GroupBy(w => w.LineId).OrderBy(g => g.Key);
+            var grouped = Data.Words.GroupBy(w => w.LineId).OrderBy(g => g.Key);
             int maxId = grouped.LastOrDefault()?.Key ?? 0;
             for(int i=0; i<=maxId; i++) _wordsByLine.Add(new List<LyricWord>());
             foreach(var g in grouped) _wordsByLine[g.Key] = g.ToList();
@@ -132,7 +132,7 @@ public partial class ScrollingLyrics : Control
 
     public override void _Process(double delta)
     {
-        if (_data == null) return;
+        if (Data == null) return;
         if (AudioManager.Instance==null) return;
 
         double time = AudioManager.Instance.GetMusicPlaybackPosition();
@@ -148,10 +148,10 @@ public partial class ScrollingLyrics : Control
     private void UpdateLogic(double time)
     {
         // Advance Line?
-        if (_currentLineIndex < _data.Lines.Count - 1)
+        if (_currentLineIndex < Data.Lines.Count - 1)
         {
             int nextIdx = _currentLineIndex + 1;
-            if (time >= _data.Lines[nextIdx].Start - 0.1) // Slight tolerance
+            if (time >= Data.Lines[nextIdx].Start - 0.1) // Slight tolerance
             {
                 _currentLineIndex = nextIdx;
             }
@@ -162,10 +162,10 @@ public partial class ScrollingLyrics : Control
         EnsureLineLoaded(_currentLineIndex);
         
         int lookaheadIdx = _currentLineIndex + 1;
-        if (lookaheadIdx < _data.Lines.Count)
+        if (lookaheadIdx < Data.Lines.Count)
         {
              // Only load if upcoming soon (Hinting)
-            if (_data.Lines[lookaheadIdx].Start - time < 4.0)
+            if (Data.Lines[lookaheadIdx].Start - time < 4.0)
             {
                 EnsureLineLoaded(lookaheadIdx);
             }
@@ -230,15 +230,15 @@ public partial class ScrollingLyrics : Control
 
     private void UpdateWaitIndicator(double time)
     {
-        if (_currentLineIndex >= _data.Lines.Count - 1) 
+        if (_currentLineIndex >= Data.Lines.Count - 1) 
         {
             _waitIndicator.Text = "";
             return;
         }
 
         int nextIdx = _currentLineIndex + 1;
-        double prevEnd = (_currentLineIndex >= 0) ? _data.Lines[_currentLineIndex].End : 0;
-        double nextStart = _data.Lines[nextIdx].Start;
+        double prevEnd = (_currentLineIndex >= 0) ? Data.Lines[_currentLineIndex].End : 0;
+        double nextStart = Data.Lines[nextIdx].Start;
         double gap = nextStart - prevEnd;
 
         // Only show if gap is sufficient (> 2s) and we are inside it

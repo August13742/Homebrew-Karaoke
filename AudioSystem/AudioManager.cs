@@ -165,6 +165,41 @@ public partial class AudioManager : Node
     public void SetMasterVolume(float linear) => SetBusVolume(_masterBusName, linear);
     public void SetMusicVolume(float linear) => SetBusVolume(_musicBusName, linear);
     public void SetSFXVolume(float linear) => SetBusVolume(_sfxBusName, linear);
+    public void SetVocalVolume(float linear)
+    {
+        float db = linear > 0.0001f ? Mathf.LinearToDb(linear) : -80f;
+        if (_vocalSourceA != null) _vocalSourceA.VolumeDb = db;
+        if (_vocalSourceB != null) _vocalSourceB.VolumeDb = db;
+    }
+    
+    /// <summary>
+    /// Shifts the pitch of music without changing playback speed.
+    /// Uses AudioEffectPitchShift on the Music bus.
+    /// </summary>
+    public void SetMusicPitchShift(float semitones)
+    {
+        int busIdx = AudioServer.GetBusIndex(_musicBusName);
+        if (busIdx == -1) return;
+        
+        // Find or create the pitch shift effect on the music bus
+        AudioEffectPitchShift pitchEffect = null;
+        for (int i = 0; i < AudioServer.GetBusEffectCount(busIdx); i++)
+        {
+            if (AudioServer.GetBusEffect(busIdx, i) is AudioEffectPitchShift ps)
+            {
+                pitchEffect = ps;
+                break;
+            }
+        }
+        
+        if (pitchEffect == null)
+        {
+            pitchEffect = new AudioEffectPitchShift();
+            AudioServer.AddBusEffect(busIdx, pitchEffect);
+        }
+        
+        pitchEffect.PitchScale = Mathf.Pow(2f, semitones / 12f);
+    }
 
     private void SetBusVolume(string busName, float linear)
     {

@@ -29,6 +29,15 @@ public class LyricWord
 
     [JsonPropertyName("line_id")]
     public int LineId { get; set; }
+
+    [JsonPropertyName("pitch_midi")]
+    public float PitchMidi { get; set; }
+
+    [JsonPropertyName("pitch_hz")]
+    public float PitchHz { get; set; }
+
+    [JsonPropertyName("note")]
+    public string Note { get; set; }
 }
 
 public class LyricMetadata

@@ -47,7 +47,24 @@ namespace PitchGame
         {
             string deviceName = DeviceSelector.GetItemText((int)index);
             AudioServer.InputDevice = deviceName;
-            GD.Print($"PitchDetector: Switched Input Device to: {deviceName}");
+            GD.Print($"AudioMenu: Switched Input Device to: {deviceName}");
+
+            // DO NOT stop/play the mic stream — Godot handles device switching internally.
+            // Stopping and restarting causes capture to break permanently.
+            // (TestScene2D works precisely because it doesn't restart.)
+
+            // Clear the capture buffer so PitchDetector starts fresh
+            int recordBusIdx = AudioServer.GetBusIndex("Record");
+            if (recordBusIdx >= 0)
+            {
+                for (int i = 0; i < AudioServer.GetBusEffectCount(recordBusIdx); i++)
+                {
+                    if (AudioServer.GetBusEffect(recordBusIdx, i) is AudioEffectCapture capture)
+                    {
+                        capture.ClearBuffer();
+                    }
+                }
+            }
         }
     }
 }
