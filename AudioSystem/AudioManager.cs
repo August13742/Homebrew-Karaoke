@@ -326,6 +326,53 @@ public partial class AudioManager : Node
         }
         return 0.0;
     }
+
+    public void SeekMusic(double time)
+    {
+        AudioStreamPlayer active = _isUsingMusicA ? _musicSourceA : _musicSourceB;
+        AudioStreamPlayer activeVocal = _isUsingMusicA ? _vocalSourceA : _vocalSourceB;
+        
+        if (active != null)
+        {
+            active.Seek((float)time);
+        }
+        if (activeVocal != null && activeVocal.Stream != null)
+        {
+            activeVocal.Seek((float)time);
+        }
+    }
+
+    public bool IsMusicPlaying()
+    {
+        AudioStreamPlayer active = _isUsingMusicA ? _musicSourceA : _musicSourceB;
+        return active != null && active.Playing;
+    }
+
+    public bool IsMusicPaused()
+    {
+        AudioStreamPlayer active = _isUsingMusicA ? _musicSourceA : _musicSourceB;
+        return active != null && active.StreamPaused;
+    }
+
+    public void ToggleMusicPause()
+    {
+        AudioStreamPlayer active = _isUsingMusicA ? _musicSourceA : _musicSourceB;
+        AudioStreamPlayer activeVocal = _isUsingMusicA ? _vocalSourceA : _vocalSourceB;
+
+        bool newState = !active.StreamPaused;
+        active.StreamPaused = newState;
+        if (activeVocal.Stream != null) activeVocal.StreamPaused = newState;
+    }
+
+    public float GetMusicLength()
+    {
+        AudioStreamPlayer active = _isUsingMusicA ? _musicSourceA : _musicSourceB;
+        if (active != null && active.Stream != null)
+        {
+            return (float)active.Stream.GetLength();
+        }
+        return 0f;
+    }
     #endregion
 
     #region Internal Logic (SFX)

@@ -1,206 +1,261 @@
 using Godot;
 using System;
 using System.Collections.Generic;
-using System.Text.Json;
 using System.Linq;
+using System.Text.Json;
 
 public partial class ScrollingLyrics : Control
 {
+    [ExportCategory("Data")]
     [Export] public string LyricsFilePath = "TestSong/Voyaging Star's Farewell_karaoke.json";
-    [Export] public Color ActiveColor = new Color(1, 1, 0); // Yellow
-    [Export] public Color InactiveColor = new Color(1, 1, 1); // White
-    [Export] public float ScrollSpeed = 300.0f;
-    [Export] public float LineHeight = 60.0f;
-    [Export] public int CenterOffset = 0; // Vertical offset from center
 
-    private Control _container;
+    [ExportCategory("Visuals")]
+    [Export] public Font LyricFont; // MANDATORY: Assign .ttf or .tres
+    [Export] public int FontSize = 52;
+    [Export] public Color ActiveColor = new Color(1, 1, 0);
+    [Export] public Color InactiveColor = new Color(1, 1, 1);
+    [Export] public float MinEllipseTriggerDuration = 2.0f;
+    // UI References
+    private VBoxContainer _mainLayout;
+    private Control[] _lineRenderers = new Control[2]; // Double buffer for lines
+    private Label _waitIndicator;
+    private Label _debugLabel;
+    private GDScript _rendererScript;
+
+    // State
     private LyricData _data;
-    private List<HBoxContainer> _lineContainers = new();
-    private List<List<Label>> _wordLabels = new();
+    private List<List<LyricWord>> _wordsByLine = new();
     private int _currentLineIndex = -1;
-    private int _currentWordIndex = -1;
+    private double _lastTime = -1.0;
+    
+    // Track which logical line is assigned to which UI renderer
+    private int[] _rendererLineIndices = { -1, -1 }; 
 
     public override void _Ready()
     {
-        _container = new Control();
-        _container.Name = "LyricsContainer";
-        AddChild(_container);
-        
-        _container.SetAnchorsAndOffsetsPreset(LayoutPreset.CenterTop);
+        if (LyricFont == null)
+        {
+            LyricFont = ThemeDB.GetFallbackFont();
+            GD.PrintErr("[ScrollingLyrics] No Font assigned! Using fallback.");
+        }
 
+        // Load the GDScript
+        _rendererScript = GD.Load<GDScript>("res://scripts/KaraokeLine.gd");
+        if (_rendererScript == null)
+        {
+            GD.PrintErr("[ScrollingLyrics] Could not load KaraokeLine.gd");
+            return;
+        }
+
+        SetupUI();
         LoadLyrics();
+        Resized += OnResized;
+    }
+
+    private void OnResized()
+    {
+        // Re-scale active lines when the container size changes
+        float maxWidth = (float)Size.X * 0.95f; // 5% padding
+        foreach (var renderer in _lineRenderers)
+        {
+            if (renderer != null)
+                renderer.Call("update_width", maxWidth);
+        }
+    }
+
+    private void SetupUI()
+    {
+        // Debug Label
+        _debugLabel = new Label {
+            Modulate = Colors.Red,
+            Position = new Vector2(10, 10),
+            ZIndex = 99
+        };
+        AddChild(_debugLabel);
+
+        // Layout
+        _mainLayout = new VBoxContainer {
+            LayoutMode = 1,
+            AnchorsPreset = (int)LayoutPreset.FullRect,
+            Alignment = BoxContainer.AlignmentMode.Center
+        };
+        AddChild(_mainLayout);
+
+        // Create 2 Renderers (Top/Bottom)
+        for (int i = 0; i < 2; i++)
+        {
+            var r = (Control)_rendererScript.New();
+            r.Name = $"LineRenderer_{i}";
+            r.CustomMinimumSize = new Vector2(0, 120); // Height of line slot
+            r.SizeFlagsHorizontal = SizeFlags.ShrinkCenter; // Keep centered
+            
+            _lineRenderers[i] = r;
+            _mainLayout.AddChild(r);
+
+            // Add spacer between lines
+            if (i == 0)
+            {
+                _waitIndicator = new Label {
+                    Text = "",
+                    HorizontalAlignment = HorizontalAlignment.Center,
+                    CustomMinimumSize = new Vector2(0, 60),
+                    Modulate = new Color(1,1,1,0.5f)
+                };
+                _waitIndicator.AddThemeFontSizeOverride("font_size", 32);
+                _mainLayout.AddChild(_waitIndicator);
+            }
+        }
     }
 
     private void LoadLyrics()
     {
-        string absolutePath = ProjectSettings.GlobalizePath("res://" + LyricsFilePath);
-        if (!FileAccess.FileExists(absolutePath))
+        string path = ProjectSettings.GlobalizePath("res://" + LyricsFilePath);
+        if (!FileAccess.FileExists(path)) { _debugLabel.Text = "File not found"; return; }
+
+        try 
         {
-            GD.PrintErr($"Lyrics file not found: {absolutePath}");
-            return;
-        }
-
-        using var file = FileAccess.Open(absolutePath, FileAccess.ModeFlags.Read);
-        string json = file.GetAsText();
-        
-        try
-        {
-            _data = JsonSerializer.Deserialize<LyricData>(json);
+            using var file = FileAccess.Open(path, FileAccess.ModeFlags.Read);
+            _data = JsonSerializer.Deserialize<LyricData>(file.GetAsText());
             
-            // Re-map words to lines if necessary (it should be in the JSON)
-            CreateLabels();
+            if (_data?.Words == null) return;
+
+            // Bucket sort words
+            var grouped = _data.Words.GroupBy(w => w.LineId).OrderBy(g => g.Key);
+            int maxId = grouped.LastOrDefault()?.Key ?? 0;
+            for(int i=0; i<=maxId; i++) _wordsByLine.Add(new List<LyricWord>());
+            foreach(var g in grouped) _wordsByLine[g.Key] = g.ToList();
+
+            _debugLabel.Visible = false;
         }
-        catch (Exception e)
-        {
-            GD.PrintErr($"Failed to parse lyrics: {e.Message}");
-        }
-    }
-
-    private void CreateLabels()
-    {
-        if (_data == null || _data.Lines == null) return;
-
-        var wordsByLine = _data.Words.GroupBy(w => w.LineId).ToDictionary(g => g.Key, g => g.ToList());
-
-        foreach (var line in _data.Lines)
-        {
-            HBoxContainer lineBox = new HBoxContainer();
-            lineBox.Alignment = BoxContainer.AlignmentMode.Center;
-            lineBox.CustomMinimumSize = new Vector2(0, LineHeight);
-            _container.AddChild(lineBox);
-            _lineContainers.Add(lineBox);
-
-            List<Label> labelsInLine = new List<Label>();
-            
-            if (wordsByLine.ContainsKey(line.Id))
-            {
-                foreach (var word in wordsByLine[line.Id])
-                {
-                    Label label = new Label();
-                    label.Text = word.Text + " ";
-                    label.AddThemeFontSizeOverride("font_size", 32);
-                    label.Modulate = InactiveColor;
-                    lineBox.AddChild(label);
-                    labelsInLine.Add(label);
-                }
-            }
-            else
-            {
-                // Fallback for lines without word data
-                Label label = new Label();
-                label.Text = line.Text;
-                label.AddThemeFontSizeOverride("font_size", 32);
-                label.Modulate = InactiveColor;
-                lineBox.AddChild(label);
-                labelsInLine.Add(label);
-            }
-            
-            _wordLabels.Add(labelsInLine);
-            
-            // Initial vertical positioning
-            lineBox.Position = new Vector2(-lineBox.Size.X / 2, (_lineContainers.Count - 1) * LineHeight);
-        }
+        catch (Exception e) { _debugLabel.Text = e.Message; }
     }
 
     public override void _Process(double delta)
     {
-        if (_data == null || _lineContainers.Count == 0) return;
+        if (_data == null) return;
+        if (AudioManager.Instance==null) return;
 
-        double currentTime = AudioManager.Instance.GetMusicPlaybackPosition();
-        UpdateHighlighting(currentTime);
-        UpdateScrolling(currentTime);
+        double time = AudioManager.Instance.GetMusicPlaybackPosition();
+
+        // Seek Reset
+        if (Math.Abs(time - _lastTime) > 1.0) ResetState();
+        _lastTime = time;
+
+        UpdateLogic(time);
+        UpdateVisuals(time);
     }
 
-    private void UpdateHighlighting(double currentTime)
+    private void UpdateLogic(double time)
     {
-        int foundLineIndex = -1;
-        int foundWordIndex = -1;
-
-        // Find the current line and word
-        for (int i = 0; i < _data.Lines.Count; i++)
+        // Advance Line?
+        if (_currentLineIndex < _data.Lines.Count - 1)
         {
-            if (currentTime >= _data.Lines[i].Start && currentTime <= _data.Lines[i].End)
+            int nextIdx = _currentLineIndex + 1;
+            if (time >= _data.Lines[nextIdx].Start - 0.1) // Slight tolerance
             {
-                foundLineIndex = i;
-                
-                // Find word within this line
-                var lineWords = _data.Words.Where(w => w.LineId == _data.Lines[i].Id).ToList();
-                for (int j = 0; j < lineWords.Count; j++)
-                {
-                    if (currentTime >= lineWords[j].Start && currentTime <= lineWords[j].End)
-                    {
-                        foundWordIndex = j;
-                        break;
-                    }
-                    else if (currentTime > lineWords[j].End)
-                    {
-                        // Word already passed
-                        foundWordIndex = j;
-                    }
-                }
-                break;
+                _currentLineIndex = nextIdx;
             }
         }
 
-        if (foundLineIndex != _currentLineIndex || foundWordIndex != _currentWordIndex)
-        {
-            // Reset previous highlighting if line changed
-            if (_currentLineIndex != -1 && _currentLineIndex != foundLineIndex)
-            {
-                foreach (var label in _wordLabels[_currentLineIndex])
-                {
-                    label.Modulate = InactiveColor;
-                    label.AddThemeFontSizeOverride("font_size", 32);
-                }
-            }
-
-            _currentLineIndex = foundLineIndex;
-            _currentWordIndex = foundWordIndex;
-
-            if (_currentLineIndex != -1)
-            {
-                // Highlight words up to and including currentWordIndex
-                var labels = _wordLabels[_currentLineIndex];
-                for (int j = 0; j < labels.Count; j++)
-                {
-                    if (j <= _currentWordIndex)
-                    {
-                        labels[j].Modulate = ActiveColor;
-                        labels[j].AddThemeFontSizeOverride("font_size", j == _currentWordIndex ? 40 : 36);
-                    }
-                    else
-                    {
-                        labels[j].Modulate = InactiveColor;
-                        labels[j].AddThemeFontSizeOverride("font_size", 32);
-                    }
-                }
-            }
-        }
-    }
-
-    private void UpdateScrolling(double currentTime)
-    {
-        int targetIndex = _currentLineIndex;
-        if (targetIndex == -1)
-        {
-            for (int i = 0; i < _data.Lines.Count; i++)
-            {
-                if (currentTime < _data.Lines[i].Start)
-                {
-                    targetIndex = i;
-                    break;
-                }
-            }
-        }
-
-        if (targetIndex == -1) return;
-
-        float targetY = (float)(Size.Y / 2 - targetIndex * LineHeight + CenterOffset);
-        _container.Position = _container.Position.Lerp(new Vector2(Size.X / 2, targetY), (float)(0.1f));
+        // Lookahead Management
+        // We want to ensure the Current Line AND the Next Line are loaded into renderers
+        EnsureLineLoaded(_currentLineIndex);
         
-        for (int i = 0; i < _lineContainers.Count; i++)
+        int lookaheadIdx = _currentLineIndex + 1;
+        if (lookaheadIdx < _data.Lines.Count)
         {
-            _lineContainers[i].Position = new Vector2(-_lineContainers[i].Size.X / 2, i * LineHeight);
+             // Only load if upcoming soon (Hinting)
+            if (_data.Lines[lookaheadIdx].Start - time < 4.0)
+            {
+                EnsureLineLoaded(lookaheadIdx);
+            }
+        }
+    }
+
+    private void EnsureLineLoaded(int lineIdx)
+    {
+        if (lineIdx < 0 || lineIdx >= _wordsByLine.Count) return;
+
+        // Check if already loaded
+        if (_rendererLineIndices[0] == lineIdx || _rendererLineIndices[1] == lineIdx) return;
+
+        // Pick target slot (Even -> 0, Odd -> 1)
+        int slot = lineIdx % 2;
+        
+        // Prepare Data for GDScript
+        var wordsList = _wordsByLine[lineIdx];
+        var gdArray = new Godot.Collections.Array();
+        foreach(var w in wordsList)
+        {
+            var dict = new Godot.Collections.Dictionary();
+            dict["text"] = w.Text;
+            dict["start"] = w.Start;
+            dict["end"] = w.End;
+            gdArray.Add(dict);
+        }
+
+        // Setup GDScript Node
+        float maxWidth = (float)Size.X * 0.95f; // 5% padding
+        _lineRenderers[slot].Call("setup", gdArray, LyricFont, FontSize, ActiveColor, InactiveColor, maxWidth);
+        _rendererLineIndices[slot] = lineIdx;
+    }
+
+    private void ResetState()
+    {
+        _currentLineIndex = -1;
+        _rendererLineIndices[0] = -1;
+        _rendererLineIndices[1] = -1;
+        
+        // Clear Renderers
+        var empty = new Godot.Collections.Array();
+        _lineRenderers[0].Call("setup", empty, LyricFont, FontSize, ActiveColor, InactiveColor);
+        _lineRenderers[1].Call("setup", empty, LyricFont, FontSize, ActiveColor, InactiveColor);
+    }
+
+    private void UpdateVisuals(double time)
+    {
+        // Update Renderers
+        for (int i = 0; i < 2; i++)
+        {
+            int loadedLine = _rendererLineIndices[i];
+            bool isActive = (loadedLine == _currentLineIndex);
+            
+            // Pass time to GDScript
+            _lineRenderers[i].Call("update_time", time, isActive);
+        }
+
+        // Update Wait Indicator
+        UpdateWaitIndicator(time);
+    }
+
+    private void UpdateWaitIndicator(double time)
+    {
+        if (_currentLineIndex >= _data.Lines.Count - 1) 
+        {
+            _waitIndicator.Text = "";
+            return;
+        }
+
+        int nextIdx = _currentLineIndex + 1;
+        double prevEnd = (_currentLineIndex >= 0) ? _data.Lines[_currentLineIndex].End : 0;
+        double nextStart = _data.Lines[nextIdx].Start;
+        double gap = nextStart - prevEnd;
+
+        // Only show if gap is sufficient (> 2s) and we are inside it
+        if (gap > MinEllipseTriggerDuration && time > prevEnd && time < nextStart)
+        {
+            float progress = (float)((time - prevEnd) / gap);
+            // 6 dots -> 0 dots
+            int count = 6 - (int)(progress * 6);
+            count = Math.Clamp(count, 0, 6);
+            
+            string txt = "";
+            for(int k=0; k<count; k++) txt += "･ ";//japanese full-width dot for better visibility
+            _waitIndicator.Text = txt;
+        }
+        else
+        {
+            _waitIndicator.Text = "";
         }
     }
 }

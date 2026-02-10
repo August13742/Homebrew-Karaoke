@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene format=3 uid="uid://kp25cj8q74bt"]
 
 [ext_resource type="PackedScene" path="res://scenes/ScrollingLyrics.tscn" id="1_lyrics"]
-[ext_resource type="Resource" path="res://TestSong.tres" id="2_song"]
+[ext_resource type="PackedScene" uid="uid://08h24ixt4lfm" path="res://Quarantine/SongControlPanel.tscn" id="2_3ahlb"]
 
 [sub_resource type="GDScript" id="GDScript_test"]
 script/source = "extends Node
@@ -11,12 +11,12 @@ func _input(event):
 		AudioManager.PlayMusic(load(\"res://TestSong.tres\"))
 "
 
-[node name="TestScene" type="Node"]
+[node name="TestScene" type="Node" unique_id=361987825]
 script = SubResource("GDScript_test")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=495887927]
 
-[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=256059654]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -24,11 +24,23 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.12549, 0.12549, 0.12549, 1)
 
-[node name="ScrollingLyrics" parent="CanvasLayer" instance=ExtResource("1_lyrics")]
+[node name="ScrollingLyrics" parent="CanvasLayer" unique_id=1305734697 instance=ExtResource("1_lyrics")]
 
-[node name="Label" type="Label" parent="CanvasLayer"]
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=1381852792]
 offset_left = 20.0
 offset_top = 20.0
 offset_right = 220.0
 offset_bottom = 43.0
 text = "Press SPACE to Play Music"
+
+[node name="SongControlPanel" parent="CanvasLayer" unique_id=974270446 instance=ExtResource("2_3ahlb")]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -581.5
+offset_top = -68.0
+offset_right = 581.5
+offset_bottom = 0.0
+grow_vertical = 0
