@@ -5,6 +5,8 @@ Still in very early prototyping stage. Intended to be used with my [Audio-Proces
 
 Pitch detection &scoring works but needs a lot of tweaking.
 
+## Demo (as of 2026/2/11, SOUND ON)
+
 https://github.com/user-attachments/assets/7647f468-bc34-4952-8e01-b1e27aeab49e
 
 ↑ SongName: [Voyaging Star's Farewell](https://youtube.com/watch?v=0HrdRGuF2Y8)
