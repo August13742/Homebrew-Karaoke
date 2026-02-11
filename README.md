@@ -9,7 +9,8 @@ Pitch detection &scoring works but needs a lot of tweaking.
 
 https://github.com/user-attachments/assets/7647f468-bc34-4952-8e01-b1e27aeab49e
 
-↑ SongName: [Voyaging Star's Farewell](https://youtube.com/watch?v=0HrdRGuF2Y8)
+↑ SongName: [Voyaging Star's Farewell](https://youtube.com/watch?v=0HrdRGuF2Y8)\
+~~(I was gonna sing it but Video Capturing failed on my Linux...And somehow this thing did't work properly on Windows)~~
 
 ---
 
