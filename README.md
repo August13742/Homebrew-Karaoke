@@ -13,4 +13,11 @@ https://github.com/user-attachments/assets/7647f468-bc34-4952-8e01-b1e27aeab49e
 
 currently full of hard-coded paths and bugs (such as pitch note audio desync, pitch detection being too strict, etc.)
 
+Most notorious bug is lyrics hallucination & accuracy.\
+Tested QwenASR/Force-Aligner, WhisperX & WhisperASR (and hybrids like Whisper + QwenFA / Whisper + WhisperX-FA),\
+turns out Whisper(with very loose parameters) is still best for this. 
+
+However, since the parameter is very forgiving, it will hallucinate lyrics when there is only silence. <- Maybe I can do something to try to solve it?
+
+---
 A lot of the code is written by LLM.
