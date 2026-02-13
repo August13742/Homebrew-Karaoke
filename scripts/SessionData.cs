@@ -10,5 +10,7 @@ namespace PitchGame
         public static SongData CurrentSong;
         public static float KeyShift = 0f;
         public static bool VoiceOverMode = false;
+        public static LyricData CurrentLyrics;
+        public static AudioStreamWav LastRecording;
     }
 }

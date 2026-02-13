@@ -25,7 +25,7 @@ namespace PitchGame
             _btnStart = GetNode<Button>("%ButtonLoad"); // Reuse reference button
             
             // Key Shift UI
-            _lblKeyShift = GetNodeOrNull<Label>("%LabelKeyShift"); // Might need to add to Scene
+            _lblKeyShift = GetNodeOrNull<Label>("%LabelKeyShift");
             
             var btnUp = GetNodeOrNull<Button>("%BtnKeyUp");
             var btnDown = GetNodeOrNull<Button>("%BtnKeyDown");

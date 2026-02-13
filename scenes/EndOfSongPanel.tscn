@@ -1,0 +1,144 @@
+[gd_scene format=3 uid="uid://c5020ah708b3"]
+
+[ext_resource type="Script" uid="uid://ca1d5hdmq7xuh" path="res://scripts/EndOfSongPanel.cs" id="1_script"]
+[ext_resource type="PackedScene" path="res://scenes/components/VolumeControl.tscn" id="2_volume"]
+
+[node name="EndOfSongPanel" type="PanelContainer" unique_id=1876201715 node_paths=PackedStringArray("ScoreLabel", "PlayButton", "SaveButton", "JukeboxButton", "LyricContainer", "SaveProgressBar", "PlaybackSlider", "TimeLabel", "DurationLabel", "MusicVolume", "VocalVolume", "AppVolume")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+ScoreLabel = NodePath("VBoxContainer/Header/ScoreLabel")
+PlayButton = NodePath("VBoxContainer/Footer/PlaybackControls/PlayButton")
+SaveButton = NodePath("VBoxContainer/Footer/PlaybackControls/SaveButton")
+JukeboxButton = NodePath("VBoxContainer/Footer/JukeboxButton")
+LyricContainer = NodePath("VBoxContainer/Body/LyricScroll/LyricList")
+SaveProgressBar = NodePath("VBoxContainer/Footer/PlaybackControls/SaveProgress")
+PlaybackSlider = NodePath("VBoxContainer/Footer/PlaybackProgress/HBoxContainer/PlaybackSlider")
+TimeLabel = NodePath("VBoxContainer/Footer/PlaybackProgress/HBoxContainer/TimeLabel")
+DurationLabel = NodePath("VBoxContainer/Footer/PlaybackProgress/HBoxContainer/DurationLabel")
+MusicVolume = NodePath("VBoxContainer/Footer/Volumes/MusicVolume")
+VocalVolume = NodePath("VBoxContainer/Footer/Volumes/VocalVolume")
+AppVolume = NodePath("VBoxContainer/Footer/Volumes/RecordingVolume")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=821090581]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Header" type="VBoxContainer" parent="VBoxContainer" unique_id=2017461004]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/Header" unique_id=1991477649]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Performance Review"
+horizontal_alignment = 1
+
+[node name="ScoreLabel" type="Label" parent="VBoxContainer/Header" unique_id=784461886]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Score: ---"
+horizontal_alignment = 1
+
+[node name="Body" type="PanelContainer" parent="VBoxContainer" unique_id=742085263]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="LyricScroll" type="ScrollContainer" parent="VBoxContainer/Body" unique_id=1897467597]
+unique_name_in_owner = true
+layout_mode = 2
+follow_focus = true
+horizontal_scroll_mode = 0
+
+[node name="LyricList" type="VBoxContainer" parent="VBoxContainer/Body/LyricScroll" unique_id=1411793895]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 5
+alignment = 1
+
+[node name="Footer" type="VBoxContainer" parent="VBoxContainer" unique_id=1873302130]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="PlaybackProgress" type="VBoxContainer" parent="VBoxContainer/Footer" unique_id=1470830198]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Footer/PlaybackProgress" unique_id=1694207678]
+layout_mode = 2
+
+[node name="TimeLabel" type="Label" parent="VBoxContainer/Footer/PlaybackProgress/HBoxContainer" unique_id=54132325]
+unique_name_in_owner = true
+layout_mode = 2
+text = "00:00"
+
+[node name="PlaybackSlider" type="HSlider" parent="VBoxContainer/Footer/PlaybackProgress/HBoxContainer" unique_id=573009645]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+focus_mode = 0
+
+[node name="DurationLabel" type="Label" parent="VBoxContainer/Footer/PlaybackProgress/HBoxContainer" unique_id=1026140191]
+unique_name_in_owner = true
+layout_mode = 2
+text = "00:00"
+
+[node name="PlaybackControls" type="HBoxContainer" parent="VBoxContainer/Footer" unique_id=1181793980]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="PlayButton" type="Button" parent="VBoxContainer/Footer/PlaybackControls" unique_id=586211480]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(140, 45)
+layout_mode = 2
+focus_mode = 0
+text = "Play Recording"
+
+[node name="SaveButton" type="Button" parent="VBoxContainer/Footer/PlaybackControls" unique_id=1834372492]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(140, 45)
+layout_mode = 2
+focus_mode = 0
+text = "Save .WAV"
+
+[node name="SaveProgress" type="ProgressBar" parent="VBoxContainer/Footer/PlaybackControls" unique_id=1017575720]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(200, 20)
+layout_mode = 2
+size_flags_vertical = 4
+step = 1.0
+
+[node name="Volumes" type="HBoxContainer" parent="VBoxContainer/Footer" unique_id=178960722]
+layout_mode = 2
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="MusicVolume" parent="VBoxContainer/Footer/Volumes" unique_id=73768531 instance=ExtResource("2_volume")]
+LabelText = "Music"
+
+[node name="VocalVolume" parent="VBoxContainer/Footer/Volumes" unique_id=182828697 instance=ExtResource("2_volume")]
+LabelText = "Guide"
+
+[node name="RecordingVolume" parent="VBoxContainer/Footer/Volumes" unique_id=1033696561 instance=ExtResource("2_volume")]
+LabelText = "My Voice"
+
+[node name="JukeboxButton" type="Button" parent="VBoxContainer/Footer" unique_id=1876922121]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+focus_mode = 0
+text = "Return to Jukebox"

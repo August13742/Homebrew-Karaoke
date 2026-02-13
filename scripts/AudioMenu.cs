@@ -52,7 +52,6 @@ namespace PitchGame
 
             // DO NOT stop/play the mic stream — Godot handles device switching internally.
             // Stopping and restarting causes capture to break permanently.
-            // (TestScene2D works precisely because it doesn't restart.)
 
             // Clear the capture buffer so PitchDetector starts fresh
             int recordBusIdx = AudioServer.GetBusIndex("Record");

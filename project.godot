@@ -38,6 +38,12 @@ project/assembly_name="HomebrewKaraoke"
 
 naming/scene_name_casing=1
 
+[importer_defaults]
+
+wav={
+&"compress/mode": 0
+}
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

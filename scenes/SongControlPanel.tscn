@@ -91,3 +91,9 @@ unique_name_in_owner = true
 
 [node name="VSeparator5" type="VSeparator" parent="VBoxContainer/Controls" unique_id=930835290]
 layout_mode = 2
+
+[node name="BtnEnd" type="Button" parent="VBoxContainer/Controls" unique_id=384759281]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+text = "End Song"

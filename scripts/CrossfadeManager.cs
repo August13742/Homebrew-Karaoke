@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-namespace RhythmBeatmapEditor.Utility
+namespace PitchGame
 {
     public partial class CrossfadeManager : CanvasLayer
     {

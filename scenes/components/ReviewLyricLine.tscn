@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://df6y8j3xj2r7w"]
+
+[ext_resource type="Script" path="res://scripts/ReviewLyricLine.cs" id="1_script"]
+
+[node name="ReviewLyricLine" type="Button"]
+offset_right = 8.0
+offset_bottom = 8.0
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 10
+theme_override_font_sizes/font_size = 20
+flat = true
+alignment = 0
+script = ExtResource("1_script")

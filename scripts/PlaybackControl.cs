@@ -14,6 +14,8 @@ namespace PitchGame
 		[Export] public Texture2D IconPlay { get; set; }
 		[Export] public Texture2D IconPause { get; set; }
 
+		[Signal] public delegate void SeekedEventHandler(double time);
+
 		private Button _btnPlay;
 		private Button _btnRewind, _btnRewind1, _btnForward1, _btnForward;
 		private HSlider _sliderProgress;
@@ -48,7 +50,9 @@ namespace PitchGame
 				_sliderProgress.DragEnded += (_) =>
 				{
 					_isDragging = false;
-					AudioManager.Instance?.SeekMusic(_sliderProgress.Value);
+					double seekTo = _sliderProgress.Value;
+					AudioManager.Instance?.SeekMusic(seekTo);
+					EmitSignal(SignalName.Seeked, seekTo);
 				};
 			}
 		}
@@ -70,7 +74,9 @@ namespace PitchGame
 		{
 			if (AudioManager.Instance == null) return;
 			double target = AudioManager.Instance.GetMusicPlaybackPosition() + seconds;
-			AudioManager.Instance.SeekMusic(Math.Max(0, target));
+			double newTime = Math.Max(0, target);
+			AudioManager.Instance.SeekMusic(newTime);
+			EmitSignal(SignalName.Seeked, newTime);
 		}
 
 		private void WireSeekButton(Button btn, double seconds)

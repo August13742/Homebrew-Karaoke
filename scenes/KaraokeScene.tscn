@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://08h24ixt4lfm" path="res://scenes/SongControlPanel.tscn" id="8_g05c3"]
 [ext_resource type="Script" uid="uid://nv425cvjscbu" path="res://scripts/PitchDetector.cs" id="9_m4voo"]
 [ext_resource type="Script" uid="uid://o1l3yjt2ab8l" path="res://scripts/KaraokeScorer.cs" id="10_1f8to"]
+[ext_resource type="Script" path="res://AudioSystem/RecordingManager.cs" id="11_recorder"]
 
 [sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_mic"]
 
@@ -160,6 +161,7 @@ unique_name_in_owner = true
 script = ExtResource("9_m4voo")
 
 [node name="KaraokeScorer" type="Node" parent="." unique_id=2127883295 node_paths=PackedStringArray("LyricsSource", "Detector")]
+unique_name_in_owner = true
 script = ExtResource("10_1f8to")
 LyricsSource = NodePath("../CanvasLayer/VBoxContainer/ScrollingLyrics")
 Detector = NodePath("../PitchDetector")
@@ -169,5 +171,9 @@ unique_name_in_owner = true
 stream = SubResource("AudioStreamMicrophone_mic")
 autoplay = true
 bus = &"Record"
+
+[node name="RecordingManager" type="Node" parent="." unique_id=123456789]
+unique_name_in_owner = true
+script = ExtResource("11_recorder")
 
 [connection signal="ScoreUpdated" from="KaraokeScorer" to="CanvasLayer/HUD" method="OnScoreUpdated"]
