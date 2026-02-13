@@ -16,6 +16,21 @@ namespace PitchGame
 
         [JsonPropertyName("words")]
         public List<LyricWord> Words { get; set; }
+
+        [JsonPropertyName("pitch")]
+        public List<PitchEvent> Pitch { get; set; }
+    }
+
+    public class PitchEvent
+    {
+        [JsonPropertyName("time")]
+        public double Time { get; set; }
+
+        [JsonPropertyName("midi")]
+        public int Midi { get; set; }
+
+        [JsonPropertyName("note")]
+        public string Note { get; set; }
     }
 
     public class LyricWord

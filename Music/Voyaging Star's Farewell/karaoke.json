@@ -1,1612 +1,8690 @@
 {
   "version": "1.1.0",
   "metadata": {
-    "title": "Voyaging Star's Farewell",
-    "language": "en",
-    "duration_seconds": 225.048,
-    "created_at": "2026-02-13T18:30:11.751896+00:00"
+	"title": "Voyaging Star's Farewell",
+	"language": "en",
+	"duration_seconds": 225.048,
+	"created_at": "2026-02-13T21:24:47.027675+00:00"
   },
   "audio": {
-    "original": "Voyaging Star's Farewell.mp3",
-    "vocals": "vocals.wav",
-    "instrumental": "instrumental.wav"
+	"original": "Voyaging Star's Farewell.mp3",
+	"vocals": "vocals.wav",
+	"instrumental": "instrumental.wav"
   },
   "lines": [
-    {
-      "id": 0,
-      "text": "The last snowflake once fell on my nose",
-      "start": 22.5,
-      "end": 27.64,
-      "word_start_index": 0,
-      "word_end_index": 8
-    },
-    {
-      "id": 1,
-      "text": "Now flying backwards to last winter",
-      "start": 27.64,
-      "end": 32.16,
-      "word_start_index": 8,
-      "word_end_index": 14
-    },
-    {
-      "id": 2,
-      "text": "I realize that hellos are goodbyes",
-      "start": 33.96,
-      "end": 39.46,
-      "word_start_index": 14,
-      "word_end_index": 20
-    },
-    {
-      "id": 3,
-      "text": "The moment I softly let go of your hand",
-      "start": 39.46,
-      "end": 45.26,
-      "word_start_index": 20,
-      "word_end_index": 29
-    },
-    {
-      "id": 4,
-      "text": "Wings of fruit, trembling branches",
-      "start": 45.26,
-      "end": 49.88,
-      "word_start_index": 29,
-      "word_end_index": 34
-    },
-    {
-      "id": 5,
-      "text": "A soul for soul bound to soar",
-      "start": 50.68,
-      "end": 53.9,
-      "word_start_index": 34,
-      "word_end_index": 41
-    },
-    {
-      "id": 6,
-      "text": "To the very edge of the staring ocean",
-      "start": 53.9,
-      "end": 57.52,
-      "word_start_index": 41,
-      "word_end_index": 49
-    },
-    {
-      "id": 7,
-      "text": "If and if I'm meant to fall apart",
-      "start": 57.52,
-      "end": 61.84,
-      "word_start_index": 49,
-      "word_end_index": 58
-    },
-    {
-      "id": 8,
-      "text": "I will decide where you are for all time",
-      "start": 62.36,
-      "end": 67.36,
-      "word_start_index": 58,
-      "word_end_index": 66
-    },
-    {
-      "id": 9,
-      "text": "We'll voyage",
-      "start": 67.36,
-      "end": 69.12,
-      "word_start_index": 66,
-      "word_end_index": 68
-    },
-    {
-      "id": 10,
-      "text": "May your path be clear",
-      "start": 69.12,
-      "end": 72.26,
-      "word_start_index": 68,
-      "word_end_index": 73
-    },
-    {
-      "id": 11,
-      "text": "May you get aware",
-      "start": 72.26,
-      "end": 74.88,
-      "word_start_index": 73,
-      "word_end_index": 77
-    },
-    {
-      "id": 12,
-      "text": "Dreams are all crystallized",
-      "start": 74.88,
-      "end": 78.92,
-      "word_start_index": 77,
-      "word_end_index": 81
-    },
-    {
-      "id": 13,
-      "text": "Sweet, please, crack a little smile",
-      "start": 78.92,
-      "end": 83.5,
-      "word_start_index": 81,
-      "word_end_index": 87
-    },
-    {
-      "id": 14,
-      "text": "You belong in this world you've chosen as your own",
-      "start": 84.28,
-      "end": 91.62,
-      "word_start_index": 87,
-      "word_end_index": 96
-    },
-    {
-      "id": 15,
-      "text": "Don't worry, I'm well aware",
-      "start": 91.62,
-      "end": 95.06,
-      "word_start_index": 96,
-      "word_end_index": 102
-    },
-    {
-      "id": 16,
-      "text": "That there's no free smell in the end",
-      "start": 95.84,
-      "end": 101.04,
-      "word_start_index": 102,
-      "word_end_index": 109
-    },
-    {
-      "id": 17,
-      "text": "Witches sigh on one little puff of spring",
-      "start": 103.68,
-      "end": 107.6,
-      "word_start_index": 109,
-      "word_end_index": 117
-    },
-    {
-      "id": 18,
-      "text": "So I'll dance, flamboyantly into that good night",
-      "start": 107.6,
-      "end": 114.44,
-      "word_start_index": 117,
-      "word_end_index": 126
-    },
-    {
-      "id": 19,
-      "text": "May your path be clear",
-      "start": 127.38,
-      "end": 129.34,
-      "word_start_index": 126,
-      "word_end_index": 130
-    },
-    {
-      "id": 20,
-      "text": "May you get aware",
-      "start": 129.88,
-      "end": 132.06,
-      "word_start_index": 130,
-      "word_end_index": 134
-    },
-    {
-      "id": 21,
-      "text": "Dreams are all crystallized",
-      "start": 132.06,
-      "end": 136.04,
-      "word_start_index": 134,
-      "word_end_index": 138
-    },
-    {
-      "id": 22,
-      "text": "Please, crack a little smile",
-      "start": 136.04,
-      "end": 140.62,
-      "word_start_index": 138,
-      "word_end_index": 143
-    },
-    {
-      "id": 23,
-      "text": "You'll be alone",
-      "start": 141.36,
-      "end": 143.42,
-      "word_start_index": 143,
-      "word_end_index": 146
-    },
-    {
-      "id": 24,
-      "text": "In this world you've chosen",
-      "start": 143.96,
-      "end": 146.88,
-      "word_start_index": 146,
-      "word_end_index": 151
-    },
-    {
-      "id": 25,
-      "text": "As your own",
-      "start": 146.88,
-      "end": 148.72,
-      "word_start_index": 151,
-      "word_end_index": 154
-    }
+	{
+	  "id": 0,
+	  "text": "The last snowflake once fell on my nose",
+	  "start": 22.4,
+	  "end": 27.62,
+	  "word_start_index": 0,
+	  "word_end_index": 8
+	},
+	{
+	  "id": 1,
+	  "text": "Now flying backwards to last winter",
+	  "start": 27.62,
+	  "end": 32.16,
+	  "word_start_index": 8,
+	  "word_end_index": 14
+	},
+	{
+	  "id": 2,
+	  "text": "I realize that hellos are goodbyes",
+	  "start": 33.92,
+	  "end": 39.52,
+	  "word_start_index": 14,
+	  "word_end_index": 20
+	},
+	{
+	  "id": 3,
+	  "text": "The moment I softly let go of your hand",
+	  "start": 39.52,
+	  "end": 45.26,
+	  "word_start_index": 20,
+	  "word_end_index": 29
+	},
+	{
+	  "id": 4,
+	  "text": "Wings of fruit, trembling branches",
+	  "start": 45.26,
+	  "end": 49.84,
+	  "word_start_index": 29,
+	  "word_end_index": 34
+	},
+	{
+	  "id": 5,
+	  "text": "A soul for soul bound to soar",
+	  "start": 50.68,
+	  "end": 53.88,
+	  "word_start_index": 34,
+	  "word_end_index": 41
+	},
+	{
+	  "id": 6,
+	  "text": "To the very edge of the staring ocean",
+	  "start": 53.88,
+	  "end": 57.5,
+	  "word_start_index": 41,
+	  "word_end_index": 49
+	},
+	{
+	  "id": 7,
+	  "text": "If and if I mean to fall apart",
+	  "start": 57.5,
+	  "end": 61.88,
+	  "word_start_index": 49,
+	  "word_end_index": 57
+	},
+	{
+	  "id": 8,
+	  "text": "I will decide where you are for all time",
+	  "start": 61.88,
+	  "end": 67.24,
+	  "word_start_index": 57,
+	  "word_end_index": 66
+	},
+	{
+	  "id": 9,
+	  "text": "Above all years",
+	  "start": 67.24,
+	  "end": 69.38,
+	  "word_start_index": 66,
+	  "word_end_index": 69
+	},
+	{
+	  "id": 10,
+	  "text": "May your path be clear",
+	  "start": 70.18,
+	  "end": 72.26,
+	  "word_start_index": 69,
+	  "word_end_index": 74
+	},
+	{
+	  "id": 11,
+	  "text": "May you get aware",
+	  "start": 72.26,
+	  "end": 74.82,
+	  "word_start_index": 74,
+	  "word_end_index": 78
+	},
+	{
+	  "id": 12,
+	  "text": "Dreams are all crystallized",
+	  "start": 74.82,
+	  "end": 78.5,
+	  "word_start_index": 78,
+	  "word_end_index": 82
+	},
+	{
+	  "id": 13,
+	  "text": "Sweet, please, crack a little smile",
+	  "start": 78.5,
+	  "end": 83.5,
+	  "word_start_index": 82,
+	  "word_end_index": 88
+	},
+	{
+	  "id": 14,
+	  "text": "You and me alone",
+	  "start": 84.3,
+	  "end": 86.3,
+	  "word_start_index": 88,
+	  "word_end_index": 92
+	},
+	{
+	  "id": 15,
+	  "text": "In this world you've chosen as your own",
+	  "start": 87.02,
+	  "end": 91.6,
+	  "word_start_index": 92,
+	  "word_end_index": 100
+	},
+	{
+	  "id": 16,
+	  "text": "Don't worry, I'm well aware",
+	  "start": 91.6,
+	  "end": 95.06,
+	  "word_start_index": 100,
+	  "word_end_index": 105
+	},
+	{
+	  "id": 17,
+	  "text": "That there's no free smell in the end",
+	  "start": 95.64,
+	  "end": 101.02,
+	  "word_start_index": 105,
+	  "word_end_index": 113
+	},
+	{
+	  "id": 18,
+	  "text": "Witches sigh on one little palm spring",
+	  "start": 103.58,
+	  "end": 107.56,
+	  "word_start_index": 113,
+	  "word_end_index": 120
+	},
+	{
+	  "id": 19,
+	  "text": "So I'll dance, flamboyantly into that good night land",
+	  "start": 107.56,
+	  "end": 114.92,
+	  "word_start_index": 120,
+	  "word_end_index": 129
+	},
+	{
+	  "id": 20,
+	  "text": "Bold voyage, may your path be clear",
+	  "start": 124.26,
+	  "end": 129.42,
+	  "word_start_index": 129,
+	  "word_end_index": 136
+	},
+	{
+	  "id": 21,
+	  "text": "May you get aware, dreams are all crystallized",
+	  "start": 129.42,
+	  "end": 136.06,
+	  "word_start_index": 136,
+	  "word_end_index": 144
+	},
+	{
+	  "id": 22,
+	  "text": "Please, crack a little smile",
+	  "start": 136.06,
+	  "end": 140.62,
+	  "word_start_index": 144,
+	  "word_end_index": 149
+	},
+	{
+	  "id": 23,
+	  "text": "You'll be alone in this world you've chosen",
+	  "start": 141.34,
+	  "end": 146.86,
+	  "word_start_index": 149,
+	  "word_end_index": 157
+	},
+	{
+	  "id": 24,
+	  "text": "As your own",
+	  "start": 146.86,
+	  "end": 148.72,
+	  "word_start_index": 157,
+	  "word_end_index": 160
+	},
+	{
+	  "id": 25,
+	  "text": "It's such a dancing way to get yourself",
+	  "start": 149.98,
+	  "end": 156.06,
+	  "word_start_index": 160,
+	  "word_end_index": 168
+	},
+	{
+	  "id": 26,
+	  "text": "Spend my whole life unraveling",
+	  "start": 156.06,
+	  "end": 159.92,
+	  "word_start_index": 168,
+	  "word_end_index": 173
+	},
+	{
+	  "id": 27,
+	  "text": "And though it might cost me everything I have",
+	  "start": 159.92,
+	  "end": 165.22,
+	  "word_start_index": 173,
+	  "word_end_index": 182
+	},
+	{
+	  "id": 28,
+	  "text": "I never regret, wouldn't have been any other way",
+	  "start": 165.22,
+	  "end": 171.4,
+	  "word_start_index": 182,
+	  "word_end_index": 191
+	},
+	{
+	  "id": 29,
+	  "text": "Cause those two trees don't lie on their lonely road",
+	  "start": 171.4,
+	  "end": 176.7,
+	  "word_start_index": 191,
+	  "word_end_index": 201
+	},
+	{
+	  "id": 30,
+	  "text": "We'll find their destination, see the cosmos",
+	  "start": 177.26,
+	  "end": 182.76,
+	  "word_start_index": 201,
+	  "word_end_index": 208
+	},
+	{
+	  "id": 31,
+	  "text": "Me, I'd like to see this world with snow",
+	  "start": 182.76,
+	  "end": 187.54,
+	  "word_start_index": 208,
+	  "word_end_index": 217
+	},
+	{
+	  "id": 32,
+	  "text": "For the most beautiful thing ever happened to me",
+	  "start": 187.54,
+	  "end": 194.76,
+	  "word_start_index": 217,
+	  "word_end_index": 226
+	},
+	{
+	  "id": 33,
+	  "text": "Thank you.",
+	  "start": 194.76,
+	  "end": 194.98,
+	  "word_start_index": 226,
+	  "word_end_index": 228
+	}
   ],
   "words": [
-    {
-      "text": "The",
-      "start": 22.5,
-      "end": 23.42,
-      "line_id": 0,
-      "pitch_midi": 0.0,
-      "pitch_hz": 0.0,
-      "note": ""
-    },
-    {
-      "text": "last",
-      "start": 23.42,
-      "end": 23.92,
-      "line_id": 0,
-      "pitch_midi": 60.89,
-      "pitch_hz": 275.5,
-      "note": "C#4"
-    },
-    {
-      "text": "snowflake",
-      "start": 23.92,
-      "end": 25.22,
-      "line_id": 0,
-      "pitch_midi": 63.01,
-      "pitch_hz": 311.3,
-      "note": "D#4"
-    },
-    {
-      "text": "once",
-      "start": 25.22,
-      "end": 25.6,
-      "line_id": 0,
-      "pitch_midi": 62.99,
-      "pitch_hz": 310.9,
-      "note": "D#4"
-    },
-    {
-      "text": "fell",
-      "start": 25.6,
-      "end": 25.92,
-      "line_id": 0,
-      "pitch_midi": 63.17,
-      "pitch_hz": 314.1,
-      "note": "D#4"
-    },
-    {
-      "text": "on",
-      "start": 25.92,
-      "end": 26.14,
-      "line_id": 0,
-      "pitch_midi": 63.02,
-      "pitch_hz": 311.5,
-      "note": "D#4"
-    },
-    {
-      "text": "my",
-      "start": 26.14,
-      "end": 26.56,
-      "line_id": 0,
-      "pitch_midi": 63.92,
-      "pitch_hz": 328.1,
-      "note": "E4"
-    },
-    {
-      "text": "nose",
-      "start": 26.56,
-      "end": 27.64,
-      "line_id": 0,
-      "pitch_midi": 61.01,
-      "pitch_hz": 277.4,
-      "note": "C#4"
-    },
-    {
-      "text": "Now",
-      "start": 27.64,
-      "end": 28.68,
-      "line_id": 1,
-      "pitch_midi": 59.22,
-      "pitch_hz": 250.1,
-      "note": "B3"
-    },
-    {
-      "text": "flying",
-      "start": 28.68,
-      "end": 29.02,
-      "line_id": 1,
-      "pitch_midi": 65.95,
-      "pitch_hz": 368.9,
-      "note": "F#4"
-    },
-    {
-      "text": "backwards",
-      "start": 29.02,
-      "end": 30.1,
-      "line_id": 1,
-      "pitch_midi": 58.05,
-      "pitch_hz": 233.7,
-      "note": "A#3"
-    },
-    {
-      "text": "to",
-      "start": 30.1,
-      "end": 31.08,
-      "line_id": 1,
-      "pitch_midi": 59.01,
-      "pitch_hz": 247.1,
-      "note": "B3"
-    },
-    {
-      "text": "last",
-      "start": 31.08,
-      "end": 31.56,
-      "line_id": 1,
-      "pitch_midi": 59.08,
-      "pitch_hz": 248.1,
-      "note": "B3"
-    },
-    {
-      "text": "winter",
-      "start": 31.56,
-      "end": 32.16,
-      "line_id": 1,
-      "pitch_midi": 61.04,
-      "pitch_hz": 277.8,
-      "note": "C#4"
-    },
-    {
-      "text": "I",
-      "start": 33.96,
-      "end": 35.16,
-      "line_id": 2,
-      "pitch_midi": 57.97,
-      "pitch_hz": 232.7,
-      "note": "A#3"
-    },
-    {
-      "text": "realize",
-      "start": 35.16,
-      "end": 36.36,
-      "line_id": 2,
-      "pitch_midi": 62.99,
-      "pitch_hz": 311.0,
-      "note": "D#4"
-    },
-    {
-      "text": "that",
-      "start": 36.36,
-      "end": 37.02,
-      "line_id": 2,
-      "pitch_midi": 62.56,
-      "pitch_hz": 303.3,
-      "note": "D#4"
-    },
-    {
-      "text": "hellos",
-      "start": 37.02,
-      "end": 37.8,
-      "line_id": 2,
-      "pitch_midi": 63.13,
-      "pitch_hz": 313.5,
-      "note": "D#4"
-    },
-    {
-      "text": "are",
-      "start": 37.8,
-      "end": 37.98,
-      "line_id": 2,
-      "pitch_midi": 62.97,
-      "pitch_hz": 310.5,
-      "note": "D#4"
-    },
-    {
-      "text": "goodbyes",
-      "start": 37.98,
-      "end": 39.46,
-      "line_id": 2,
-      "pitch_midi": 61.14,
-      "pitch_hz": 279.5,
-      "note": "C#4"
-    },
-    {
-      "text": "The",
-      "start": 39.46,
-      "end": 39.88,
-      "line_id": 3,
-      "pitch_midi": 61.08,
-      "pitch_hz": 278.5,
-      "note": "C#4"
-    },
-    {
-      "text": "moment",
-      "start": 39.88,
-      "end": 40.36,
-      "line_id": 3,
-      "pitch_midi": 57.96,
-      "pitch_hz": 232.5,
-      "note": "A#3"
-    },
-    {
-      "text": "I",
-      "start": 40.36,
-      "end": 40.8,
-      "line_id": 3,
-      "pitch_midi": 58.83,
-      "pitch_hz": 244.6,
-      "note": "B3"
-    },
-    {
-      "text": "softly",
-      "start": 40.8,
-      "end": 42.0,
-      "line_id": 3,
-      "pitch_midi": 58.13,
-      "pitch_hz": 234.8,
-      "note": "A#3"
-    },
-    {
-      "text": "let",
-      "start": 42.0,
-      "end": 42.78,
-      "line_id": 3,
-      "pitch_midi": 60.55,
-      "pitch_hz": 270.0,
-      "note": "C#4"
-    },
-    {
-      "text": "go",
-      "start": 42.78,
-      "end": 43.28,
-      "line_id": 3,
-      "pitch_midi": 61.15,
-      "pitch_hz": 279.6,
-      "note": "C#4"
-    },
-    {
-      "text": "of",
-      "start": 43.28,
-      "end": 43.88,
-      "line_id": 3,
-      "pitch_midi": 60.94,
-      "pitch_hz": 276.2,
-      "note": "C#4"
-    },
-    {
-      "text": "your",
-      "start": 43.88,
-      "end": 44.34,
-      "line_id": 3,
-      "pitch_midi": 58.89,
-      "pitch_hz": 245.4,
-      "note": "B3"
-    },
-    {
-      "text": "hand",
-      "start": 44.34,
-      "end": 45.26,
-      "line_id": 3,
-      "pitch_midi": 58.08,
-      "pitch_hz": 234.2,
-      "note": "A#3"
-    },
-    {
-      "text": "Wings",
-      "start": 45.26,
-      "end": 47.28,
-      "line_id": 4,
-      "pitch_midi": 58.11,
-      "pitch_hz": 234.6,
-      "note": "A#3"
-    },
-    {
-      "text": "of",
-      "start": 47.28,
-      "end": 47.52,
-      "line_id": 4,
-      "pitch_midi": 62.95,
-      "pitch_hz": 310.2,
-      "note": "D#4"
-    },
-    {
-      "text": "fruit,",
-      "start": 47.52,
-      "end": 47.86,
-      "line_id": 4,
-      "pitch_midi": 61.22,
-      "pitch_hz": 280.7,
-      "note": "C#4"
-    },
-    {
-      "text": "trembling",
-      "start": 48.04,
-      "end": 48.64,
-      "line_id": 4,
-      "pitch_midi": 60.82,
-      "pitch_hz": 274.3,
-      "note": "C#4"
-    },
-    {
-      "text": "branches",
-      "start": 48.64,
-      "end": 49.88,
-      "line_id": 4,
-      "pitch_midi": 62.31,
-      "pitch_hz": 299.0,
-      "note": "D4"
-    },
-    {
-      "text": "A",
-      "start": 50.68,
-      "end": 51.3,
-      "line_id": 5,
-      "pitch_midi": 60.81,
-      "pitch_hz": 274.1,
-      "note": "C#4"
-    },
-    {
-      "text": "soul",
-      "start": 51.3,
-      "end": 51.52,
-      "line_id": 5,
-      "pitch_midi": 55.8,
-      "pitch_hz": 205.3,
-      "note": "G#3"
-    },
-    {
-      "text": "for",
-      "start": 51.52,
-      "end": 51.86,
-      "line_id": 5,
-      "pitch_midi": 57.86,
-      "pitch_hz": 231.2,
-      "note": "A#3"
-    },
-    {
-      "text": "soul",
-      "start": 51.86,
-      "end": 52.14,
-      "line_id": 5,
-      "pitch_midi": 59.05,
-      "pitch_hz": 247.6,
-      "note": "B3"
-    },
-    {
-      "text": "bound",
-      "start": 52.14,
-      "end": 52.94,
-      "line_id": 5,
-      "pitch_midi": 57.92,
-      "pitch_hz": 232.0,
-      "note": "A#3"
-    },
-    {
-      "text": "to",
-      "start": 52.94,
-      "end": 53.26,
-      "line_id": 5,
-      "pitch_midi": 58.03,
-      "pitch_hz": 233.5,
-      "note": "A#3"
-    },
-    {
-      "text": "soar",
-      "start": 53.26,
-      "end": 53.9,
-      "line_id": 5,
-      "pitch_midi": 59.27,
-      "pitch_hz": 250.8,
-      "note": "B3"
-    },
-    {
-      "text": "To",
-      "start": 53.9,
-      "end": 54.74,
-      "line_id": 6,
-      "pitch_midi": 60.86,
-      "pitch_hz": 275.0,
-      "note": "C#4"
-    },
-    {
-      "text": "the",
-      "start": 54.74,
-      "end": 54.98,
-      "line_id": 6,
-      "pitch_midi": 60.92,
-      "pitch_hz": 275.9,
-      "note": "C#4"
-    },
-    {
-      "text": "very",
-      "start": 54.98,
-      "end": 55.52,
-      "line_id": 6,
-      "pitch_midi": 57.94,
-      "pitch_hz": 232.3,
-      "note": "A#3"
-    },
-    {
-      "text": "edge",
-      "start": 55.52,
-      "end": 55.84,
-      "line_id": 6,
-      "pitch_midi": 58.18,
-      "pitch_hz": 235.6,
-      "note": "A#3"
-    },
-    {
-      "text": "of",
-      "start": 55.84,
-      "end": 56.16,
-      "line_id": 6,
-      "pitch_midi": 58.07,
-      "pitch_hz": 234.0,
-      "note": "A#3"
-    },
-    {
-      "text": "the",
-      "start": 56.16,
-      "end": 56.34,
-      "line_id": 6,
-      "pitch_midi": 58.27,
-      "pitch_hz": 236.7,
-      "note": "A#3"
-    },
-    {
-      "text": "staring",
-      "start": 56.34,
-      "end": 56.8,
-      "line_id": 6,
-      "pitch_midi": 58.33,
-      "pitch_hz": 237.6,
-      "note": "A#3"
-    },
-    {
-      "text": "ocean",
-      "start": 56.8,
-      "end": 57.52,
-      "line_id": 6,
-      "pitch_midi": 59.03,
-      "pitch_hz": 247.4,
-      "note": "B3"
-    },
-    {
-      "text": "If",
-      "start": 57.52,
-      "end": 58.46,
-      "line_id": 7,
-      "pitch_midi": 61.84,
-      "pitch_hz": 290.9,
-      "note": "D4"
-    },
-    {
-      "text": "and",
-      "start": 58.46,
-      "end": 58.98,
-      "line_id": 7,
-      "pitch_midi": 63.08,
-      "pitch_hz": 312.6,
-      "note": "D#4"
-    },
-    {
-      "text": "if",
-      "start": 58.98,
-      "end": 59.4,
-      "line_id": 7,
-      "pitch_midi": 62.21,
-      "pitch_hz": 297.2,
-      "note": "D4"
-    },
-    {
-      "text": "I'm",
-      "start": 59.4,
-      "end": 59.92,
-      "line_id": 7,
-      "pitch_midi": 63.04,
-      "pitch_hz": 311.9,
-      "note": "D#4"
-    },
-    {
-      "text": "meant",
-      "start": 59.92,
-      "end": 60.16,
-      "line_id": 7,
-      "pitch_midi": 62.75,
-      "pitch_hz": 306.7,
-      "note": "D#4"
-    },
-    {
-      "text": "to",
-      "start": 60.16,
-      "end": 60.38,
-      "line_id": 7,
-      "pitch_midi": 62.94,
-      "pitch_hz": 310.1,
-      "note": "D#4"
-    },
-    {
-      "text": "fall",
-      "start": 60.38,
-      "end": 60.86,
-      "line_id": 7,
-      "pitch_midi": 66.73,
-      "pitch_hz": 385.9,
-      "note": "G4"
-    },
-    {
-      "text": "apart",
-      "start": 60.86,
-      "end": 61.84,
-      "line_id": 7,
-      "pitch_midi": 61.0,
-      "pitch_hz": 277.2,
-      "note": "C#4"
-    },
-    {
-      "text": "I",
-      "start": 62.22,
-      "end": 62.74,
-      "line_id": 7,
-      "pitch_midi": 60.89,
-      "pitch_hz": 275.5,
-      "note": "C#4"
-    },
-    {
-      "text": "will",
-      "start": 62.74,
-      "end": 62.96,
-      "line_id": 8,
-      "pitch_midi": 58.33,
-      "pitch_hz": 237.6,
-      "note": "A#3"
-    },
-    {
-      "text": "decide",
-      "start": 62.96,
-      "end": 63.58,
-      "line_id": 8,
-      "pitch_midi": 58.23,
-      "pitch_hz": 236.3,
-      "note": "A#3"
-    },
-    {
-      "text": "where",
-      "start": 63.58,
-      "end": 64.7,
-      "line_id": 8,
-      "pitch_midi": 58.31,
-      "pitch_hz": 237.3,
-      "note": "A#3"
-    },
-    {
-      "text": "you",
-      "start": 64.7,
-      "end": 65.06,
-      "line_id": 8,
-      "pitch_midi": 57.94,
-      "pitch_hz": 232.3,
-      "note": "A#3"
-    },
-    {
-      "text": "are",
-      "start": 65.06,
-      "end": 65.7,
-      "line_id": 8,
-      "pitch_midi": 58.87,
-      "pitch_hz": 245.1,
-      "note": "B3"
-    },
-    {
-      "text": "for",
-      "start": 65.7,
-      "end": 66.12,
-      "line_id": 8,
-      "pitch_midi": 60.68,
-      "pitch_hz": 272.1,
-      "note": "C#4"
-    },
-    {
-      "text": "all",
-      "start": 66.12,
-      "end": 66.68,
-      "line_id": 8,
-      "pitch_midi": 62.72,
-      "pitch_hz": 306.1,
-      "note": "D#4"
-    },
-    {
-      "text": "time",
-      "start": 66.68,
-      "end": 67.36,
-      "line_id": 8,
-      "pitch_midi": 59.01,
-      "pitch_hz": 247.0,
-      "note": "B3"
-    },
-    {
-      "text": "We'll",
-      "start": 67.36,
-      "end": 68.02,
-      "line_id": 9,
-      "pitch_midi": 58.52,
-      "pitch_hz": 240.2,
-      "note": "B3"
-    },
-    {
-      "text": "voyage",
-      "start": 68.02,
-      "end": 69.12,
-      "line_id": 9,
-      "pitch_midi": 71.1,
-      "pitch_hz": 496.7,
-      "note": "B4"
-    },
-    {
-      "text": "May",
-      "start": 69.12,
-      "end": 70.74,
-      "line_id": 10,
-      "pitch_midi": 74.69,
-      "pitch_hz": 611.3,
-      "note": "D#5"
-    },
-    {
-      "text": "your",
-      "start": 70.74,
-      "end": 71.1,
-      "line_id": 10,
-      "pitch_midi": 74.41,
-      "pitch_hz": 601.5,
-      "note": "D5"
-    },
-    {
-      "text": "path",
-      "start": 71.1,
-      "end": 71.38,
-      "line_id": 10,
-      "pitch_midi": 73.43,
-      "pitch_hz": 568.2,
-      "note": "C#5"
-    },
-    {
-      "text": "be",
-      "start": 71.38,
-      "end": 71.72,
-      "line_id": 10,
-      "pitch_midi": 71.99,
-      "pitch_hz": 523.0,
-      "note": "C5"
-    },
-    {
-      "text": "clear",
-      "start": 71.72,
-      "end": 72.26,
-      "line_id": 10,
-      "pitch_midi": 71.07,
-      "pitch_hz": 495.9,
-      "note": "B4"
-    },
-    {
-      "text": "May",
-      "start": 72.26,
-      "end": 73.62,
-      "line_id": 11,
-      "pitch_midi": 68.06,
-      "pitch_hz": 416.8,
-      "note": "G#4"
-    },
-    {
-      "text": "you",
-      "start": 73.62,
-      "end": 73.98,
-      "line_id": 11,
-      "pitch_midi": 74.34,
-      "pitch_hz": 598.8,
-      "note": "D5"
-    },
-    {
-      "text": "get",
-      "start": 73.98,
-      "end": 74.26,
-      "line_id": 11,
-      "pitch_midi": 73.02,
-      "pitch_hz": 555.0,
-      "note": "C#5"
-    },
-    {
-      "text": "aware",
-      "start": 74.26,
-      "end": 74.88,
-      "line_id": 11,
-      "pitch_midi": 71.01,
-      "pitch_hz": 494.2,
-      "note": "B4"
-    },
-    {
-      "text": "Dreams",
-      "start": 74.88,
-      "end": 75.82,
-      "line_id": 12,
-      "pitch_midi": 66.79,
-      "pitch_hz": 387.2,
-      "note": "G4"
-    },
-    {
-      "text": "are",
-      "start": 75.82,
-      "end": 76.16,
-      "line_id": 12,
-      "pitch_midi": 66.09,
-      "pitch_hz": 371.9,
-      "note": "F#4"
-    },
-    {
-      "text": "all",
-      "start": 76.16,
-      "end": 76.6,
-      "line_id": 12,
-      "pitch_midi": 63.89,
-      "pitch_hz": 327.5,
-      "note": "E4"
-    },
-    {
-      "text": "crystallized",
-      "start": 76.6,
-      "end": 78.92,
-      "line_id": 12,
-      "pitch_midi": 70.02,
-      "pitch_hz": 466.7,
-      "note": "A#4"
-    },
-    {
-      "text": "Sweet,",
-      "start": 78.92,
-      "end": 79.32,
-      "line_id": 13,
-      "pitch_midi": 70.09,
-      "pitch_hz": 468.7,
-      "note": "A#4"
-    },
-    {
-      "text": "please,",
-      "start": 79.8,
-      "end": 80.8,
-      "line_id": 13,
-      "pitch_midi": 71.03,
-      "pitch_hz": 494.6,
-      "note": "B4"
-    },
-    {
-      "text": "crack",
-      "start": 81.66,
-      "end": 82.1,
-      "line_id": 13,
-      "pitch_midi": 74.94,
-      "pitch_hz": 620.3,
-      "note": "D#5"
-    },
-    {
-      "text": "a",
-      "start": 82.1,
-      "end": 82.56,
-      "line_id": 13,
-      "pitch_midi": 73.6,
-      "pitch_hz": 573.9,
-      "note": "D5"
-    },
-    {
-      "text": "little",
-      "start": 82.56,
-      "end": 83.0,
-      "line_id": 13,
-      "pitch_midi": 73.0,
-      "pitch_hz": 554.4,
-      "note": "C#5"
-    },
-    {
-      "text": "smile",
-      "start": 83.0,
-      "end": 83.5,
-      "line_id": 13,
-      "pitch_midi": 71.0,
-      "pitch_hz": 493.9,
-      "note": "B4"
-    },
-    {
-      "text": "You",
-      "start": 84.28,
-      "end": 85.12,
-      "line_id": 14,
-      "pitch_midi": 68.28,
-      "pitch_hz": 422.2,
-      "note": "G#4"
-    },
-    {
-      "text": "belong",
-      "start": 85.12,
-      "end": 85.7,
-      "line_id": 14,
-      "pitch_midi": 74.19,
-      "pitch_hz": 593.7,
-      "note": "D5"
-    },
-    {
-      "text": "in",
-      "start": 85.7,
-      "end": 87.6,
-      "line_id": 14,
-      "pitch_midi": 67.15,
-      "pitch_hz": 395.5,
-      "note": "G4"
-    },
-    {
-      "text": "this",
-      "start": 87.6,
-      "end": 88.08,
-      "line_id": 14,
-      "pitch_midi": 66.47,
-      "pitch_hz": 380.2,
-      "note": "F#4"
-    },
-    {
-      "text": "world",
-      "start": 88.08,
-      "end": 88.72,
-      "line_id": 14,
-      "pitch_midi": 69.99,
-      "pitch_hz": 466.0,
-      "note": "A#4"
-    },
-    {
-      "text": "chosen",
-      "start": 89.08,
-      "end": 89.82,
-      "line_id": 14,
-      "pitch_midi": 69.97,
-      "pitch_hz": 465.2,
-      "note": "A#4"
-    },
-    {
-      "text": "as",
-      "start": 89.82,
-      "end": 90.52,
-      "line_id": 14,
-      "pitch_midi": 69.97,
-      "pitch_hz": 465.4,
-      "note": "A#4"
-    },
-    {
-      "text": "your",
-      "start": 90.52,
-      "end": 90.82,
-      "line_id": 14,
-      "pitch_midi": 70.79,
-      "pitch_hz": 487.8,
-      "note": "B4"
-    },
-    {
-      "text": "own",
-      "start": 90.82,
-      "end": 91.62,
-      "line_id": 14,
-      "pitch_midi": 72.59,
-      "pitch_hz": 541.5,
-      "note": "C#5"
-    },
-    {
-      "text": "Don't",
-      "start": 91.62,
-      "end": 92.34,
-      "line_id": 15,
-      "pitch_midi": 70.07,
-      "pitch_hz": 468.0,
-      "note": "A#4"
-    },
-    {
-      "text": "worry,",
-      "start": 92.34,
-      "end": 93.36,
-      "line_id": 15,
-      "pitch_midi": 63.03,
-      "pitch_hz": 311.7,
-      "note": "D#4"
-    },
-    {
-      "text": "I'm",
-      "start": 93.66,
-      "end": 94.16,
-      "line_id": 15,
-      "pitch_midi": 61.39,
-      "pitch_hz": 283.5,
-      "note": "C#4"
-    },
-    {
-      "text": "well",
-      "start": 94.16,
-      "end": 94.46,
-      "line_id": 15,
-      "pitch_midi": 61.07,
-      "pitch_hz": 278.4,
-      "note": "C#4"
-    },
-    {
-      "text": "aware",
-      "start": 94.46,
-      "end": 95.06,
-      "line_id": 15,
-      "pitch_midi": 63.4,
-      "pitch_hz": 318.4,
-      "note": "D#4"
-    },
-    {
-      "text": "That",
-      "start": 95.79,
-      "end": 96.34,
-      "line_id": 15,
-      "pitch_midi": 59.79,
-      "pitch_hz": 258.5,
-      "note": "C4"
-    },
-    {
-      "text": "there's",
-      "start": 96.34,
-      "end": 97.42,
-      "line_id": 16,
-      "pitch_midi": 59.54,
-      "pitch_hz": 254.7,
-      "note": "C4"
-    },
-    {
-      "text": "no",
-      "start": 97.42,
-      "end": 97.58,
-      "line_id": 16,
-      "pitch_midi": 65.99,
-      "pitch_hz": 369.8,
-      "note": "F#4"
-    },
-    {
-      "text": "free",
-      "start": 97.58,
-      "end": 97.96,
-      "line_id": 16,
-      "pitch_midi": 65.99,
-      "pitch_hz": 369.8,
-      "note": "F#4"
-    },
-    {
-      "text": "smell",
-      "start": 97.96,
-      "end": 99.0,
-      "line_id": 16,
-      "pitch_midi": 58.03,
-      "pitch_hz": 233.5,
-      "note": "A#3"
-    },
-    {
-      "text": "in",
-      "start": 99.0,
-      "end": 99.8,
-      "line_id": 16,
-      "pitch_midi": 59.17,
-      "pitch_hz": 249.4,
-      "note": "B3"
-    },
-    {
-      "text": "the",
-      "start": 99.8,
-      "end": 100.42,
-      "line_id": 16,
-      "pitch_midi": 59.63,
-      "pitch_hz": 256.1,
-      "note": "C4"
-    },
-    {
-      "text": "end",
-      "start": 100.42,
-      "end": 101.04,
-      "line_id": 16,
-      "pitch_midi": 59.54,
-      "pitch_hz": 254.8,
-      "note": "C4"
-    },
-    {
-      "text": "Witches",
-      "start": 103.68,
-      "end": 104.78,
-      "line_id": 17,
-      "pitch_midi": 63.03,
-      "pitch_hz": 311.6,
-      "note": "D#4"
-    },
-    {
-      "text": "sigh",
-      "start": 104.78,
-      "end": 104.96,
-      "line_id": 17,
-      "pitch_midi": 63.1,
-      "pitch_hz": 312.9,
-      "note": "D#4"
-    },
-    {
-      "text": "on",
-      "start": 104.96,
-      "end": 105.58,
-      "line_id": 17,
-      "pitch_midi": 62.99,
-      "pitch_hz": 310.9,
-      "note": "D#4"
-    },
-    {
-      "text": "one",
-      "start": 105.58,
-      "end": 105.92,
-      "line_id": 17,
-      "pitch_midi": 61.26,
-      "pitch_hz": 281.4,
-      "note": "C#4"
-    },
-    {
-      "text": "little",
-      "start": 105.92,
-      "end": 106.34,
-      "line_id": 17,
-      "pitch_midi": 65.84,
-      "pitch_hz": 366.6,
-      "note": "F#4"
-    },
-    {
-      "text": "puff",
-      "start": 106.34,
-      "end": 106.86,
-      "line_id": 17,
-      "pitch_midi": 68.05,
-      "pitch_hz": 416.5,
-      "note": "G#4"
-    },
-    {
-      "text": "of",
-      "start": 106.86,
-      "end": 107.2,
-      "line_id": 17,
-      "pitch_midi": 69.73,
-      "pitch_hz": 459.0,
-      "note": "A#4"
-    },
-    {
-      "text": "spring",
-      "start": 107.2,
-      "end": 107.6,
-      "line_id": 17,
-      "pitch_midi": 70.08,
-      "pitch_hz": 468.3,
-      "note": "A#4"
-    },
-    {
-      "text": "So",
-      "start": 107.6,
-      "end": 108.62,
-      "line_id": 18,
-      "pitch_midi": 66.12,
-      "pitch_hz": 372.7,
-      "note": "F#4"
-    },
-    {
-      "text": "I'll",
-      "start": 108.62,
-      "end": 109.08,
-      "line_id": 18,
-      "pitch_midi": 61.03,
-      "pitch_hz": 277.7,
-      "note": "C#4"
-    },
-    {
-      "text": "dance,",
-      "start": 109.08,
-      "end": 109.58,
-      "line_id": 18,
-      "pitch_midi": 58.08,
-      "pitch_hz": 234.2,
-      "note": "A#3"
-    },
-    {
-      "text": "flamboyantly",
-      "start": 110.54,
-      "end": 112.16,
-      "line_id": 18,
-      "pitch_midi": 59.79,
-      "pitch_hz": 258.4,
-      "note": "C4"
-    },
-    {
-      "text": "into",
-      "start": 112.16,
-      "end": 112.86,
-      "line_id": 18,
-      "pitch_midi": 59.17,
-      "pitch_hz": 249.4,
-      "note": "B3"
-    },
-    {
-      "text": "that",
-      "start": 112.86,
-      "end": 113.34,
-      "line_id": 18,
-      "pitch_midi": 61.02,
-      "pitch_hz": 277.5,
-      "note": "C#4"
-    },
-    {
-      "text": "good",
-      "start": 113.34,
-      "end": 113.7,
-      "line_id": 18,
-      "pitch_midi": 63.07,
-      "pitch_hz": 312.4,
-      "note": "D#4"
-    },
-    {
-      "text": "night",
-      "start": 113.7,
-      "end": 114.44,
-      "line_id": 18,
-      "pitch_midi": 63.14,
-      "pitch_hz": 313.7,
-      "note": "D#4"
-    },
-    {
-      "text": "May",
-      "start": 127.28,
-      "end": 127.86,
-      "line_id": 18,
-      "pitch_midi": 74.89,
-      "pitch_hz": 618.3,
-      "note": "D#5"
-    },
-    {
-      "text": "your",
-      "start": 127.86,
-      "end": 128.26,
-      "line_id": 19,
-      "pitch_midi": 73.2,
-      "pitch_hz": 561.0,
-      "note": "C#5"
-    },
-    {
-      "text": "path",
-      "start": 128.26,
-      "end": 128.6,
-      "line_id": 19,
-      "pitch_midi": 73.0,
-      "pitch_hz": 554.4,
-      "note": "C#5"
-    },
-    {
-      "text": "be",
-      "start": 128.6,
-      "end": 128.84,
-      "line_id": 19,
-      "pitch_midi": 72.64,
-      "pitch_hz": 543.0,
-      "note": "C#5"
-    },
-    {
-      "text": "clear",
-      "start": 128.84,
-      "end": 129.34,
-      "line_id": 19,
-      "pitch_midi": 70.78,
-      "pitch_hz": 487.6,
-      "note": "B4"
-    },
-    {
-      "text": "May",
-      "start": 129.88,
-      "end": 130.74,
-      "line_id": 20,
-      "pitch_midi": 67.76,
-      "pitch_hz": 409.6,
-      "note": "G#4"
-    },
-    {
-      "text": "you",
-      "start": 130.74,
-      "end": 131.14,
-      "line_id": 20,
-      "pitch_midi": 74.65,
-      "pitch_hz": 609.8,
-      "note": "D#5"
-    },
-    {
-      "text": "get",
-      "start": 131.14,
-      "end": 131.44,
-      "line_id": 20,
-      "pitch_midi": 73.2,
-      "pitch_hz": 560.9,
-      "note": "C#5"
-    },
-    {
-      "text": "aware",
-      "start": 131.44,
-      "end": 132.06,
-      "line_id": 20,
-      "pitch_midi": 70.98,
-      "pitch_hz": 493.3,
-      "note": "B4"
-    },
-    {
-      "text": "Dreams",
-      "start": 132.06,
-      "end": 132.9,
-      "line_id": 21,
-      "pitch_midi": 66.43,
-      "pitch_hz": 379.2,
-      "note": "F#4"
-    },
-    {
-      "text": "are",
-      "start": 132.9,
-      "end": 133.28,
-      "line_id": 21,
-      "pitch_midi": 67.65,
-      "pitch_hz": 407.0,
-      "note": "G#4"
-    },
-    {
-      "text": "all",
-      "start": 133.28,
-      "end": 133.82,
-      "line_id": 21,
-      "pitch_midi": 64.13,
-      "pitch_hz": 332.2,
-      "note": "E4"
-    },
-    {
-      "text": "crystallized",
-      "start": 133.82,
-      "end": 136.04,
-      "line_id": 21,
-      "pitch_midi": 70.07,
-      "pitch_hz": 468.0,
-      "note": "A#4"
-    },
-    {
-      "text": "Please,",
-      "start": 136.04,
-      "end": 137.8,
-      "line_id": 22,
-      "pitch_midi": 71.01,
-      "pitch_hz": 494.2,
-      "note": "B4"
-    },
-    {
-      "text": "crack",
-      "start": 137.92,
-      "end": 139.2,
-      "line_id": 22,
-      "pitch_midi": 74.9,
-      "pitch_hz": 618.8,
-      "note": "D#5"
-    },
-    {
-      "text": "a",
-      "start": 139.2,
-      "end": 139.68,
-      "line_id": 22,
-      "pitch_midi": 73.74,
-      "pitch_hz": 578.6,
-      "note": "D5"
-    },
-    {
-      "text": "little",
-      "start": 139.68,
-      "end": 140.08,
-      "line_id": 22,
-      "pitch_midi": 73.01,
-      "pitch_hz": 554.8,
-      "note": "C#5"
-    },
-    {
-      "text": "smile",
-      "start": 140.08,
-      "end": 140.62,
-      "line_id": 22,
-      "pitch_midi": 71.02,
-      "pitch_hz": 494.5,
-      "note": "B4"
-    },
-    {
-      "text": "You'll",
-      "start": 141.36,
-      "end": 142.32,
-      "line_id": 23,
-      "pitch_midi": 68.25,
-      "pitch_hz": 421.3,
-      "note": "G#4"
-    },
-    {
-      "text": "be",
-      "start": 142.32,
-      "end": 142.78,
-      "line_id": 23,
-      "pitch_midi": 74.68,
-      "pitch_hz": 611.0,
-      "note": "D#5"
-    },
-    {
-      "text": "alone",
-      "start": 142.78,
-      "end": 143.42,
-      "line_id": 23,
-      "pitch_midi": 71.01,
-      "pitch_hz": 494.1,
-      "note": "B4"
-    },
-    {
-      "text": "In",
-      "start": 143.96,
-      "end": 144.72,
-      "line_id": 24,
-      "pitch_midi": 66.14,
-      "pitch_hz": 373.1,
-      "note": "F#4"
-    },
-    {
-      "text": "this",
-      "start": 144.72,
-      "end": 145.16,
-      "line_id": 24,
-      "pitch_midi": 66.27,
-      "pitch_hz": 375.7,
-      "note": "F#4"
-    },
-    {
-      "text": "world",
-      "start": 145.16,
-      "end": 145.78,
-      "line_id": 24,
-      "pitch_midi": 70.03,
-      "pitch_hz": 466.9,
-      "note": "A#4"
-    },
-    {
-      "text": "you've",
-      "start": 145.78,
-      "end": 146.2,
-      "line_id": 24,
-      "pitch_midi": 69.91,
-      "pitch_hz": 463.7,
-      "note": "A#4"
-    },
-    {
-      "text": "chosen",
-      "start": 146.2,
-      "end": 146.88,
-      "line_id": 24,
-      "pitch_midi": 69.98,
-      "pitch_hz": 465.5,
-      "note": "A#4"
-    },
-    {
-      "text": "As",
-      "start": 146.88,
-      "end": 147.6,
-      "line_id": 25,
-      "pitch_midi": 70.78,
-      "pitch_hz": 487.7,
-      "note": "B4"
-    },
-    {
-      "text": "your",
-      "start": 147.6,
-      "end": 147.96,
-      "line_id": 25,
-      "pitch_midi": 70.77,
-      "pitch_hz": 487.3,
-      "note": "B4"
-    },
-    {
-      "text": "own",
-      "start": 147.96,
-      "end": 148.72,
-      "line_id": 25,
-      "pitch_midi": 72.83,
-      "pitch_hz": 549.0,
-      "note": "C#5"
-    }
+	{
+	  "text": "The",
+	  "start": 22.4,
+	  "end": 23.42,
+	  "line_id": 0
+	},
+	{
+	  "text": "last",
+	  "start": 23.42,
+	  "end": 24.0,
+	  "line_id": 0
+	},
+	{
+	  "text": "snowflake",
+	  "start": 24.0,
+	  "end": 25.22,
+	  "line_id": 0
+	},
+	{
+	  "text": "once",
+	  "start": 25.22,
+	  "end": 25.6,
+	  "line_id": 0
+	},
+	{
+	  "text": "fell",
+	  "start": 25.6,
+	  "end": 25.92,
+	  "line_id": 0
+	},
+	{
+	  "text": "on",
+	  "start": 25.92,
+	  "end": 26.12,
+	  "line_id": 0
+	},
+	{
+	  "text": "my",
+	  "start": 26.12,
+	  "end": 26.56,
+	  "line_id": 0
+	},
+	{
+	  "text": "nose",
+	  "start": 26.56,
+	  "end": 27.62,
+	  "line_id": 0
+	},
+	{
+	  "text": "Now",
+	  "start": 27.62,
+	  "end": 28.62,
+	  "line_id": 1
+	},
+	{
+	  "text": "flying",
+	  "start": 28.62,
+	  "end": 29.04,
+	  "line_id": 1
+	},
+	{
+	  "text": "backwards",
+	  "start": 29.04,
+	  "end": 30.1,
+	  "line_id": 1
+	},
+	{
+	  "text": "to",
+	  "start": 30.1,
+	  "end": 31.02,
+	  "line_id": 1
+	},
+	{
+	  "text": "last",
+	  "start": 31.02,
+	  "end": 31.56,
+	  "line_id": 1
+	},
+	{
+	  "text": "winter",
+	  "start": 31.56,
+	  "end": 32.16,
+	  "line_id": 1
+	},
+	{
+	  "text": "I",
+	  "start": 33.92,
+	  "end": 35.14,
+	  "line_id": 2
+	},
+	{
+	  "text": "realize",
+	  "start": 35.14,
+	  "end": 36.36,
+	  "line_id": 2
+	},
+	{
+	  "text": "that",
+	  "start": 36.36,
+	  "end": 37.02,
+	  "line_id": 2
+	},
+	{
+	  "text": "hellos",
+	  "start": 37.02,
+	  "end": 37.78,
+	  "line_id": 2
+	},
+	{
+	  "text": "are",
+	  "start": 37.78,
+	  "end": 37.98,
+	  "line_id": 2
+	},
+	{
+	  "text": "goodbyes",
+	  "start": 37.98,
+	  "end": 39.52,
+	  "line_id": 2
+	},
+	{
+	  "text": "The",
+	  "start": 39.52,
+	  "end": 39.88,
+	  "line_id": 3
+	},
+	{
+	  "text": "moment",
+	  "start": 39.88,
+	  "end": 40.36,
+	  "line_id": 3
+	},
+	{
+	  "text": "I",
+	  "start": 40.36,
+	  "end": 40.78,
+	  "line_id": 3
+	},
+	{
+	  "text": "softly",
+	  "start": 40.78,
+	  "end": 42.0,
+	  "line_id": 3
+	},
+	{
+	  "text": "let",
+	  "start": 42.0,
+	  "end": 42.78,
+	  "line_id": 3
+	},
+	{
+	  "text": "go",
+	  "start": 42.78,
+	  "end": 43.3,
+	  "line_id": 3
+	},
+	{
+	  "text": "of",
+	  "start": 43.3,
+	  "end": 43.98,
+	  "line_id": 3
+	},
+	{
+	  "text": "your",
+	  "start": 43.98,
+	  "end": 44.34,
+	  "line_id": 3
+	},
+	{
+	  "text": "hand",
+	  "start": 44.34,
+	  "end": 45.26,
+	  "line_id": 3
+	},
+	{
+	  "text": "Wings",
+	  "start": 45.26,
+	  "end": 47.28,
+	  "line_id": 4
+	},
+	{
+	  "text": "of",
+	  "start": 47.28,
+	  "end": 47.52,
+	  "line_id": 4
+	},
+	{
+	  "text": "fruit,",
+	  "start": 47.52,
+	  "end": 47.86,
+	  "line_id": 4
+	},
+	{
+	  "text": "trembling",
+	  "start": 48.04,
+	  "end": 48.62,
+	  "line_id": 4
+	},
+	{
+	  "text": "branches",
+	  "start": 48.62,
+	  "end": 49.84,
+	  "line_id": 4
+	},
+	{
+	  "text": "A",
+	  "start": 50.68,
+	  "end": 51.3,
+	  "line_id": 5
+	},
+	{
+	  "text": "soul",
+	  "start": 51.3,
+	  "end": 51.52,
+	  "line_id": 5
+	},
+	{
+	  "text": "for",
+	  "start": 51.52,
+	  "end": 51.86,
+	  "line_id": 5
+	},
+	{
+	  "text": "soul",
+	  "start": 51.86,
+	  "end": 52.14,
+	  "line_id": 5
+	},
+	{
+	  "text": "bound",
+	  "start": 52.14,
+	  "end": 52.94,
+	  "line_id": 5
+	},
+	{
+	  "text": "to",
+	  "start": 52.94,
+	  "end": 53.26,
+	  "line_id": 5
+	},
+	{
+	  "text": "soar",
+	  "start": 53.26,
+	  "end": 53.88,
+	  "line_id": 5
+	},
+	{
+	  "text": "To",
+	  "start": 53.88,
+	  "end": 54.66,
+	  "line_id": 6
+	},
+	{
+	  "text": "the",
+	  "start": 54.66,
+	  "end": 54.98,
+	  "line_id": 6
+	},
+	{
+	  "text": "very",
+	  "start": 54.98,
+	  "end": 55.5,
+	  "line_id": 6
+	},
+	{
+	  "text": "edge",
+	  "start": 55.5,
+	  "end": 55.84,
+	  "line_id": 6
+	},
+	{
+	  "text": "of",
+	  "start": 55.84,
+	  "end": 56.16,
+	  "line_id": 6
+	},
+	{
+	  "text": "the",
+	  "start": 56.16,
+	  "end": 56.34,
+	  "line_id": 6
+	},
+	{
+	  "text": "staring",
+	  "start": 56.34,
+	  "end": 56.8,
+	  "line_id": 6
+	},
+	{
+	  "text": "ocean",
+	  "start": 56.8,
+	  "end": 57.5,
+	  "line_id": 6
+	},
+	{
+	  "text": "If",
+	  "start": 57.5,
+	  "end": 58.46,
+	  "line_id": 7
+	},
+	{
+	  "text": "and",
+	  "start": 58.46,
+	  "end": 58.98,
+	  "line_id": 7
+	},
+	{
+	  "text": "if",
+	  "start": 58.98,
+	  "end": 59.38,
+	  "line_id": 7
+	},
+	{
+	  "text": "I",
+	  "start": 59.38,
+	  "end": 59.76,
+	  "line_id": 7
+	},
+	{
+	  "text": "mean",
+	  "start": 59.76,
+	  "end": 60.0,
+	  "line_id": 7
+	},
+	{
+	  "text": "to",
+	  "start": 60.0,
+	  "end": 60.34,
+	  "line_id": 7
+	},
+	{
+	  "text": "fall",
+	  "start": 60.34,
+	  "end": 60.84,
+	  "line_id": 7
+	},
+	{
+	  "text": "apart",
+	  "start": 60.84,
+	  "end": 61.88,
+	  "line_id": 7
+	},
+	{
+	  "text": "I",
+	  "start": 61.88,
+	  "end": 62.74,
+	  "line_id": 8
+	},
+	{
+	  "text": "will",
+	  "start": 62.74,
+	  "end": 62.96,
+	  "line_id": 8
+	},
+	{
+	  "text": "decide",
+	  "start": 62.96,
+	  "end": 63.58,
+	  "line_id": 8
+	},
+	{
+	  "text": "where",
+	  "start": 63.58,
+	  "end": 64.72,
+	  "line_id": 8
+	},
+	{
+	  "text": "you",
+	  "start": 64.72,
+	  "end": 65.06,
+	  "line_id": 8
+	},
+	{
+	  "text": "are",
+	  "start": 65.06,
+	  "end": 65.7,
+	  "line_id": 8
+	},
+	{
+	  "text": "for",
+	  "start": 65.7,
+	  "end": 66.12,
+	  "line_id": 8
+	},
+	{
+	  "text": "all",
+	  "start": 66.12,
+	  "end": 66.64,
+	  "line_id": 8
+	},
+	{
+	  "text": "time",
+	  "start": 66.64,
+	  "end": 67.24,
+	  "line_id": 8
+	},
+	{
+	  "text": "Above",
+	  "start": 67.24,
+	  "end": 68.18,
+	  "line_id": 9
+	},
+	{
+	  "text": "all",
+	  "start": 68.18,
+	  "end": 68.78,
+	  "line_id": 9
+	},
+	{
+	  "text": "years",
+	  "start": 68.78,
+	  "end": 69.38,
+	  "line_id": 9
+	},
+	{
+	  "text": "May",
+	  "start": 70.18,
+	  "end": 70.74,
+	  "line_id": 10
+	},
+	{
+	  "text": "your",
+	  "start": 70.74,
+	  "end": 71.1,
+	  "line_id": 10
+	},
+	{
+	  "text": "path",
+	  "start": 71.1,
+	  "end": 71.4,
+	  "line_id": 10
+	},
+	{
+	  "text": "be",
+	  "start": 71.4,
+	  "end": 71.74,
+	  "line_id": 10
+	},
+	{
+	  "text": "clear",
+	  "start": 71.74,
+	  "end": 72.26,
+	  "line_id": 10
+	},
+	{
+	  "text": "May",
+	  "start": 72.26,
+	  "end": 73.6,
+	  "line_id": 11
+	},
+	{
+	  "text": "you",
+	  "start": 73.6,
+	  "end": 73.96,
+	  "line_id": 11
+	},
+	{
+	  "text": "get",
+	  "start": 73.96,
+	  "end": 74.26,
+	  "line_id": 11
+	},
+	{
+	  "text": "aware",
+	  "start": 74.26,
+	  "end": 74.82,
+	  "line_id": 11
+	},
+	{
+	  "text": "Dreams",
+	  "start": 74.82,
+	  "end": 75.8,
+	  "line_id": 12
+	},
+	{
+	  "text": "are",
+	  "start": 75.8,
+	  "end": 76.16,
+	  "line_id": 12
+	},
+	{
+	  "text": "all",
+	  "start": 76.16,
+	  "end": 76.6,
+	  "line_id": 12
+	},
+	{
+	  "text": "crystallized",
+	  "start": 76.6,
+	  "end": 78.5,
+	  "line_id": 12
+	},
+	{
+	  "text": "Sweet,",
+	  "start": 78.5,
+	  "end": 79.18,
+	  "line_id": 13
+	},
+	{
+	  "text": "please,",
+	  "start": 79.56,
+	  "end": 80.78,
+	  "line_id": 13
+	},
+	{
+	  "text": "crack",
+	  "start": 81.16,
+	  "end": 82.1,
+	  "line_id": 13
+	},
+	{
+	  "text": "a",
+	  "start": 82.1,
+	  "end": 82.56,
+	  "line_id": 13
+	},
+	{
+	  "text": "little",
+	  "start": 82.56,
+	  "end": 83.06,
+	  "line_id": 13
+	},
+	{
+	  "text": "smile",
+	  "start": 83.06,
+	  "end": 83.5,
+	  "line_id": 13
+	},
+	{
+	  "text": "You",
+	  "start": 84.3,
+	  "end": 85.12,
+	  "line_id": 14
+	},
+	{
+	  "text": "and",
+	  "start": 85.12,
+	  "end": 85.44,
+	  "line_id": 14
+	},
+	{
+	  "text": "me",
+	  "start": 85.44,
+	  "end": 85.62,
+	  "line_id": 14
+	},
+	{
+	  "text": "alone",
+	  "start": 85.62,
+	  "end": 86.3,
+	  "line_id": 14
+	},
+	{
+	  "text": "In",
+	  "start": 87.02,
+	  "end": 87.62,
+	  "line_id": 15
+	},
+	{
+	  "text": "this",
+	  "start": 87.62,
+	  "end": 88.1,
+	  "line_id": 15
+	},
+	{
+	  "text": "world",
+	  "start": 88.1,
+	  "end": 88.74,
+	  "line_id": 15
+	},
+	{
+	  "text": "you've",
+	  "start": 88.74,
+	  "end": 89.08,
+	  "line_id": 15
+	},
+	{
+	  "text": "chosen",
+	  "start": 89.08,
+	  "end": 89.82,
+	  "line_id": 15
+	},
+	{
+	  "text": "as",
+	  "start": 89.82,
+	  "end": 90.5,
+	  "line_id": 15
+	},
+	{
+	  "text": "your",
+	  "start": 90.5,
+	  "end": 90.8,
+	  "line_id": 15
+	},
+	{
+	  "text": "own",
+	  "start": 90.8,
+	  "end": 91.6,
+	  "line_id": 15
+	},
+	{
+	  "text": "Don't",
+	  "start": 91.6,
+	  "end": 92.34,
+	  "line_id": 16
+	},
+	{
+	  "text": "worry,",
+	  "start": 92.34,
+	  "end": 93.34,
+	  "line_id": 16
+	},
+	{
+	  "text": "I'm",
+	  "start": 93.66,
+	  "end": 94.16,
+	  "line_id": 16
+	},
+	{
+	  "text": "well",
+	  "start": 94.16,
+	  "end": 94.46,
+	  "line_id": 16
+	},
+	{
+	  "text": "aware",
+	  "start": 94.46,
+	  "end": 95.06,
+	  "line_id": 16
+	},
+	{
+	  "text": "That",
+	  "start": 95.64,
+	  "end": 96.34,
+	  "line_id": 17
+	},
+	{
+	  "text": "there's",
+	  "start": 96.34,
+	  "end": 97.44,
+	  "line_id": 17
+	},
+	{
+	  "text": "no",
+	  "start": 97.44,
+	  "end": 97.58,
+	  "line_id": 17
+	},
+	{
+	  "text": "free",
+	  "start": 97.58,
+	  "end": 97.96,
+	  "line_id": 17
+	},
+	{
+	  "text": "smell",
+	  "start": 97.96,
+	  "end": 99.0,
+	  "line_id": 17
+	},
+	{
+	  "text": "in",
+	  "start": 99.0,
+	  "end": 99.8,
+	  "line_id": 17
+	},
+	{
+	  "text": "the",
+	  "start": 99.8,
+	  "end": 100.42,
+	  "line_id": 17
+	},
+	{
+	  "text": "end",
+	  "start": 100.42,
+	  "end": 101.02,
+	  "line_id": 17
+	},
+	{
+	  "text": "Witches",
+	  "start": 103.58,
+	  "end": 104.78,
+	  "line_id": 18
+	},
+	{
+	  "text": "sigh",
+	  "start": 104.78,
+	  "end": 104.96,
+	  "line_id": 18
+	},
+	{
+	  "text": "on",
+	  "start": 104.96,
+	  "end": 105.56,
+	  "line_id": 18
+	},
+	{
+	  "text": "one",
+	  "start": 105.56,
+	  "end": 105.88,
+	  "line_id": 18
+	},
+	{
+	  "text": "little",
+	  "start": 105.88,
+	  "end": 106.36,
+	  "line_id": 18
+	},
+	{
+	  "text": "palm",
+	  "start": 106.36,
+	  "end": 106.9,
+	  "line_id": 18
+	},
+	{
+	  "text": "spring",
+	  "start": 106.9,
+	  "end": 107.56,
+	  "line_id": 18
+	},
+	{
+	  "text": "So",
+	  "start": 107.56,
+	  "end": 108.58,
+	  "line_id": 19
+	},
+	{
+	  "text": "I'll",
+	  "start": 108.58,
+	  "end": 109.08,
+	  "line_id": 19
+	},
+	{
+	  "text": "dance,",
+	  "start": 109.08,
+	  "end": 109.5,
+	  "line_id": 19
+	},
+	{
+	  "text": "flamboyantly",
+	  "start": 110.54,
+	  "end": 112.16,
+	  "line_id": 19
+	},
+	{
+	  "text": "into",
+	  "start": 112.16,
+	  "end": 112.88,
+	  "line_id": 19
+	},
+	{
+	  "text": "that",
+	  "start": 112.88,
+	  "end": 113.34,
+	  "line_id": 19
+	},
+	{
+	  "text": "good",
+	  "start": 113.34,
+	  "end": 113.7,
+	  "line_id": 19
+	},
+	{
+	  "text": "night",
+	  "start": 113.7,
+	  "end": 114.42,
+	  "line_id": 19
+	},
+	{
+	  "text": "land",
+	  "start": 114.42,
+	  "end": 114.92,
+	  "line_id": 19
+	},
+	{
+	  "text": "Bold",
+	  "start": 124.26,
+	  "end": 125.26,
+	  "line_id": 20
+	},
+	{
+	  "text": "voyage,",
+	  "start": 125.26,
+	  "end": 126.26,
+	  "line_id": 20
+	},
+	{
+	  "text": "may",
+	  "start": 126.66,
+	  "end": 127.88,
+	  "line_id": 20
+	},
+	{
+	  "text": "your",
+	  "start": 127.88,
+	  "end": 128.24,
+	  "line_id": 20
+	},
+	{
+	  "text": "path",
+	  "start": 128.24,
+	  "end": 128.6,
+	  "line_id": 20
+	},
+	{
+	  "text": "be",
+	  "start": 128.6,
+	  "end": 128.84,
+	  "line_id": 20
+	},
+	{
+	  "text": "clear",
+	  "start": 128.84,
+	  "end": 129.42,
+	  "line_id": 20
+	},
+	{
+	  "text": "May",
+	  "start": 129.42,
+	  "end": 130.74,
+	  "line_id": 21
+	},
+	{
+	  "text": "you",
+	  "start": 130.74,
+	  "end": 131.12,
+	  "line_id": 21
+	},
+	{
+	  "text": "get",
+	  "start": 131.12,
+	  "end": 131.44,
+	  "line_id": 21
+	},
+	{
+	  "text": "aware,",
+	  "start": 131.44,
+	  "end": 132.0,
+	  "line_id": 21
+	},
+	{
+	  "text": "dreams",
+	  "start": 132.44,
+	  "end": 132.96,
+	  "line_id": 21
+	},
+	{
+	  "text": "are",
+	  "start": 132.96,
+	  "end": 133.28,
+	  "line_id": 21
+	},
+	{
+	  "text": "all",
+	  "start": 133.28,
+	  "end": 133.78,
+	  "line_id": 21
+	},
+	{
+	  "text": "crystallized",
+	  "start": 133.78,
+	  "end": 136.06,
+	  "line_id": 21
+	},
+	{
+	  "text": "Please,",
+	  "start": 136.06,
+	  "end": 137.3,
+	  "line_id": 22
+	},
+	{
+	  "text": "crack",
+	  "start": 137.3,
+	  "end": 139.22,
+	  "line_id": 22
+	},
+	{
+	  "text": "a",
+	  "start": 139.22,
+	  "end": 139.68,
+	  "line_id": 22
+	},
+	{
+	  "text": "little",
+	  "start": 139.68,
+	  "end": 140.14,
+	  "line_id": 22
+	},
+	{
+	  "text": "smile",
+	  "start": 140.14,
+	  "end": 140.62,
+	  "line_id": 22
+	},
+	{
+	  "text": "You'll",
+	  "start": 141.34,
+	  "end": 142.34,
+	  "line_id": 23
+	},
+	{
+	  "text": "be",
+	  "start": 142.34,
+	  "end": 142.76,
+	  "line_id": 23
+	},
+	{
+	  "text": "alone",
+	  "start": 142.76,
+	  "end": 143.42,
+	  "line_id": 23
+	},
+	{
+	  "text": "in",
+	  "start": 143.42,
+	  "end": 144.72,
+	  "line_id": 23
+	},
+	{
+	  "text": "this",
+	  "start": 144.72,
+	  "end": 145.14,
+	  "line_id": 23
+	},
+	{
+	  "text": "world",
+	  "start": 145.14,
+	  "end": 145.74,
+	  "line_id": 23
+	},
+	{
+	  "text": "you've",
+	  "start": 145.74,
+	  "end": 146.22,
+	  "line_id": 23
+	},
+	{
+	  "text": "chosen",
+	  "start": 146.22,
+	  "end": 146.86,
+	  "line_id": 23
+	},
+	{
+	  "text": "As",
+	  "start": 146.86,
+	  "end": 147.6,
+	  "line_id": 24
+	},
+	{
+	  "text": "your",
+	  "start": 147.6,
+	  "end": 147.94,
+	  "line_id": 24
+	},
+	{
+	  "text": "own",
+	  "start": 147.94,
+	  "end": 148.72,
+	  "line_id": 24
+	},
+	{
+	  "text": "It's",
+	  "start": 149.98,
+	  "end": 151.24,
+	  "line_id": 25
+	},
+	{
+	  "text": "such",
+	  "start": 151.24,
+	  "end": 151.54,
+	  "line_id": 25
+	},
+	{
+	  "text": "a",
+	  "start": 151.54,
+	  "end": 151.72,
+	  "line_id": 25
+	},
+	{
+	  "text": "dancing",
+	  "start": 151.72,
+	  "end": 152.6,
+	  "line_id": 25
+	},
+	{
+	  "text": "way",
+	  "start": 152.6,
+	  "end": 153.46,
+	  "line_id": 25
+	},
+	{
+	  "text": "to",
+	  "start": 153.46,
+	  "end": 153.64,
+	  "line_id": 25
+	},
+	{
+	  "text": "get",
+	  "start": 153.64,
+	  "end": 155.12,
+	  "line_id": 25
+	},
+	{
+	  "text": "yourself",
+	  "start": 155.12,
+	  "end": 156.06,
+	  "line_id": 25
+	},
+	{
+	  "text": "Spend",
+	  "start": 156.06,
+	  "end": 156.88,
+	  "line_id": 26
+	},
+	{
+	  "text": "my",
+	  "start": 156.88,
+	  "end": 157.22,
+	  "line_id": 26
+	},
+	{
+	  "text": "whole",
+	  "start": 157.22,
+	  "end": 157.6,
+	  "line_id": 26
+	},
+	{
+	  "text": "life",
+	  "start": 157.6,
+	  "end": 157.98,
+	  "line_id": 26
+	},
+	{
+	  "text": "unraveling",
+	  "start": 157.98,
+	  "end": 159.92,
+	  "line_id": 26
+	},
+	{
+	  "text": "And",
+	  "start": 159.92,
+	  "end": 160.04,
+	  "line_id": 27
+	},
+	{
+	  "text": "though",
+	  "start": 160.04,
+	  "end": 160.86,
+	  "line_id": 27
+	},
+	{
+	  "text": "it",
+	  "start": 160.86,
+	  "end": 161.94,
+	  "line_id": 27
+	},
+	{
+	  "text": "might",
+	  "start": 161.94,
+	  "end": 162.56,
+	  "line_id": 27
+	},
+	{
+	  "text": "cost",
+	  "start": 162.56,
+	  "end": 163.02,
+	  "line_id": 27
+	},
+	{
+	  "text": "me",
+	  "start": 163.02,
+	  "end": 163.26,
+	  "line_id": 27
+	},
+	{
+	  "text": "everything",
+	  "start": 163.26,
+	  "end": 163.9,
+	  "line_id": 27
+	},
+	{
+	  "text": "I",
+	  "start": 163.9,
+	  "end": 164.78,
+	  "line_id": 27
+	},
+	{
+	  "text": "have",
+	  "start": 164.78,
+	  "end": 165.22,
+	  "line_id": 27
+	},
+	{
+	  "text": "I",
+	  "start": 165.22,
+	  "end": 166.48,
+	  "line_id": 28
+	},
+	{
+	  "text": "never",
+	  "start": 166.48,
+	  "end": 166.8,
+	  "line_id": 28
+	},
+	{
+	  "text": "regret,",
+	  "start": 166.8,
+	  "end": 167.76,
+	  "line_id": 28
+	},
+	{
+	  "text": "wouldn't",
+	  "start": 168.12,
+	  "end": 169.24,
+	  "line_id": 28
+	},
+	{
+	  "text": "have",
+	  "start": 169.24,
+	  "end": 169.28,
+	  "line_id": 28
+	},
+	{
+	  "text": "been",
+	  "start": 169.28,
+	  "end": 170.06,
+	  "line_id": 28
+	},
+	{
+	  "text": "any",
+	  "start": 170.06,
+	  "end": 170.62,
+	  "line_id": 28
+	},
+	{
+	  "text": "other",
+	  "start": 170.62,
+	  "end": 170.98,
+	  "line_id": 28
+	},
+	{
+	  "text": "way",
+	  "start": 170.98,
+	  "end": 171.4,
+	  "line_id": 28
+	},
+	{
+	  "text": "Cause",
+	  "start": 171.4,
+	  "end": 171.74,
+	  "line_id": 29
+	},
+	{
+	  "text": "those",
+	  "start": 171.74,
+	  "end": 172.3,
+	  "line_id": 29
+	},
+	{
+	  "text": "two",
+	  "start": 172.3,
+	  "end": 173.44,
+	  "line_id": 29
+	},
+	{
+	  "text": "trees",
+	  "start": 173.44,
+	  "end": 174.04,
+	  "line_id": 29
+	},
+	{
+	  "text": "don't",
+	  "start": 174.04,
+	  "end": 174.4,
+	  "line_id": 29
+	},
+	{
+	  "text": "lie",
+	  "start": 174.4,
+	  "end": 174.74,
+	  "line_id": 29
+	},
+	{
+	  "text": "on",
+	  "start": 174.74,
+	  "end": 175.06,
+	  "line_id": 29
+	},
+	{
+	  "text": "their",
+	  "start": 175.06,
+	  "end": 175.36,
+	  "line_id": 29
+	},
+	{
+	  "text": "lonely",
+	  "start": 175.36,
+	  "end": 176.0,
+	  "line_id": 29
+	},
+	{
+	  "text": "road",
+	  "start": 176.0,
+	  "end": 176.7,
+	  "line_id": 29
+	},
+	{
+	  "text": "We'll",
+	  "start": 177.26,
+	  "end": 178.42,
+	  "line_id": 30
+	},
+	{
+	  "text": "find",
+	  "start": 178.42,
+	  "end": 179.14,
+	  "line_id": 30
+	},
+	{
+	  "text": "their",
+	  "start": 179.14,
+	  "end": 179.72,
+	  "line_id": 30
+	},
+	{
+	  "text": "destination,",
+	  "start": 179.72,
+	  "end": 180.48,
+	  "line_id": 30
+	},
+	{
+	  "text": "see",
+	  "start": 180.48,
+	  "end": 181.28,
+	  "line_id": 30
+	},
+	{
+	  "text": "the",
+	  "start": 181.28,
+	  "end": 181.82,
+	  "line_id": 30
+	},
+	{
+	  "text": "cosmos",
+	  "start": 181.82,
+	  "end": 182.76,
+	  "line_id": 30
+	},
+	{
+	  "text": "Me,",
+	  "start": 182.76,
+	  "end": 183.6,
+	  "line_id": 31
+	},
+	{
+	  "text": "I'd",
+	  "start": 183.74,
+	  "end": 184.4,
+	  "line_id": 31
+	},
+	{
+	  "text": "like",
+	  "start": 184.4,
+	  "end": 184.88,
+	  "line_id": 31
+	},
+	{
+	  "text": "to",
+	  "start": 184.88,
+	  "end": 184.88,
+	  "line_id": 31
+	},
+	{
+	  "text": "see",
+	  "start": 184.88,
+	  "end": 185.64,
+	  "line_id": 31
+	},
+	{
+	  "text": "this",
+	  "start": 185.64,
+	  "end": 186.22,
+	  "line_id": 31
+	},
+	{
+	  "text": "world",
+	  "start": 186.22,
+	  "end": 186.62,
+	  "line_id": 31
+	},
+	{
+	  "text": "with",
+	  "start": 186.62,
+	  "end": 187.12,
+	  "line_id": 31
+	},
+	{
+	  "text": "snow",
+	  "start": 187.12,
+	  "end": 187.54,
+	  "line_id": 31
+	},
+	{
+	  "text": "For",
+	  "start": 187.54,
+	  "end": 187.98,
+	  "line_id": 32
+	},
+	{
+	  "text": "the",
+	  "start": 187.98,
+	  "end": 189.32,
+	  "line_id": 32
+	},
+	{
+	  "text": "most",
+	  "start": 189.32,
+	  "end": 190.44,
+	  "line_id": 32
+	},
+	{
+	  "text": "beautiful",
+	  "start": 190.44,
+	  "end": 191.28,
+	  "line_id": 32
+	},
+	{
+	  "text": "thing",
+	  "start": 191.28,
+	  "end": 192.2,
+	  "line_id": 32
+	},
+	{
+	  "text": "ever",
+	  "start": 192.2,
+	  "end": 193.32,
+	  "line_id": 32
+	},
+	{
+	  "text": "happened",
+	  "start": 193.32,
+	  "end": 193.86,
+	  "line_id": 32
+	},
+	{
+	  "text": "to",
+	  "start": 193.86,
+	  "end": 194.32,
+	  "line_id": 32
+	},
+	{
+	  "text": "me",
+	  "start": 194.32,
+	  "end": 194.76,
+	  "line_id": 32
+	},
+	{
+	  "text": "Thank",
+	  "start": 194.76,
+	  "end": 194.98,
+	  "line_id": 33
+	},
+	{
+	  "text": "you.",
+	  "start": 194.98,
+	  "end": 194.98,
+	  "line_id": 33
+	}
+  ],
+  "pitch": [
+	{
+	  "time": 23.4,
+	  "midi": 57,
+	  "note": "A3"
+	},
+	{
+	  "time": 23.5,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 23.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 23.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 23.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 23.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 24.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 24.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 24.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 24.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 24.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 24.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 24.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 24.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 24.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 24.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 25.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 25.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 25.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 25.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 25.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 25.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 25.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 26.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 26.1,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 26.2,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 26.3,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 26.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 26.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 26.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 26.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 26.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 26.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 27.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 27.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 27.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 27.3,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 27.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 27.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 27.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 27.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 27.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 27.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 28.5,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 28.6,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 28.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 28.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 28.9,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 29.0,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 29.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 29.2,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 29.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 29.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 29.5,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 29.6,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 29.7,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 29.8,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 29.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 30.0,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 30.3,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 30.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 30.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 30.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 30.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 30.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 31.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 31.3,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 31.4,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 31.5,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 31.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 31.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 31.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 31.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 32.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 32.1,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 32.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 32.3,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 32.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 32.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 32.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 32.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 34.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 34.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 35.0,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 35.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 35.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 35.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 35.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 35.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 35.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 35.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 35.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 35.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 36.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 36.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 36.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 36.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 36.4,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 36.5,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 36.6,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 36.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 37.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 37.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 37.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 37.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 37.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 37.5,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 37.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 37.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 37.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 37.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 38.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 38.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 38.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 38.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 38.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 38.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 38.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 38.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 39.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 39.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 39.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 39.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 39.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 39.8,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 39.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 40.0,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 40.1,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 40.2,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 40.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 40.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 40.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 40.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 40.7,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 40.8,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 40.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 41.0,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 41.1,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 41.2,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 41.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 41.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 41.5,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 41.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 41.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 42.0,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 42.1,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 42.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 42.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 42.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 42.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 42.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 42.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 42.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 42.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 43.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 43.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 43.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 43.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 43.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 43.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 43.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 43.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 43.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 43.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 44.0,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 44.1,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 44.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 44.3,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 44.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 44.5,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 44.6,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 44.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 44.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 44.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 45.0,
+	  "midi": 57,
+	  "note": "A3"
+	},
+	{
+	  "time": 45.1,
+	  "midi": 57,
+	  "note": "A3"
+	},
+	{
+	  "time": 45.2,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 45.3,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 45.4,
+	  "midi": 57,
+	  "note": "A3"
+	},
+	{
+	  "time": 45.5,
+	  "midi": 57,
+	  "note": "A3"
+	},
+	{
+	  "time": 45.6,
+	  "midi": 57,
+	  "note": "A3"
+	},
+	{
+	  "time": 46.1,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 46.2,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 46.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 46.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 46.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 46.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 46.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 46.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 46.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 47.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 47.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 47.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 47.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 47.5,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 47.6,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 47.7,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 47.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 47.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 48.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 48.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 48.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 48.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 48.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 48.9,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 49.0,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 49.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 49.2,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 49.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 49.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 49.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 49.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 49.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 49.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 49.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 50.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 50.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 50.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 50.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 50.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 50.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 50.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 50.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 50.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 51.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 51.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 51.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 51.5,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 51.6,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 51.7,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 51.8,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 51.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 52.1,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 52.2,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 52.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 52.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 52.5,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 52.6,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 52.7,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 52.8,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 52.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 53.0,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 53.1,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 53.2,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 53.3,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 53.4,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 53.6,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 53.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 53.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 53.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 54.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 54.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 54.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 54.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 54.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 54.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 55.0,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 55.1,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 55.2,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 55.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 55.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 55.5,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 55.6,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 55.7,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 55.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 55.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 56.1,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 56.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 56.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 56.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 56.5,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 56.6,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 56.7,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 56.8,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 56.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 57.0,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 57.1,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 57.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 57.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 57.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 57.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 57.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 57.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 57.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 57.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 58.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 58.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 58.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 58.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 58.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 58.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 58.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 58.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 58.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 58.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 59.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 59.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 59.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 59.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 59.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 59.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 59.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 59.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 60.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 60.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 60.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 60.4,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 60.5,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 60.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 60.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 60.8,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 60.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 61.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 61.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 61.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 61.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 61.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 61.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 61.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 61.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 61.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 61.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 62.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 62.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 62.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 62.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 62.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 62.8,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 62.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 63.0,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 63.1,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 63.2,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 63.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 63.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 63.6,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 63.7,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 63.8,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 63.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 64.0,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 64.1,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 64.6,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 64.7,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 64.8,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 64.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 65.0,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 65.1,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 65.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 65.3,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 65.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 65.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 65.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 65.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 65.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 66.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 66.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 66.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 66.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 66.5,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 66.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 66.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 66.8,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 66.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 67.1,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 67.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 67.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 67.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 67.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 67.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 67.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 67.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 68.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 68.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 68.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 68.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 68.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 68.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 68.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 68.7,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 68.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 68.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 69.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 69.1,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 69.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 69.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 69.4,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 69.5,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 69.6,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 69.7,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 69.8,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 69.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 70.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 70.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 70.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 70.6,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 70.7,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 70.8,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 70.9,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 71.0,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 71.1,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 71.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 71.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 71.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 71.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 71.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 71.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 71.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 71.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 72.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 72.1,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 72.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 72.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 72.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 72.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 72.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 72.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 72.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 73.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 73.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 73.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 73.7,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 73.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 73.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 74.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 74.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 74.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 74.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 74.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 74.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 74.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 74.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 74.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 74.9,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 75.0,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 75.1,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 75.2,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 75.3,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 75.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 75.7,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 75.8,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 75.9,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 76.0,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 76.1,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 76.2,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 76.3,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 76.4,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 76.5,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 76.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 76.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 76.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 76.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 77.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 77.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 77.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 77.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 77.4,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 77.5,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 77.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 77.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 77.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 77.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 78.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 78.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 78.2,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 78.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 78.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 78.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 78.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 78.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 78.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 78.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 79.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 79.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 79.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 79.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 79.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 79.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 79.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 79.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 79.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 80.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 80.1,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 80.7,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 80.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 80.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 81.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 81.1,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 81.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 81.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 81.4,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 81.5,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 82.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 82.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 82.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 82.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 82.5,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 82.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 82.7,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 82.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 82.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 83.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 83.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 83.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 83.3,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 83.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 83.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 83.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 83.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 83.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 83.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 84.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 84.1,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 84.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 84.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 84.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 84.8,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 84.9,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 85.0,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 85.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 85.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 85.3,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 85.4,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 85.5,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 85.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 85.7,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 85.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 85.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 86.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 86.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 86.2,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 86.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 86.4,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 86.5,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 86.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 86.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 86.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 86.9,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 87.0,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 87.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 87.4,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 87.5,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 87.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 87.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 87.8,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 87.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 88.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 88.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 88.2,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 88.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 88.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 88.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 88.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 88.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 88.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 89.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 89.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 89.2,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 89.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 89.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 89.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 89.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 89.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 89.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 89.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 90.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 90.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 90.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 90.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 90.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 90.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 90.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 90.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 90.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 91.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 91.1,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 91.2,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 91.3,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 91.4,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 91.5,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 91.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 91.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 91.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 91.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 92.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 92.1,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 92.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 92.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 92.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 92.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 92.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 92.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 92.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 92.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 93.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 93.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 93.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 93.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 93.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 93.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 93.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 93.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 93.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 94.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 94.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 94.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 94.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 94.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 94.6,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 94.7,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 94.8,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 94.9,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 95.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 95.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 95.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 95.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 95.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 95.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 95.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 95.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 95.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 95.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 96.1,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 96.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 96.3,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 96.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 96.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 96.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 97.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 97.2,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 97.3,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 97.4,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 97.5,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 97.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 97.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 97.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 97.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 98.0,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 98.1,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 98.2,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 98.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 98.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 98.5,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 98.6,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 98.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 99.0,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 99.1,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 99.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 99.3,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 99.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 99.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 99.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 99.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 99.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 100.0,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 100.1,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 100.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 100.3,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 100.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 100.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 100.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 100.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 100.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 100.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 101.0,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 101.1,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 101.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 101.3,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 101.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 101.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 101.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 101.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 101.8,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 101.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 102.0,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 103.3,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 103.4,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 103.5,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 103.6,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 103.7,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 103.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 103.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 104.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 104.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 104.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 104.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 104.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 104.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 104.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 105.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 105.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 105.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 105.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 105.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 105.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 105.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 105.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 106.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 106.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 106.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 106.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 106.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 106.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 106.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 106.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 106.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 106.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 107.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 107.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 107.2,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 107.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 107.5,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 107.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 107.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 107.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 107.9,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 108.6,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 108.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 108.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 108.9,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 109.0,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 109.1,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 109.2,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 109.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 109.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 109.5,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 109.6,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 109.7,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 109.8,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 109.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 110.0,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 110.1,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 110.2,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 110.3,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 110.4,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 110.5,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 111.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 111.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 111.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 111.7,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 111.8,
+	  "midi": 60,
+	  "note": "C4"
+	},
+	{
+	  "time": 111.9,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 112.0,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 112.1,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 112.2,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 112.3,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 112.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 112.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 112.6,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 112.7,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 112.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 112.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 113.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 113.1,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 113.2,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 113.3,
+	  "midi": 62,
+	  "note": "D4"
+	},
+	{
+	  "time": 113.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 113.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 113.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 113.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 113.8,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 113.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 114.0,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 114.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 114.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 114.3,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 114.4,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 114.5,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 114.7,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 114.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 114.9,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 115.0,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 124.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 124.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 125.0,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 125.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 125.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 125.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 125.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 125.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 125.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 125.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 125.8,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 125.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 126.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 126.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 126.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 126.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 126.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 126.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 126.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 126.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 126.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 126.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 127.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 127.1,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 127.2,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 127.3,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 127.4,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 127.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 127.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 127.8,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 127.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 128.0,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 128.1,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 128.2,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 128.3,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 128.4,
+	  "midi": 57,
+	  "note": "A3"
+	},
+	{
+	  "time": 128.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 128.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 128.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 128.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 128.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 129.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 129.1,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 129.2,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 129.3,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 129.4,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 129.5,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 129.6,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 129.7,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 129.8,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 129.9,
+	  "midi": 56,
+	  "note": "G#3"
+	},
+	{
+	  "time": 130.0,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 130.1,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 130.5,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 130.6,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 130.7,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 130.8,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 130.9,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 131.0,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 131.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 131.2,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 131.3,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 131.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 131.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 131.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 131.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 131.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 131.9,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 132.0,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 132.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 132.2,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 132.3,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 132.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 132.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 132.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 132.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 132.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 132.9,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 133.0,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 133.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 133.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 133.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 133.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 133.5,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 133.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 133.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 133.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 133.9,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 134.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 134.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 134.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 134.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 134.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 134.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 134.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 134.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 134.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 134.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 135.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 135.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 135.2,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 135.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 135.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 135.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 135.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 135.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 135.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 135.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 136.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 136.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 136.2,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 136.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 136.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 136.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 136.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 136.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 136.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 136.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 137.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 137.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 137.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 137.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 137.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 137.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 137.8,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 137.9,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 138.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 138.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 138.2,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 138.3,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 138.4,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 138.5,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 138.7,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 138.8,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 139.3,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 139.4,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 139.5,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 139.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 139.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 139.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 139.9,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 140.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 140.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 140.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 140.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 140.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 140.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 140.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 140.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 140.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 140.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 141.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 141.1,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 141.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 141.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 141.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 141.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 142.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 142.1,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 142.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 142.3,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 142.4,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 142.5,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 142.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 142.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 142.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 142.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 143.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 143.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 143.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 143.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 143.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 143.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 143.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 143.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 143.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 143.9,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 144.0,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 144.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 144.2,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 144.3,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 144.4,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 144.5,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 144.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 144.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 144.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 144.9,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 145.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 145.1,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 145.2,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 145.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 145.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 145.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 145.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 145.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 145.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 145.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 146.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 146.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 146.2,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 146.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 146.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 146.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 146.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 146.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 146.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 146.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 147.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 147.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 147.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 147.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 147.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 147.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 147.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 147.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 147.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 148.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 148.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 148.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 148.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 148.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 148.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 148.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 148.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 148.8,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 148.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 149.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 149.1,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 149.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 149.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 149.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 149.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 149.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 149.7,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 149.8,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 150.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 150.1,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 150.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 150.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 150.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 150.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 150.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 151.0,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 151.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 151.2,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 151.3,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 151.4,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 151.5,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 151.6,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 151.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 151.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 152.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 152.1,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 152.2,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 152.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 152.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 152.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 152.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 152.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 152.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 152.9,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 153.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 153.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 153.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 153.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 153.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 153.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 153.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 153.7,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 153.8,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 153.9,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 154.0,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 154.1,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 154.2,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 154.3,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 154.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 154.9,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 155.0,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 155.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 155.2,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 155.3,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 155.4,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 155.5,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 155.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 155.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 155.8,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 156.0,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 156.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 156.2,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 156.3,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 156.5,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 156.6,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 156.8,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 156.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 157.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 157.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 157.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 157.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 157.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 157.5,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 157.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 157.7,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 157.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 157.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 158.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 158.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 158.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 158.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 158.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 158.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 158.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 158.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 158.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 158.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 159.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 159.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 159.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 159.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 159.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 159.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 159.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 159.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 159.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 159.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 160.0,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 160.1,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 160.2,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 160.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 160.7,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 160.8,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 160.9,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 161.0,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 161.1,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 161.2,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 161.3,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 161.5,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 161.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 161.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 161.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 161.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 162.0,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 162.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 162.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 162.5,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 162.6,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 162.7,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 162.9,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 163.0,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 163.1,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 163.2,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 163.3,
+	  "midi": 75,
+	  "note": "D#5"
+	},
+	{
+	  "time": 163.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 163.5,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 163.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 163.7,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 163.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 163.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 164.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 164.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 164.2,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 164.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 164.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 164.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 164.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 164.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 164.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 164.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 165.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 165.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 165.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 165.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 165.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 165.5,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 165.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 165.7,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 166.2,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 166.3,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 166.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 166.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 166.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 166.7,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 166.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 166.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 167.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 167.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 167.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 167.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 167.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 167.5,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 167.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 167.7,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 167.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 167.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 168.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 168.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 168.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 168.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 168.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 168.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 168.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 169.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 169.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 169.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 169.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 169.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 169.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 169.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 169.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 169.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 169.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 170.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 170.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 170.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 170.3,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 170.4,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 170.5,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 170.6,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 170.7,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 170.8,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 170.9,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 171.0,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 171.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 171.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 171.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 171.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 171.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 171.6,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 171.7,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 171.8,
+	  "midi": 67,
+	  "note": "G4"
+	},
+	{
+	  "time": 171.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 172.1,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 172.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 172.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 172.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 172.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 172.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 173.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 173.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 173.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 173.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 173.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 173.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 174.0,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 174.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 174.2,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 174.3,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 174.4,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 174.5,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 174.6,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 174.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 174.8,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 174.9,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 175.0,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 175.1,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 175.2,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 175.3,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 175.4,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 175.5,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 175.6,
+	  "midi": 59,
+	  "note": "B3"
+	},
+	{
+	  "time": 175.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 175.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 175.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 176.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 176.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 176.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 176.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 176.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 176.5,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 176.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 176.7,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 176.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 176.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 177.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 177.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 177.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 177.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 177.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 177.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 177.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 177.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 177.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 178.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 178.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 178.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 178.3,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 178.4,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 178.5,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 178.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 178.7,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 178.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 178.9,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 179.0,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 179.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 179.2,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 179.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 179.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 179.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 179.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 179.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 180.0,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 180.1,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 180.2,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 180.3,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 180.4,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 180.5,
+	  "midi": 54,
+	  "note": "F#3"
+	},
+	{
+	  "time": 180.6,
+	  "midi": 54,
+	  "note": "F#3"
+	},
+	{
+	  "time": 180.7,
+	  "midi": 54,
+	  "note": "F#3"
+	},
+	{
+	  "time": 180.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 180.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 181.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 181.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 181.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 181.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 181.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 181.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 181.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 181.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 181.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 181.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 182.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 182.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 182.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 182.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 182.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 182.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 182.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 182.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 182.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 182.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 183.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 183.1,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 183.4,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 183.5,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 183.6,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 183.7,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 183.8,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 183.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 184.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 184.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 184.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 184.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 184.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 185.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 185.1,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 185.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 185.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 185.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 185.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 185.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 185.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 185.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 185.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 186.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 186.1,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 186.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 186.4,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 186.5,
+	  "midi": 61,
+	  "note": "C#4"
+	},
+	{
+	  "time": 186.6,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 186.7,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 186.8,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 186.9,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 187.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 187.1,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 187.4,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 187.5,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 187.6,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 187.7,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 187.8,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 187.9,
+	  "midi": 54,
+	  "note": "F#3"
+	},
+	{
+	  "time": 188.0,
+	  "midi": 54,
+	  "note": "F#3"
+	},
+	{
+	  "time": 188.1,
+	  "midi": 54,
+	  "note": "F#3"
+	},
+	{
+	  "time": 188.2,
+	  "midi": 54,
+	  "note": "F#3"
+	},
+	{
+	  "time": 188.3,
+	  "midi": 54,
+	  "note": "F#3"
+	},
+	{
+	  "time": 188.4,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 188.5,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 188.6,
+	  "midi": 69,
+	  "note": "A4"
+	},
+	{
+	  "time": 188.7,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 188.9,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 189.0,
+	  "midi": 64,
+	  "note": "E4"
+	},
+	{
+	  "time": 189.1,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 189.2,
+	  "midi": 66,
+	  "note": "F#4"
+	},
+	{
+	  "time": 189.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 189.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 189.5,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 189.6,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 189.7,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 189.8,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 189.9,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 190.0,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 190.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 190.2,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 190.3,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 190.4,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 190.5,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 190.6,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 191.0,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 191.1,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 191.2,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 191.3,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 191.4,
+	  "midi": 71,
+	  "note": "B4"
+	},
+	{
+	  "time": 191.5,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 191.6,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 191.7,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 191.8,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 191.9,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 192.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 192.1,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 192.2,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 192.3,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 192.4,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 192.5,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 192.6,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 192.7,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 192.8,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 192.9,
+	  "midi": 58,
+	  "note": "A#3"
+	},
+	{
+	  "time": 193.0,
+	  "midi": 68,
+	  "note": "G#4"
+	},
+	{
+	  "time": 193.1,
+	  "midi": 70,
+	  "note": "A#4"
+	},
+	{
+	  "time": 193.2,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 193.3,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 193.4,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 193.5,
+	  "midi": 72,
+	  "note": "C5"
+	},
+	{
+	  "time": 193.6,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 193.7,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 193.8,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 193.9,
+	  "midi": 73,
+	  "note": "C#5"
+	},
+	{
+	  "time": 194.0,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 194.1,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 194.2,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 194.3,
+	  "midi": 63,
+	  "note": "D#4"
+	},
+	{
+	  "time": 194.4,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 194.5,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 194.6,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 194.7,
+	  "midi": 74,
+	  "note": "D5"
+	},
+	{
+	  "time": 194.8,
+	  "midi": 76,
+	  "note": "E5"
+	},
+	{
+	  "time": 194.9,
+	  "midi": 65,
+	  "note": "F4"
+	},
+	{
+	  "time": 195.0,
+	  "midi": 64,
+	  "note": "E4"
+	}
   ]
 }

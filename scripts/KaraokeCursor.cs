@@ -122,28 +122,46 @@ namespace PitchGame
         /// Anchor is sticky: if no target is currently active, we keep
         /// the last anchor to prevent cursor drift between notes.
         /// </summary>
+        private int _cachedAnchorIndex = 0;
+        private double _lastAnchorTime = 0;
+
+        /// <summary>
+        /// Find the active target note and update the anchor MIDI value.
+        /// Anchor is sticky: if no target is currently active, we keep
+        /// the last anchor to prevent cursor drift between notes.
+        /// </summary>
         private void UpdateAnchor()
         {
-            if (LyricsSource?.Data?.Words == null) return;
+            if (LyricsSource?.Data?.Pitch == null) return;
             if (AudioManager.Instance == null) return;
             
             double time = AudioManager.Instance.GetMusicPlaybackPosition();
             float keyShift = ControlPanel?.KeyShiftSemitones ?? 0f;
-            
-            // Find the first word covering the current time with a valid pitch
-            var words = LyricsSource.Data.Words;
-            for (int i = 0; i < words.Count; i++)
+
+            var pitchEvents = LyricsSource.Data.Pitch;
+            if (pitchEvents.Count == 0) return;
+
+            // Reset cache if time jumps
+            if (time < _lastAnchorTime) _cachedAnchorIndex = 0;
+            _lastAnchorTime = time;
+
+            // Find the last event that is <= current time
+            for (int i = _cachedAnchorIndex; i < pitchEvents.Count; i++)
             {
-                var w = words[i];
-                if (w.PitchMidi <= 0) continue;
-                if (w.End < time) continue;
-                if (w.Start > time) break; // Words are time-sorted; past current time
-                
-                // Active word found
-                _anchorMidi = Mathf.Round(w.PitchMidi) + keyShift;
-                return;
+                var p = pitchEvents[i];
+                if (p.Time <= time)
+                {
+                    if (p.Midi > 0)
+                    {
+                        _anchorMidi = (float)p.Midi + keyShift;
+                    }
+                    _cachedAnchorIndex = i;
+                }
+                else
+                {
+                    break;
+                }
             }
-            // No active word — keep sticky anchor
         }
     }
 }

@@ -15,7 +15,7 @@
 
 [node name="GameScene" type="Node" unique_id=2037345888 node_paths=PackedStringArray("LyricsSource", "Detector", "MicInput")]
 script = ExtResource("1_43g1r")
-LyricsSource = NodePath("CanvasLayer/ScrollingLyrics")
+LyricsSource = NodePath("CanvasLayer/VBoxContainer/ScrollingLyrics")
 Detector = NodePath("PitchDetector")
 MicInput = NodePath("MicInput")
 
@@ -29,16 +29,20 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.05, 0.05, 0.08, 1)
 
-[node name="PitchArea" type="Control" parent="CanvasLayer" unique_id=1295198169]
-layout_mode = 3
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=1464471458]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_bottom = -250.0
 grow_horizontal = 2
 grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 
-[node name="Grid" type="Control" parent="CanvasLayer/PitchArea" unique_id=983159116 node_paths=PackedStringArray("LyricsSource")]
+[node name="PitchArea" type="Control" parent="CanvasLayer/VBoxContainer" unique_id=1295198169]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Grid" type="Control" parent="CanvasLayer/VBoxContainer/PitchArea" unique_id=983159116 node_paths=PackedStringArray("LyricsSource")]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -48,7 +52,7 @@ grow_vertical = 2
 script = ExtResource("2_7jgis")
 LyricsSource = NodePath("../../ScrollingLyrics")
 
-[node name="TargetVisualizer" type="Control" parent="CanvasLayer/PitchArea" unique_id=1601180428 node_paths=PackedStringArray("LyricsSource", "Grid")]
+[node name="TargetVisualizer" type="Control" parent="CanvasLayer/VBoxContainer/PitchArea" unique_id=1601180428 node_paths=PackedStringArray("LyricsSource", "Grid")]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -60,7 +64,7 @@ LyricsSource = NodePath("../../ScrollingLyrics")
 Grid = NodePath("../Grid")
 PixelsPerSecond = 150.0
 
-[node name="Cursor" type="Control" parent="CanvasLayer/PitchArea" unique_id=956986116 node_paths=PackedStringArray("Detector", "Grid", "LyricsSource")]
+[node name="Cursor" type="Control" parent="CanvasLayer/VBoxContainer/PitchArea" unique_id=956986116 node_paths=PackedStringArray("Detector", "Grid", "LyricsSource")]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -70,11 +74,11 @@ anchor_bottom = 0.5
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("4_mina7")
-Detector = NodePath("../../../PitchDetector")
+Detector = NodePath("../../../../PitchDetector")
 Grid = NodePath("../Grid")
 LyricsSource = NodePath("../../ScrollingLyrics")
 
-[node name="Visual" type="ColorRect" parent="CanvasLayer/PitchArea/Cursor" unique_id=573783214]
+[node name="Visual" type="ColorRect" parent="CanvasLayer/VBoxContainer/PitchArea/Cursor" unique_id=573783214]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -90,13 +94,10 @@ grow_vertical = 2
 rotation = 0.785398
 color = Color(1, 1, 0, 1)
 
-[node name="ScrollingLyrics" parent="CanvasLayer" unique_id=271799868 instance=ExtResource("5_kwhlp")]
+[node name="ScrollingLyrics" parent="CanvasLayer/VBoxContainer" unique_id=271799868 instance=ExtResource("5_kwhlp")]
 unique_name_in_owner = true
-anchors_preset = 12
-anchor_top = 1.0
-offset_top = -320.0
-offset_bottom = -120.0
-grow_vertical = 0
+layout_mode = 2
+size_flags_vertical = 3
 
 [node name="HUD" type="Control" parent="CanvasLayer" unique_id=1342039164 node_paths=PackedStringArray("Detector")]
 layout_mode = 3
@@ -160,7 +161,7 @@ script = ExtResource("9_m4voo")
 
 [node name="KaraokeScorer" type="Node" parent="." unique_id=2127883295 node_paths=PackedStringArray("LyricsSource", "Detector")]
 script = ExtResource("10_1f8to")
-LyricsSource = NodePath("../CanvasLayer/ScrollingLyrics")
+LyricsSource = NodePath("../CanvasLayer/VBoxContainer/ScrollingLyrics")
 Detector = NodePath("../PitchDetector")
 
 [node name="MicInput" type="AudioStreamPlayer" parent="." unique_id=1645096116 groups=["Microphones"]]

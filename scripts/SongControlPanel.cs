@@ -48,11 +48,19 @@ namespace PitchGame
 
         public override void _Process(double delta)
         {
-            if (LblSongTitle != null && AudioManager.Instance != null)
+            if (LblSongTitle != null)
             {
-                string name = AudioManager.Instance.CurrentMusicName;
-                if (!string.IsNullOrEmpty(name) && name != "None")
-                    LblSongTitle.Text = name;
+                // Prioritize SessionData metadata for the display title
+                if (SessionData.CurrentSong != null && !string.IsNullOrEmpty(SessionData.CurrentSong.Name))
+                {
+                    LblSongTitle.Text = SessionData.CurrentSong.Name;
+                }
+                else if (AudioManager.Instance != null)
+                {
+                    string name = AudioManager.Instance.CurrentMusicName;
+                    if (!string.IsNullOrEmpty(name) && name != "None")
+                        LblSongTitle.Text = name;
+                }
             }
         }
 

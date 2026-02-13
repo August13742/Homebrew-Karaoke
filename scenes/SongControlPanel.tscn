@@ -1,13 +1,12 @@
 [gd_scene format=3 uid="uid://08h24ixt4lfm"]
 
 [ext_resource type="Script" uid="uid://cavippsaf3026" path="res://scripts/SongControlPanel.cs" id="1_script"]
-[ext_resource type="Texture2D" uid="uid://dej055ccvqg3o" path="res://UI/Asset 80@2x.png" id="2_pause"]
 [ext_resource type="Texture2D" uid="uid://cyadaybrq2eqy" path="res://UI/Asset 83@2x.png" id="3_back"]
-[ext_resource type="PackedScene" uid="uid://playback_control" path="res://scenes/components/PlaybackControl.tscn" id="4_playback"]
-[ext_resource type="PackedScene" uid="uid://volume_control" path="res://scenes/components/VolumeControl.tscn" id="5_volume"]
-[ext_resource type="PackedScene" uid="uid://key_shift_control" path="res://scenes/components/KeyShiftControl.tscn" id="6_keyshift"]
+[ext_resource type="PackedScene" uid="uid://cyoyg64dhjnx3" path="res://scenes/components/PlaybackControl.tscn" id="4_playback"]
+[ext_resource type="PackedScene" path="res://scenes/components/VolumeControl.tscn" id="5_volume"]
+[ext_resource type="PackedScene" path="res://scenes/components/KeyShiftControl.tscn" id="6_keyshift"]
 
-[node name="SongControlPanel" type="PanelContainer" node_paths=PackedStringArray("Playback", "KeyShift", "MusicVolume", "VocalVolume", "BtnBack", "LblSongTitle")]
+[node name="SongControlPanel" type="PanelContainer" unique_id=1955513927 node_paths=PackedStringArray("Playback", "KeyShift", "MusicVolume", "VocalVolume", "BtnBack", "LblSongTitle")]
 anchors_preset = 10
 anchor_right = 1.0
 offset_bottom = 80.0
@@ -20,14 +19,14 @@ VocalVolume = NodePath("VBoxContainer/Controls/VocalVolume")
 BtnBack = NodePath("VBoxContainer/Controls/BtnBack")
 LblSongTitle = NodePath("VBoxContainer/Controls/SongTitleContainer/LblSongTitle")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1436352174]
 layout_mode = 2
 
-[node name="Controls" type="HBoxContainer" parent="VBoxContainer"]
+[node name="Controls" type="HBoxContainer" parent="VBoxContainer" unique_id=447383488]
 layout_mode = 2
 theme_override_constants/separation = 12
 
-[node name="BtnBack" type="Button" parent="VBoxContainer/Controls"]
+[node name="BtnBack" type="Button" parent="VBoxContainer/Controls" unique_id=1037639806]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 0
@@ -37,12 +36,12 @@ icon = ExtResource("3_back")
 icon_alignment = 1
 expand_icon = true
 
-[node name="SongTitleContainer" type="Control" parent="VBoxContainer/Controls"]
-custom_minimum_size = Vector2(160, 0)
-layout_mode = 2
+[node name="SongTitleContainer" type="Control" parent="VBoxContainer/Controls" unique_id=1226678118]
 clip_contents = true
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
 
-[node name="LblSongTitle" type="Label" parent="VBoxContainer/Controls/SongTitleContainer"]
+[node name="LblSongTitle" type="Label" parent="VBoxContainer/Controls/SongTitleContainer" unique_id=1345342645]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 4
@@ -54,34 +53,30 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 16
 text = "Song Title"
 
-[node name="VSeparator0" type="VSeparator" parent="VBoxContainer/Controls"]
+[node name="VSeparator0" type="VSeparator" parent="VBoxContainer/Controls" unique_id=1485950887]
 layout_mode = 2
 
-[node name="PlaybackControl" parent="VBoxContainer/Controls" instance=ExtResource("4_playback")]
+[node name="PlaybackControl" parent="VBoxContainer/Controls" unique_id=279360731 instance=ExtResource("4_playback")]
 unique_name_in_owner = true
 layout_mode = 2
 
-[node name="VSeparator1" type="VSeparator" parent="VBoxContainer/Controls"]
+[node name="VSeparator1" type="VSeparator" parent="VBoxContainer/Controls" unique_id=522748211]
 layout_mode = 2
 
-[node name="MusicVolume" parent="VBoxContainer/Controls" instance=ExtResource("5_volume")]
+[node name="MusicVolume" parent="VBoxContainer/Controls" unique_id=131994178 instance=ExtResource("5_volume")]
 unique_name_in_owner = true
-layout_mode = 2
 LabelText = "Music"
 DefaultValue = 0.75
 
-[node name="VSeparator2" type="VSeparator" parent="VBoxContainer/Controls"]
+[node name="VSeparator2" type="VSeparator" parent="VBoxContainer/Controls" unique_id=371342344]
 layout_mode = 2
 
-[node name="VocalVolume" parent="VBoxContainer/Controls" instance=ExtResource("5_volume")]
+[node name="VocalVolume" parent="VBoxContainer/Controls" unique_id=527572027 instance=ExtResource("5_volume")]
 unique_name_in_owner = true
-layout_mode = 2
 LabelText = "Vocal"
-DefaultValue = 1.0
 
-[node name="VSeparator3" type="VSeparator" parent="VBoxContainer/Controls"]
+[node name="VSeparator3" type="VSeparator" parent="VBoxContainer/Controls" unique_id=1334364364]
 layout_mode = 2
 
-[node name="KeyShiftControl" parent="VBoxContainer/Controls" instance=ExtResource("6_keyshift")]
+[node name="KeyShiftControl" parent="VBoxContainer/Controls" unique_id=968588761 instance=ExtResource("6_keyshift")]
 unique_name_in_owner = true
-layout_mode = 2

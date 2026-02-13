@@ -355,9 +355,10 @@ public partial class AudioManager : Node
     public double GetMusicPlaybackPosition()
     {
         AudioStreamPlayer active = _isUsingMusicA ? _musicSourceA : _musicSourceB;
-        if (active != null && active.Playing)
+        // Return current position even if paused, to avoid visual jumps to 0.0
+        if (active != null && (active.Playing || active.StreamPaused))
         {
-            return active.GetPlaybackPosition();
+            return (double)active.GetPlaybackPosition();
         }
         return 0.0;
     }

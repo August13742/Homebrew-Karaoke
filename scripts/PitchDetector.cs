@@ -30,6 +30,7 @@ namespace PitchGame
         [Export] public bool QuantizeToSemitone = false; // Enable for karaoke-style scoring
         [Export] public float PerfectCentWindow = 25f;   // ±25 cents = "perfect"
         [Export] public float GoodCentWindow = 50f;      // ±50 cents = "good"
+        [Export] public float GraceSemitones = 1.0f;     // ±1 semitone grace range for "OK" acceptance
 
         // --- PUBLIC DATA ---
         public float CurrentFrequency { get; private set; } 
@@ -407,7 +408,7 @@ namespace PitchGame
                 return PitchAccuracy.Perfect;
             else if (absCentsError <= GoodCentWindow)
                 return PitchAccuracy.Good;
-            else if (absCentsError <= 100f) // Within a semitone
+            else if (absCentsError <= GraceSemitones * 100f) // Within grace range
                 return PitchAccuracy.Ok;
             else
                 return PitchAccuracy.Miss;

@@ -13,6 +13,7 @@ namespace PitchGame
         private RichTextLabel _lblStats;
         private Button _btnStart;
         private Label _lblKeyShift;
+        private CheckButton _chkVoiceOver;
         
         private SongData _currentData;
         private float _keyShift = 0f;
@@ -34,6 +35,14 @@ namespace PitchGame
 
             _btnStart.Pressed += OnStartPressed;
             _btnStart.Disabled = true;
+
+            // Voice Over Toggle
+            _chkVoiceOver = GetNodeOrNull<CheckButton>("%CheckVoiceOver");
+            if (_chkVoiceOver != null)
+            {
+                _chkVoiceOver.Toggled += (on) => SessionData.VoiceOverMode = on;
+                _chkVoiceOver.ButtonPressed = SessionData.VoiceOverMode;
+            }
             
             Visible = false;
         }
@@ -64,10 +73,16 @@ namespace PitchGame
                             duration = lyricData.Words[lyricData.Words.Count - 1].End;
                         }
                         
+                        if (lyricData.Pitch != null && lyricData.Pitch.Count > 0)
+                        {
+                            duration = Math.Max(duration, lyricData.Pitch[lyricData.Pitch.Count - 1].Time);
+                        }
+                        
                         var ts = TimeSpan.FromSeconds(duration);
                         statsText = $"[b]Duration:[/b] {ts:mm\\:ss}\n" +
                                     $"[b]Lines:[/b] {lyricData.Lines?.Count ?? 0}\n" +
-                                    $"[b]Words:[/b] {lyricData.Words?.Count ?? 0}\n\n" +
+                                    $"[b]Words:[/b] {lyricData.Words?.Count ?? 0}\n" +
+                                    $"[b]Pitch Intervals:[/b] {lyricData.Pitch?.Count ?? 0}\n\n" +
                                     $"[b]Lyrics:[/b]\n";
 
                         if (lyricData.Lines != null)

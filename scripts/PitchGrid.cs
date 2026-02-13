@@ -71,24 +71,27 @@ namespace PitchGame
         /// </summary>
         private void UpdateRange(float delta)
         {
-            if (LyricsSource?.Data?.Words == null) return;
+            if (LyricsSource?.Data?.Pitch == null) return;
             if (AudioManager.Instance == null) return;
 
             double time = AudioManager.Instance.GetMusicPlaybackPosition();
-            var words = LyricsSource.Data.Words;
+            var pitchEvents = LyricsSource.Data.Pitch;
 
             float windowMin = float.MaxValue;
             float windowMax = float.MinValue;
             bool found = false;
 
-            for (int i = 0; i < words.Count; i++)
+            // Scan pitch events in the visible time window
+            for (int i = 0; i < pitchEvents.Count; i++)
             {
-                var w = words[i];
-                if (w.PitchMidi <= 0) continue;
-                if (w.End < time - LookbehindSeconds) continue;
-                if (w.Start > time + LookaheadSeconds) break;
+                var p = pitchEvents[i];
+                if (p.Midi <= 0) continue;
+                
+                // End check (approximate duration of 0.1s for each event)
+                if (p.Time + 0.1 < time - LookbehindSeconds) continue;
+                if (p.Time > time + LookaheadSeconds) break;
 
-                float midi = Mathf.Round(w.PitchMidi) + _keyShift;
+                float midi = (float)p.Midi + _keyShift;
                 if (midi < windowMin) windowMin = midi;
                 if (midi > windowMax) windowMax = midi;
                 found = true;

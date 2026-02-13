@@ -9,5 +9,6 @@ namespace PitchGame
     {
         public static SongData CurrentSong;
         public static float KeyShift = 0f;
+        public static bool VoiceOverMode = false;
     }
 }

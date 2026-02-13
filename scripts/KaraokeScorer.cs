@@ -16,7 +16,7 @@ namespace PitchGame
         
         public float CurrentScore { get; private set; } = 0f;
 
-        private int _cachedWordIndex = 0;
+        private int _cachedPitchIndex = 0;
         private double _lastTime = 0;
 
         public override void _Process(double delta)
@@ -26,37 +26,44 @@ namespace PitchGame
 
             double time = AudioManager.Instance.GetMusicPlaybackPosition();
             
-            // Find active note(s) at current time
-            // Optimization: Cached index scan for time-sorted words
-            var words = LyricsSource.Data.Words;
-            LyricWord activeWord = null;
+            // 1. Find active pitch event at current time
+            var pitchEvents = LyricsSource.Data.Pitch;
+            if (pitchEvents == null || pitchEvents.Count == 0) return;
 
             // Start scanning from the cached index or 0 if time jumped backwards
-            if (time < _lastTime) _cachedWordIndex = 0;
+            if (time < _lastTime) _cachedPitchIndex = 0;
             _lastTime = time;
 
-            for (int i = _cachedWordIndex; i < words.Count; i++)
+            PitchEvent activeEvent = null;
+            // The python script generates events at ~0.1s intervals.
+            // We find the event such that p.Time <= time < p.Time + interval (approx 0.1s).
+            // For simplicity and robustness, we find the LAST event that is <= current time.
+            for (int i = _cachedPitchIndex; i < pitchEvents.Count; i++)
             {
-                var w = words[i];
-                if (w.End < time) 
+                var p = pitchEvents[i];
+                if (p.Time <= time)
                 {
-                    _cachedWordIndex = i; // Advance cache
-                    continue;
+                    activeEvent = p;
+                    _cachedPitchIndex = i;
                 }
-                if (w.Start > time) break; // Past current time (words are sorted)
-                
-                if (w.PitchMidi > 0)
+                else
                 {
-                    activeWord = w;
+                    // p.Time > time, so we found our boundary (assuming sorted)
+                    break;
                 }
-                break;
             }
 
-            if (activeWord != null)
+            // Optional: check if the event is "too old" (e.g. if there's a huge gap in pitch data)
+            if (activeEvent != null && (time - activeEvent.Time) > 0.2)
+            {
+                activeEvent = null; // Too far from the last recorded pitch point
+            }
+
+            if (activeEvent != null && activeEvent.Midi > 0)
             {
                 if (Detector.IsDetected)
                 {
-                    var acc = Detector.EvaluateAccuracy(activeWord.PitchMidi);
+                    var acc = Detector.EvaluateAccuracy(activeEvent.Midi);
                     float points = 0f;
                     string text = "";
 
