@@ -48,7 +48,7 @@ layout_mode = 2
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 4
-text = "Use Voice Over"
+text = "Use Voice Over (Debug)"
 
 [node name="HSeparator2" type="HSeparator" parent="." unique_id=573934809]
 layout_mode = 2

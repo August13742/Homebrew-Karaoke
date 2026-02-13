@@ -16,7 +16,8 @@ namespace PitchGame
         [Export] public KeyShiftControl KeyShift;
         [Export] public VolumeControl MusicVolume;
         [Export] public VolumeControl VocalVolume;
-
+        [Export] public VolumeControl MicVolume;
+ 
         [ExportGroup("UI")]
         [Export] public Button BtnBack;
         [Export] public Label LblSongTitle;
@@ -35,6 +36,7 @@ namespace PitchGame
 
             if (MusicVolume != null) MusicVolume.VolumeChanged += (v) => AudioManager.Instance?.SetMusicVolume(v);
             if (VocalVolume != null) VocalVolume.VolumeChanged += (v) => AudioManager.Instance?.SetVocalVolume(v);
+            if (MicVolume != null) MicVolume.VolumeChanged += (v) => AudioManager.Instance?.SetMicVolume(v);
 
             // --- Own UI ---
             if (BtnBack != null)

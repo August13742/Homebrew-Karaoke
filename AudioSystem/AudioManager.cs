@@ -10,6 +10,7 @@ public partial class AudioManager : Node
     [Export] private string _masterBusName = "Master";
     [Export] private string _musicBusName = "Music";
     [Export] private string _sfxBusName = "SFX";
+    [Export] private string _recordBusName = "Record";
     #endregion
 
     #region Debug
@@ -170,6 +171,21 @@ public partial class AudioManager : Node
         float db = linear > 0.0001f ? Mathf.LinearToDb(linear) : -80f;
         if (_vocalSourceA != null) _vocalSourceA.VolumeDb = db;
         if (_vocalSourceB != null) _vocalSourceB.VolumeDb = db;
+    }
+
+    public void SetMicVolume(float linear)
+    {
+        int idx = AudioServer.GetBusIndex(_recordBusName);
+        if (idx == -1) return;
+
+        bool mute = linear <= 0.001f;
+        AudioServer.SetBusMute(idx, mute);
+
+        if (!mute)
+        {
+            float db = Mathf.LinearToDb(linear);
+            AudioServer.SetBusVolumeDb(idx, db);
+        }
     }
     
     /// <summary>
