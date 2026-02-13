@@ -1,2 +1,8 @@
-# Normalize EOL for all files that Git considers text files.
-* text=auto eol=lf
+# Handle line endings automatically for files detected as text 
+# and leave binary files alone.
+* text=auto
+
+# Explicitly set behavior for specific file extensions
+*.cs text eol=lf
+*.gd text eol=lf
+*.uid text eol=lf
