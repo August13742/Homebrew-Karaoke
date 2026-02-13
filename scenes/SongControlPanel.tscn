@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://08h24ixt4lfm"]
 
-[ext_resource type="Script" uid="uid://cavippsaf3026" path="res://Quarantine/SongControlPanel.cs" id="1_script"]
-[ext_resource type="Texture2D" uid="uid://b4wtguq8qv6uc" path="res://Quarantine/UI/Asset 84@2x.png" id="2_nrhlm"]
-[ext_resource type="Texture2D" uid="uid://dej055ccvqg3o" path="res://Quarantine/UI/Asset 80@2x.png" id="3_m76mi"]
-[ext_resource type="Texture2D" uid="uid://cyadaybrq2eqy" path="res://Quarantine/UI/Asset 83@2x.png" id="4_ydk87"]
+[ext_resource type="Script" uid="uid://cavippsaf3026" path="res://scripts/SongControlPanel.cs" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://b4wtguq8qv6uc" path="res://UI/Asset 84@2x.png" id="2_nrhlm"]
+[ext_resource type="Texture2D" uid="uid://dej055ccvqg3o" path="res://UI/Asset 80@2x.png" id="3_m76mi"]
+[ext_resource type="Texture2D" uid="uid://cyadaybrq2eqy" path="res://UI/Asset 83@2x.png" id="4_ydk87"]
 
 [node name="SongControlPanel" type="PanelContainer"]
 anchors_preset = 10

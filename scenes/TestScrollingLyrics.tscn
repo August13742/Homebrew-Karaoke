@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://kp25cj8q74bt"]
 
 [ext_resource type="PackedScene" path="res://scenes/ScrollingLyrics.tscn" id="1_lyrics"]
-[ext_resource type="PackedScene" uid="uid://08h24ixt4lfm" path="res://Quarantine/SongControlPanel.tscn" id="2_3ahlb"]
+[ext_resource type="PackedScene" uid="uid://08h24ixt4lfm" path="res://scenes/SongControlPanel.tscn" id="2_3ahlb"]
 
 [sub_resource type="GDScript" id="GDScript_test"]
 script/source = "extends Node
