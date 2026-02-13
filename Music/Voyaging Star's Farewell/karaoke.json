@@ -4,12 +4,12 @@
     "title": "Voyaging Star's Farewell",
     "language": "en",
     "duration_seconds": 225.048,
-    "created_at": "2026-02-10T18:16:29.225991+00:00"
+    "created_at": "2026-02-13T18:30:11.751896+00:00"
   },
   "audio": {
     "original": "Voyaging Star's Farewell.mp3",
-    "vocals": "Voyaging Star's Farewell_vocals.wav",
-    "instrumental": "Voyaging Star's Farewell_instrumental.wav"
+    "vocals": "vocals.wav",
+    "instrumental": "instrumental.wav"
   },
   "lines": [
     {
@@ -130,183 +130,95 @@
       "start": 84.28,
       "end": 91.62,
       "word_start_index": 87,
-      "word_end_index": 97
+      "word_end_index": 96
     },
     {
       "id": 15,
       "text": "Don't worry, I'm well aware",
       "start": 91.62,
       "end": 95.06,
-      "word_start_index": 97,
-      "word_end_index": 103
+      "word_start_index": 96,
+      "word_end_index": 102
     },
     {
       "id": 16,
       "text": "That there's no free smell in the end",
       "start": 95.84,
       "end": 101.04,
-      "word_start_index": 103,
-      "word_end_index": 110
+      "word_start_index": 102,
+      "word_end_index": 109
     },
     {
       "id": 17,
       "text": "Witches sigh on one little puff of spring",
       "start": 103.68,
       "end": 107.6,
-      "word_start_index": 110,
-      "word_end_index": 118
+      "word_start_index": 109,
+      "word_end_index": 117
     },
     {
       "id": 18,
       "text": "So I'll dance, flamboyantly into that good night",
       "start": 107.6,
       "end": 114.44,
-      "word_start_index": 118,
+      "word_start_index": 117,
       "word_end_index": 126
     },
     {
       "id": 19,
-      "text": "Boy, boy, yes",
-      "start": 116.94,
-      "end": 126.5,
+      "text": "May your path be clear",
+      "start": 127.38,
+      "end": 129.34,
       "word_start_index": 126,
       "word_end_index": 130
     },
     {
       "id": 20,
-      "text": "May your path be clear",
-      "start": 127.38,
-      "end": 129.34,
+      "text": "May you get aware",
+      "start": 129.88,
+      "end": 132.06,
       "word_start_index": 130,
       "word_end_index": 134
     },
     {
       "id": 21,
-      "text": "May you get aware",
-      "start": 129.88,
-      "end": 132.06,
+      "text": "Dreams are all crystallized",
+      "start": 132.06,
+      "end": 136.04,
       "word_start_index": 134,
       "word_end_index": 138
     },
     {
       "id": 22,
-      "text": "Dreams are all crystallized",
-      "start": 132.06,
-      "end": 136.04,
-      "word_start_index": 138,
-      "word_end_index": 142
-    },
-    {
-      "id": 23,
       "text": "Please, crack a little smile",
       "start": 136.04,
       "end": 140.62,
-      "word_start_index": 142,
-      "word_end_index": 147
+      "word_start_index": 138,
+      "word_end_index": 143
     },
     {
-      "id": 24,
+      "id": 23,
       "text": "You'll be alone",
       "start": 141.36,
       "end": 143.42,
-      "word_start_index": 147,
-      "word_end_index": 150
+      "word_start_index": 143,
+      "word_end_index": 146
     },
     {
-      "id": 25,
+      "id": 24,
       "text": "In this world you've chosen",
       "start": 143.96,
       "end": 146.88,
-      "word_start_index": 150,
-      "word_end_index": 155
+      "word_start_index": 146,
+      "word_end_index": 151
     },
     {
-      "id": 26,
+      "id": 25,
       "text": "As your own",
       "start": 146.88,
       "end": 148.72,
-      "word_start_index": 155,
-      "word_end_index": 158
-    },
-    {
-      "id": 27,
-      "text": "Tiny is such a dazzling way to",
-      "start": 148.72,
-      "end": 153.64,
-      "word_start_index": 158,
-      "word_end_index": 165
-    },
-    {
-      "id": 28,
-      "text": "Guess I'll spend my whole life unraveling",
-      "start": 154.18,
-      "end": 159.68,
-      "word_start_index": 165,
-      "word_end_index": 172
-    },
-    {
-      "id": 29,
-      "text": "Though it might cost me everything I have",
-      "start": 159.68,
-      "end": 165.24,
-      "word_start_index": 172,
-      "word_end_index": 180
-    },
-    {
-      "id": 30,
-      "text": "I never regret, wouldn't have been any other way",
-      "start": 165.24,
-      "end": 171.36,
-      "word_start_index": 180,
-      "word_end_index": 189
-    },
-    {
-      "id": 31,
-      "text": "Cause those two trees don't lie on their lonely roads",
-      "start": 171.36,
-      "end": 176.74,
-      "word_start_index": 189,
-      "word_end_index": 199
-    },
-    {
-      "id": 32,
-      "text": "We'll find their destinations in the cosmos",
-      "start": 177.28,
-      "end": 182.72,
-      "word_start_index": 199,
-      "word_end_index": 206
-    },
-    {
-      "id": 33,
-      "text": "Meeting you in this world with snowballs",
-      "start": 182.72,
-      "end": 187.98,
-      "word_start_index": 206,
-      "word_end_index": 213
-    },
-    {
-      "id": 34,
-      "text": "The most beautiful thing ever happened to me",
-      "start": 188.62,
-      "end": 194.74,
-      "word_start_index": 213,
-      "word_end_index": 221
-    },
-    {
-      "id": 35,
-      "text": "Thank you for watching!",
-      "start": 206.88,
-      "end": 224.04,
-      "word_start_index": 221,
-      "word_end_index": 225
-    },
-    {
-      "id": 36,
-      "text": "Thank you.",
-      "start": 224.74,
-      "end": 225.02,
-      "word_start_index": 225,
-      "word_end_index": 227
+      "word_start_index": 151,
+      "word_end_index": 154
     }
   ],
   "words": [
@@ -1139,15 +1051,6 @@
       "note": "A#4"
     },
     {
-      "text": "you've",
-      "start": 88.72,
-      "end": 89.08,
-      "line_id": 14,
-      "pitch_midi": 70.04,
-      "pitch_hz": 467.2,
-      "note": "A#4"
-    },
-    {
       "text": "chosen",
       "start": 89.08,
       "end": 89.82,
@@ -1445,37 +1348,10 @@
       "note": "D#4"
     },
     {
-      "text": "Boy,",
-      "start": 116.94,
-      "end": 118.1,
-      "line_id": 19,
-      "pitch_midi": 77.88,
-      "pitch_hz": 735.0,
-      "note": "F#5"
-    },
-    {
-      "text": "boy,",
-      "start": 125.24,
-      "end": 125.82,
-      "line_id": 19,
-      "pitch_midi": 71.0,
-      "pitch_hz": 494.0,
-      "note": "B4"
-    },
-    {
-      "text": "yes",
-      "start": 125.86,
-      "end": 126.5,
-      "line_id": 19,
-      "pitch_midi": 72.99,
-      "pitch_hz": 553.9,
-      "note": "C#5"
-    },
-    {
       "text": "May",
       "start": 127.28,
       "end": 127.86,
-      "line_id": 19,
+      "line_id": 18,
       "pitch_midi": 74.89,
       "pitch_hz": 618.3,
       "note": "D#5"
@@ -1484,7 +1360,7 @@
       "text": "your",
       "start": 127.86,
       "end": 128.26,
-      "line_id": 20,
+      "line_id": 19,
       "pitch_midi": 73.2,
       "pitch_hz": 561.0,
       "note": "C#5"
@@ -1493,7 +1369,7 @@
       "text": "path",
       "start": 128.26,
       "end": 128.6,
-      "line_id": 20,
+      "line_id": 19,
       "pitch_midi": 73.0,
       "pitch_hz": 554.4,
       "note": "C#5"
@@ -1502,7 +1378,7 @@
       "text": "be",
       "start": 128.6,
       "end": 128.84,
-      "line_id": 20,
+      "line_id": 19,
       "pitch_midi": 72.64,
       "pitch_hz": 543.0,
       "note": "C#5"
@@ -1511,7 +1387,7 @@
       "text": "clear",
       "start": 128.84,
       "end": 129.34,
-      "line_id": 20,
+      "line_id": 19,
       "pitch_midi": 70.78,
       "pitch_hz": 487.6,
       "note": "B4"
@@ -1520,7 +1396,7 @@
       "text": "May",
       "start": 129.88,
       "end": 130.74,
-      "line_id": 21,
+      "line_id": 20,
       "pitch_midi": 67.76,
       "pitch_hz": 409.6,
       "note": "G#4"
@@ -1529,7 +1405,7 @@
       "text": "you",
       "start": 130.74,
       "end": 131.14,
-      "line_id": 21,
+      "line_id": 20,
       "pitch_midi": 74.65,
       "pitch_hz": 609.8,
       "note": "D#5"
@@ -1538,7 +1414,7 @@
       "text": "get",
       "start": 131.14,
       "end": 131.44,
-      "line_id": 21,
+      "line_id": 20,
       "pitch_midi": 73.2,
       "pitch_hz": 560.9,
       "note": "C#5"
@@ -1547,7 +1423,7 @@
       "text": "aware",
       "start": 131.44,
       "end": 132.06,
-      "line_id": 21,
+      "line_id": 20,
       "pitch_midi": 70.98,
       "pitch_hz": 493.3,
       "note": "B4"
@@ -1556,7 +1432,7 @@
       "text": "Dreams",
       "start": 132.06,
       "end": 132.9,
-      "line_id": 22,
+      "line_id": 21,
       "pitch_midi": 66.43,
       "pitch_hz": 379.2,
       "note": "F#4"
@@ -1565,7 +1441,7 @@
       "text": "are",
       "start": 132.9,
       "end": 133.28,
-      "line_id": 22,
+      "line_id": 21,
       "pitch_midi": 67.65,
       "pitch_hz": 407.0,
       "note": "G#4"
@@ -1574,7 +1450,7 @@
       "text": "all",
       "start": 133.28,
       "end": 133.82,
-      "line_id": 22,
+      "line_id": 21,
       "pitch_midi": 64.13,
       "pitch_hz": 332.2,
       "note": "E4"
@@ -1583,7 +1459,7 @@
       "text": "crystallized",
       "start": 133.82,
       "end": 136.04,
-      "line_id": 22,
+      "line_id": 21,
       "pitch_midi": 70.07,
       "pitch_hz": 468.0,
       "note": "A#4"
@@ -1592,7 +1468,7 @@
       "text": "Please,",
       "start": 136.04,
       "end": 137.8,
-      "line_id": 23,
+      "line_id": 22,
       "pitch_midi": 71.01,
       "pitch_hz": 494.2,
       "note": "B4"
@@ -1601,7 +1477,7 @@
       "text": "crack",
       "start": 137.92,
       "end": 139.2,
-      "line_id": 23,
+      "line_id": 22,
       "pitch_midi": 74.9,
       "pitch_hz": 618.8,
       "note": "D#5"
@@ -1610,7 +1486,7 @@
       "text": "a",
       "start": 139.2,
       "end": 139.68,
-      "line_id": 23,
+      "line_id": 22,
       "pitch_midi": 73.74,
       "pitch_hz": 578.6,
       "note": "D5"
@@ -1619,7 +1495,7 @@
       "text": "little",
       "start": 139.68,
       "end": 140.08,
-      "line_id": 23,
+      "line_id": 22,
       "pitch_midi": 73.01,
       "pitch_hz": 554.8,
       "note": "C#5"
@@ -1628,7 +1504,7 @@
       "text": "smile",
       "start": 140.08,
       "end": 140.62,
-      "line_id": 23,
+      "line_id": 22,
       "pitch_midi": 71.02,
       "pitch_hz": 494.5,
       "note": "B4"
@@ -1637,7 +1513,7 @@
       "text": "You'll",
       "start": 141.36,
       "end": 142.32,
-      "line_id": 24,
+      "line_id": 23,
       "pitch_midi": 68.25,
       "pitch_hz": 421.3,
       "note": "G#4"
@@ -1646,7 +1522,7 @@
       "text": "be",
       "start": 142.32,
       "end": 142.78,
-      "line_id": 24,
+      "line_id": 23,
       "pitch_midi": 74.68,
       "pitch_hz": 611.0,
       "note": "D#5"
@@ -1655,7 +1531,7 @@
       "text": "alone",
       "start": 142.78,
       "end": 143.42,
-      "line_id": 24,
+      "line_id": 23,
       "pitch_midi": 71.01,
       "pitch_hz": 494.1,
       "note": "B4"
@@ -1664,7 +1540,7 @@
       "text": "In",
       "start": 143.96,
       "end": 144.72,
-      "line_id": 25,
+      "line_id": 24,
       "pitch_midi": 66.14,
       "pitch_hz": 373.1,
       "note": "F#4"
@@ -1673,7 +1549,7 @@
       "text": "this",
       "start": 144.72,
       "end": 145.16,
-      "line_id": 25,
+      "line_id": 24,
       "pitch_midi": 66.27,
       "pitch_hz": 375.7,
       "note": "F#4"
@@ -1682,7 +1558,7 @@
       "text": "world",
       "start": 145.16,
       "end": 145.78,
-      "line_id": 25,
+      "line_id": 24,
       "pitch_midi": 70.03,
       "pitch_hz": 466.9,
       "note": "A#4"
@@ -1691,7 +1567,7 @@
       "text": "you've",
       "start": 145.78,
       "end": 146.2,
-      "line_id": 25,
+      "line_id": 24,
       "pitch_midi": 69.91,
       "pitch_hz": 463.7,
       "note": "A#4"
@@ -1700,7 +1576,7 @@
       "text": "chosen",
       "start": 146.2,
       "end": 146.88,
-      "line_id": 25,
+      "line_id": 24,
       "pitch_midi": 69.98,
       "pitch_hz": 465.5,
       "note": "A#4"
@@ -1709,7 +1585,7 @@
       "text": "As",
       "start": 146.88,
       "end": 147.6,
-      "line_id": 26,
+      "line_id": 25,
       "pitch_midi": 70.78,
       "pitch_hz": 487.7,
       "note": "B4"
@@ -1718,7 +1594,7 @@
       "text": "your",
       "start": 147.6,
       "end": 147.96,
-      "line_id": 26,
+      "line_id": 25,
       "pitch_midi": 70.77,
       "pitch_hz": 487.3,
       "note": "B4"
@@ -1727,631 +1603,10 @@
       "text": "own",
       "start": 147.96,
       "end": 148.72,
-      "line_id": 26,
+      "line_id": 25,
       "pitch_midi": 72.83,
       "pitch_hz": 549.0,
       "note": "C#5"
-    },
-    {
-      "text": "Tiny",
-      "start": 148.72,
-      "end": 149.42,
-      "line_id": 27,
-      "pitch_midi": 69.97,
-      "pitch_hz": 465.4,
-      "note": "A#4"
-    },
-    {
-      "text": "is",
-      "start": 149.42,
-      "end": 151.12,
-      "line_id": 27,
-      "pitch_midi": 67.83,
-      "pitch_hz": 411.3,
-      "note": "G#4"
-    },
-    {
-      "text": "such",
-      "start": 151.12,
-      "end": 151.62,
-      "line_id": 27,
-      "pitch_midi": 74.98,
-      "pitch_hz": 621.4,
-      "note": "D#5"
-    },
-    {
-      "text": "a",
-      "start": 151.62,
-      "end": 151.84,
-      "line_id": 27,
-      "pitch_midi": 74.77,
-      "pitch_hz": 614.1,
-      "note": "D#5"
-    },
-    {
-      "text": "dazzling",
-      "start": 151.84,
-      "end": 152.98,
-      "line_id": 27,
-      "pitch_midi": 66.73,
-      "pitch_hz": 385.9,
-      "note": "G4"
-    },
-    {
-      "text": "way",
-      "start": 152.98,
-      "end": 153.38,
-      "line_id": 27,
-      "pitch_midi": 71.1,
-      "pitch_hz": 496.6,
-      "note": "B4"
-    },
-    {
-      "text": "to",
-      "start": 153.38,
-      "end": 153.64,
-      "line_id": 27,
-      "pitch_midi": 70.92,
-      "pitch_hz": 491.6,
-      "note": "B4"
-    },
-    {
-      "text": "Guess",
-      "start": 154.18,
-      "end": 155.14,
-      "line_id": 28,
-      "pitch_midi": 67.52,
-      "pitch_hz": 403.9,
-      "note": "G#4"
-    },
-    {
-      "text": "I'll",
-      "start": 155.14,
-      "end": 156.28,
-      "line_id": 28,
-      "pitch_midi": 66.71,
-      "pitch_hz": 385.4,
-      "note": "G4"
-    },
-    {
-      "text": "spend",
-      "start": 156.28,
-      "end": 156.8,
-      "line_id": 28,
-      "pitch_midi": 73.01,
-      "pitch_hz": 554.7,
-      "note": "C#5"
-    },
-    {
-      "text": "my",
-      "start": 156.8,
-      "end": 157.22,
-      "line_id": 28,
-      "pitch_midi": 73.0,
-      "pitch_hz": 554.3,
-      "note": "C#5"
-    },
-    {
-      "text": "whole",
-      "start": 157.22,
-      "end": 157.6,
-      "line_id": 28,
-      "pitch_midi": 72.96,
-      "pitch_hz": 552.9,
-      "note": "C#5"
-    },
-    {
-      "text": "life",
-      "start": 157.6,
-      "end": 157.98,
-      "line_id": 28,
-      "pitch_midi": 72.97,
-      "pitch_hz": 553.5,
-      "note": "C#5"
-    },
-    {
-      "text": "unraveling",
-      "start": 157.98,
-      "end": 159.68,
-      "line_id": 28,
-      "pitch_midi": 70.81,
-      "pitch_hz": 488.4,
-      "note": "B4"
-    },
-    {
-      "text": "Though",
-      "start": 159.68,
-      "end": 160.7,
-      "line_id": 29,
-      "pitch_midi": 71.02,
-      "pitch_hz": 494.5,
-      "note": "B4"
-    },
-    {
-      "text": "it",
-      "start": 160.7,
-      "end": 161.92,
-      "line_id": 29,
-      "pitch_midi": 74.82,
-      "pitch_hz": 615.9,
-      "note": "D#5"
-    },
-    {
-      "text": "might",
-      "start": 161.92,
-      "end": 162.62,
-      "line_id": 29,
-      "pitch_midi": 72.69,
-      "pitch_hz": 544.7,
-      "note": "C#5"
-    },
-    {
-      "text": "cost",
-      "start": 162.62,
-      "end": 163.0,
-      "line_id": 29,
-      "pitch_midi": 74.87,
-      "pitch_hz": 617.7,
-      "note": "D#5"
-    },
-    {
-      "text": "me",
-      "start": 163.0,
-      "end": 163.26,
-      "line_id": 29,
-      "pitch_midi": 74.89,
-      "pitch_hz": 618.4,
-      "note": "D#5"
-    },
-    {
-      "text": "everything",
-      "start": 163.26,
-      "end": 163.9,
-      "line_id": 29,
-      "pitch_midi": 73.0,
-      "pitch_hz": 554.3,
-      "note": "C#5"
-    },
-    {
-      "text": "I",
-      "start": 163.9,
-      "end": 164.78,
-      "line_id": 29,
-      "pitch_midi": 70.48,
-      "pitch_hz": 479.2,
-      "note": "A#4"
-    },
-    {
-      "text": "have",
-      "start": 164.78,
-      "end": 165.24,
-      "line_id": 29,
-      "pitch_midi": 72.93,
-      "pitch_hz": 552.2,
-      "note": "C#5"
-    },
-    {
-      "text": "I",
-      "start": 165.24,
-      "end": 166.52,
-      "line_id": 30,
-      "pitch_midi": 73.02,
-      "pitch_hz": 555.0,
-      "note": "C#5"
-    },
-    {
-      "text": "never",
-      "start": 166.52,
-      "end": 166.82,
-      "line_id": 30,
-      "pitch_midi": 59.04,
-      "pitch_hz": 247.5,
-      "note": "B3"
-    },
-    {
-      "text": "regret,",
-      "start": 166.82,
-      "end": 167.76,
-      "line_id": 30,
-      "pitch_midi": 72.75,
-      "pitch_hz": 546.3,
-      "note": "C#5"
-    },
-    {
-      "text": "wouldn't",
-      "start": 168.12,
-      "end": 169.26,
-      "line_id": 30,
-      "pitch_midi": 70.71,
-      "pitch_hz": 485.6,
-      "note": "B4"
-    },
-    {
-      "text": "have",
-      "start": 169.26,
-      "end": 169.28,
-      "line_id": 30,
-      "pitch_midi": 70.76,
-      "pitch_hz": 487.1,
-      "note": "B4"
-    },
-    {
-      "text": "been",
-      "start": 169.28,
-      "end": 170.06,
-      "line_id": 30,
-      "pitch_midi": 70.87,
-      "pitch_hz": 490.1,
-      "note": "B4"
-    },
-    {
-      "text": "any",
-      "start": 170.06,
-      "end": 170.62,
-      "line_id": 30,
-      "pitch_midi": 71.1,
-      "pitch_hz": 496.9,
-      "note": "B4"
-    },
-    {
-      "text": "other",
-      "start": 170.62,
-      "end": 170.96,
-      "line_id": 30,
-      "pitch_midi": 72.66,
-      "pitch_hz": 543.7,
-      "note": "C#5"
-    },
-    {
-      "text": "way",
-      "start": 170.96,
-      "end": 171.36,
-      "line_id": 30,
-      "pitch_midi": 70.0,
-      "pitch_hz": 466.0,
-      "note": "A#4"
-    },
-    {
-      "text": "Cause",
-      "start": 171.36,
-      "end": 171.84,
-      "line_id": 31,
-      "pitch_midi": 68.04,
-      "pitch_hz": 416.4,
-      "note": "G#4"
-    },
-    {
-      "text": "those",
-      "start": 171.84,
-      "end": 172.54,
-      "line_id": 31,
-      "pitch_midi": 74.87,
-      "pitch_hz": 617.6,
-      "note": "D#5"
-    },
-    {
-      "text": "two",
-      "start": 172.54,
-      "end": 173.36,
-      "line_id": 31,
-      "pitch_midi": 75.02,
-      "pitch_hz": 623.1,
-      "note": "D#5"
-    },
-    {
-      "text": "trees",
-      "start": 173.36,
-      "end": 174.04,
-      "line_id": 31,
-      "pitch_midi": 67.68,
-      "pitch_hz": 407.7,
-      "note": "G#4"
-    },
-    {
-      "text": "don't",
-      "start": 174.04,
-      "end": 174.38,
-      "line_id": 31,
-      "pitch_midi": 74.88,
-      "pitch_hz": 618.0,
-      "note": "D#5"
-    },
-    {
-      "text": "lie",
-      "start": 174.38,
-      "end": 174.74,
-      "line_id": 31,
-      "pitch_midi": 75.06,
-      "pitch_hz": 624.6,
-      "note": "D#5"
-    },
-    {
-      "text": "on",
-      "start": 174.74,
-      "end": 175.08,
-      "line_id": 31,
-      "pitch_midi": 61.08,
-      "pitch_hz": 278.4,
-      "note": "C#4"
-    },
-    {
-      "text": "their",
-      "start": 175.08,
-      "end": 175.36,
-      "line_id": 31,
-      "pitch_midi": 72.43,
-      "pitch_hz": 536.5,
-      "note": "C5"
-    },
-    {
-      "text": "lonely",
-      "start": 175.36,
-      "end": 176.02,
-      "line_id": 31,
-      "pitch_midi": 69.98,
-      "pitch_hz": 465.6,
-      "note": "A#4"
-    },
-    {
-      "text": "roads",
-      "start": 176.02,
-      "end": 176.74,
-      "line_id": 31,
-      "pitch_midi": 72.91,
-      "pitch_hz": 551.5,
-      "note": "C#5"
-    },
-    {
-      "text": "We'll",
-      "start": 177.28,
-      "end": 178.16,
-      "line_id": 32,
-      "pitch_midi": 72.63,
-      "pitch_hz": 542.5,
-      "note": "C#5"
-    },
-    {
-      "text": "find",
-      "start": 178.16,
-      "end": 179.08,
-      "line_id": 32,
-      "pitch_midi": 73.0,
-      "pitch_hz": 554.3,
-      "note": "C#5"
-    },
-    {
-      "text": "their",
-      "start": 179.08,
-      "end": 179.7,
-      "line_id": 32,
-      "pitch_midi": 65.83,
-      "pitch_hz": 366.3,
-      "note": "F#4"
-    },
-    {
-      "text": "destinations",
-      "start": 179.7,
-      "end": 180.78,
-      "line_id": 32,
-      "pitch_midi": 72.83,
-      "pitch_hz": 549.0,
-      "note": "C#5"
-    },
-    {
-      "text": "in",
-      "start": 180.78,
-      "end": 181.46,
-      "line_id": 32,
-      "pitch_midi": 70.88,
-      "pitch_hz": 490.5,
-      "note": "B4"
-    },
-    {
-      "text": "the",
-      "start": 181.46,
-      "end": 181.82,
-      "line_id": 32,
-      "pitch_midi": 70.08,
-      "pitch_hz": 468.3,
-      "note": "A#4"
-    },
-    {
-      "text": "cosmos",
-      "start": 181.82,
-      "end": 182.72,
-      "line_id": 32,
-      "pitch_midi": 69.86,
-      "pitch_hz": 462.5,
-      "note": "A#4"
-    },
-    {
-      "text": "Meeting",
-      "start": 182.72,
-      "end": 184.52,
-      "line_id": 33,
-      "pitch_midi": 64.08,
-      "pitch_hz": 331.2,
-      "note": "E4"
-    },
-    {
-      "text": "you",
-      "start": 184.52,
-      "end": 185.36,
-      "line_id": 33,
-      "pitch_midi": 68.45,
-      "pitch_hz": 426.1,
-      "note": "G#4"
-    },
-    {
-      "text": "in",
-      "start": 185.36,
-      "end": 185.76,
-      "line_id": 33,
-      "pitch_midi": 71.98,
-      "pitch_hz": 522.6,
-      "note": "C5"
-    },
-    {
-      "text": "this",
-      "start": 185.76,
-      "end": 186.22,
-      "line_id": 33,
-      "pitch_midi": 74.79,
-      "pitch_hz": 614.7,
-      "note": "D#5"
-    },
-    {
-      "text": "world",
-      "start": 186.22,
-      "end": 186.58,
-      "line_id": 33,
-      "pitch_midi": 74.09,
-      "pitch_hz": 590.4,
-      "note": "D5"
-    },
-    {
-      "text": "with",
-      "start": 186.58,
-      "end": 187.12,
-      "line_id": 33,
-      "pitch_midi": 70.18,
-      "pitch_hz": 471.0,
-      "note": "A#4"
-    },
-    {
-      "text": "snowballs",
-      "start": 187.12,
-      "end": 187.98,
-      "line_id": 33,
-      "pitch_midi": 71.08,
-      "pitch_hz": 496.0,
-      "note": "B4"
-    },
-    {
-      "text": "The",
-      "start": 188.62,
-      "end": 189.3,
-      "line_id": 34,
-      "pitch_midi": 62.98,
-      "pitch_hz": 310.8,
-      "note": "D#4"
-    },
-    {
-      "text": "most",
-      "start": 189.3,
-      "end": 190.42,
-      "line_id": 34,
-      "pitch_midi": 70.99,
-      "pitch_hz": 493.6,
-      "note": "B4"
-    },
-    {
-      "text": "beautiful",
-      "start": 190.42,
-      "end": 191.46,
-      "line_id": 34,
-      "pitch_midi": 70.62,
-      "pitch_hz": 483.2,
-      "note": "B4"
-    },
-    {
-      "text": "thing",
-      "start": 191.46,
-      "end": 192.2,
-      "line_id": 34,
-      "pitch_midi": 69.2,
-      "pitch_hz": 445.1,
-      "note": "A4"
-    },
-    {
-      "text": "ever",
-      "start": 192.2,
-      "end": 193.18,
-      "line_id": 34,
-      "pitch_midi": 67.99,
-      "pitch_hz": 415.2,
-      "note": "G#4"
-    },
-    {
-      "text": "happened",
-      "start": 193.18,
-      "end": 193.92,
-      "line_id": 34,
-      "pitch_midi": 72.14,
-      "pitch_hz": 527.6,
-      "note": "C5"
-    },
-    {
-      "text": "to",
-      "start": 193.92,
-      "end": 194.34,
-      "line_id": 34,
-      "pitch_midi": 71.89,
-      "pitch_hz": 519.8,
-      "note": "C5"
-    },
-    {
-      "text": "me",
-      "start": 194.34,
-      "end": 194.74,
-      "line_id": 34,
-      "pitch_midi": 75.9,
-      "pitch_hz": 655.6,
-      "note": "E5"
-    },
-    {
-      "text": "Thank",
-      "start": 206.88,
-      "end": 208.28,
-      "line_id": 35,
-      "pitch_midi": 53.95,
-      "pitch_hz": 184.5,
-      "note": "F#3"
-    },
-    {
-      "text": "you",
-      "start": 208.28,
-      "end": 208.28,
-      "line_id": 35,
-      "pitch_midi": 53.99,
-      "pitch_hz": 184.9,
-      "note": "F#3"
-    },
-    {
-      "text": "for",
-      "start": 208.28,
-      "end": 218.4,
-      "line_id": 35,
-      "pitch_midi": 67.85,
-      "pitch_hz": 411.8,
-      "note": "G#4"
-    },
-    {
-      "text": "watching!",
-      "start": 218.4,
-      "end": 224.04,
-      "line_id": 35,
-      "pitch_midi": 0.0,
-      "pitch_hz": 0.0,
-      "note": ""
-    },
-    {
-      "text": "Thank",
-      "start": 224.74,
-      "end": 225.02,
-      "line_id": 36,
-      "pitch_midi": 0.0,
-      "pitch_hz": 0.0,
-      "note": ""
-    },
-    {
-      "text": "you.",
-      "start": 225.02,
-      "end": 225.02,
-      "line_id": 36,
-      "pitch_midi": 0.0,
-      "pitch_hz": 0.0,
-      "note": ""
     }
   ]
 }

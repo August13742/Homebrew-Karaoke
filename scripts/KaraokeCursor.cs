@@ -22,6 +22,12 @@ namespace PitchGame
         
         [ExportGroup("Octave Folding")]
         [Export] public bool EnableOctaveFolding = true;
+
+        [ExportGroup("Timing Line")]
+        [Export] public bool ShowTimingLine = true;
+        [Export] public Color TimingLineColor = new Color(1, 1, 1, 0.2f);
+
+        [Export] public SongControlPanel ControlPanel;
         
         private Control _visual;
         private float _visualMidi = 60f;
@@ -30,12 +36,10 @@ namespace PitchGame
         
         // Target-anchored folding state
         private float _anchorMidi = 0f;
-        private SongControlPanel _controlPanel;
 
         public override void _Ready()
         {
             _visual = GetChildOrNull<Control>(0);
-            _controlPanel = GetTree().Root.FindChild("SongControlPanel", true, false) as SongControlPanel;
         }
 
         public override void _Process(double delta)
@@ -73,11 +77,22 @@ namespace PitchGame
             float clampedY = Mathf.Clamp(rawY, 0, Grid.Size.Y);
             Position = new Vector2(Grid.Size.X / 2f, clampedY);
 
+            QueueRedraw();
+
             if (_visual != null && _visual.Visible)
             {
                 float targetScale = _wasSinging ? 1.2f : 1.0f;
                 float s = Mathf.Lerp(_visual.Scale.X, targetScale, (float)delta * 10f);
                 _visual.Scale = new Vector2(s, s);
+            }
+        }
+
+        public override void _Draw()
+        {
+            if (ShowTimingLine && Grid != null)
+            {
+                // Vertical line spanning the grid height at the center (where cursor is)
+                DrawLine(new Vector2(0, -Position.Y), new Vector2(0, Grid.Size.Y - Position.Y), TimingLineColor, 1.0f);
             }
         }
         
@@ -113,7 +128,7 @@ namespace PitchGame
             if (AudioManager.Instance == null) return;
             
             double time = AudioManager.Instance.GetMusicPlaybackPosition();
-            float keyShift = _controlPanel?.KeyShiftSemitones ?? 0f;
+            float keyShift = ControlPanel?.KeyShiftSemitones ?? 0f;
             
             // Find the first word covering the current time with a valid pitch
             var words = LyricsSource.Data.Words;

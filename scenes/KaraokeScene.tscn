@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b8x0y7g506a1"]
 
-[ext_resource type="Script" uid="uid://chh8sl52np22e" path="res://scripts/Game.gd" id="1_43g1r"]
+[ext_resource type="Script" uid="uid://cp3fpufpti6dd" path="res://scripts/Game.cs" id="1_43g1r"]
 [ext_resource type="Script" uid="uid://c0bcnevik4s7g" path="res://scripts/PitchGrid.cs" id="2_7jgis"]
 [ext_resource type="Script" uid="uid://vjlol1ynntgt" path="res://scripts/TargetPitchVisualizer.cs" id="3_oduh4"]
 [ext_resource type="Script" uid="uid://d4m3p4a3jbsmc" path="res://scripts/KaraokeCursor.cs" id="4_mina7"]
@@ -13,8 +13,11 @@
 
 [sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_mic"]
 
-[node name="GameScene" type="Node" unique_id=2037345888]
+[node name="GameScene" type="Node" unique_id=2037345888 node_paths=PackedStringArray("LyricsSource", "Detector", "MicInput")]
 script = ExtResource("1_43g1r")
+LyricsSource = NodePath("CanvasLayer/ScrollingLyrics")
+Detector = NodePath("PitchDetector")
+MicInput = NodePath("MicInput")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=685560382]
 

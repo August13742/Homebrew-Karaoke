@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://c70x5f4o4jcnp"]
+
+[ext_resource type="Script" path="res://scripts/Jukebox/SongInspector.cs" id="1_script"]
+[node name="SongInspector" type="VBoxContainer" unique_id=1643952408]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_script")
+
+
+[node name="LabelSongName" type="Label" parent="." unique_id=2030667620]
+unique_name_in_owner = true
+
+layout_mode = 2
+theme_type_variation = &"HeaderLarge"
+text = "Select a Song"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="." unique_id=250061351]
+layout_mode = 2
+
+[node name="KeyShiftContainer" type="HBoxContainer" parent="." unique_id=1000]
+layout_mode = 2
+alignment = 1
+
+[node name="BtnKeyDown" type="Button" parent="KeyShiftContainer" unique_id=1001]
+unique_name_in_owner = true
+layout_mode = 2
+text = " - "
+
+[node name="LabelKeyShift" type="Label" parent="KeyShiftContainer" unique_id=1002]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Key: 0"
+
+[node name="BtnKeyUp" type="Button" parent="KeyShiftContainer" unique_id=1003]
+unique_name_in_owner = true
+layout_mode = 2
+text = " + "
+
+[node name="HSeparator2" type="HSeparator" parent="." unique_id=573934809]
+layout_mode = 2
+
+[node name="LabelStatsHeader" type="Label" parent="." unique_id=2005777236]
+layout_mode = 2
+text = "Statistics:"
+
+[node name="LabelStats" type="RichTextLabel" parent="." unique_id=19736026]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+text = "[i]Select a song...[/i]"
+
+[node name="ButtonLoad" type="Button" parent="." unique_id=1439859529]
+unique_name_in_owner = true
+layout_mode = 2
+text = "LOAD / PLAY"
+

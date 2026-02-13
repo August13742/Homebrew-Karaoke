@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using PitchGame;
 
 namespace PitchGame
 {

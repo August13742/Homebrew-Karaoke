@@ -16,6 +16,9 @@ namespace PitchGame
         
         public float CurrentScore { get; private set; } = 0f;
 
+        private int _cachedWordIndex = 0;
+        private double _lastTime = 0;
+
         public override void _Process(double delta)
         {
             if (LyricsSource == null || LyricsSource.Data == null || Detector == null) return;
@@ -24,8 +27,30 @@ namespace PitchGame
             double time = AudioManager.Instance.GetMusicPlaybackPosition();
             
             // Find active note(s) at current time
-            // Optimization: Could cache index, but LINQ FirstOrDefault is okay for ~300 items
-            var activeWord = LyricsSource.Data.Words.FirstOrDefault(w => w.Start <= time && w.End >= time && w.PitchMidi > 0);
+            // Optimization: Cached index scan for time-sorted words
+            var words = LyricsSource.Data.Words;
+            LyricWord activeWord = null;
+
+            // Start scanning from the cached index or 0 if time jumped backwards
+            if (time < _lastTime) _cachedWordIndex = 0;
+            _lastTime = time;
+
+            for (int i = _cachedWordIndex; i < words.Count; i++)
+            {
+                var w = words[i];
+                if (w.End < time) 
+                {
+                    _cachedWordIndex = i; // Advance cache
+                    continue;
+                }
+                if (w.Start > time) break; // Past current time (words are sorted)
+                
+                if (w.PitchMidi > 0)
+                {
+                    activeWord = w;
+                }
+                break;
+            }
 
             if (activeWord != null)
             {

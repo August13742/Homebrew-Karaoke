@@ -13,6 +13,7 @@ namespace PitchGame
     {
         [Export] public ScrollingLyrics LyricsSource;
         [Export] public PitchGrid Grid;
+        [Export] public SongControlPanel ControlPanel;
 
         [ExportGroup("Visual Settings")]
         [Export] public float PixelsPerSecond = 100.0f;
@@ -21,12 +22,8 @@ namespace PitchGame
         [Export] public float LookaheadSeconds = 4.0f;
         [Export] public float LookbehindSeconds = 1.0f;
 
-        private SongControlPanel _controlPanel;
-
         public override void _Ready()
         {
-            // Find SongControlPanel in the tree (it's a sibling in the CanvasLayer)
-            _controlPanel = GetTree().Root.FindChild("SongControlPanel", true, false) as SongControlPanel;
         }
 
         public override void _Process(double delta)
@@ -44,7 +41,7 @@ namespace PitchGame
             float centerX = Size.X / 2.0f;
             
             // Get key shift from control panel (0 if not found)
-            float keyShift = _controlPanel?.KeyShiftSemitones ?? 0f;
+            float keyShift = ControlPanel?.KeyShiftSemitones ?? 0f;
 
             foreach (var word in LyricsSource.Data.Words)
             {

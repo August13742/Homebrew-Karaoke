@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://key_shift_control"]
+
+[ext_resource type="Script" path="res://scripts/KeyShiftControl.cs" id="1_script"]
+
+[node name="KeyShiftControl" type="HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 4
+script = ExtResource("1_script")
+
+[node name="LblKey" type="Label" parent="."]
+layout_mode = 2
+text = "Key"
+
+[node name="BtnKeyDown" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+text = "▼"
+
+[node name="LblKeyShift" type="Label" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+horizontal_alignment = 1
+text = "0"
+
+[node name="BtnKeyUp" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+text = "▲"

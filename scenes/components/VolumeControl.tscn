@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://volume_control"]
+
+[ext_resource type="Script" path="res://scripts/VolumeControl.cs" id="1_script"]
+
+[node name="VolumeControl" type="HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 4
+script = ExtResource("1_script")
+
+[node name="Label" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Volume"
+
+[node name="Slider" type="HSlider" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+max_value = 1.5
+step = 0.05
+value = 1.0

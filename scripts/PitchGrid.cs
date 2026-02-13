@@ -15,6 +15,8 @@ namespace PitchGame
         [ExportGroup("Dependencies")]
         [Export] public ScrollingLyrics LyricsSource;
 
+        [Export] public SongControlPanel ControlPanel;
+
         [ExportGroup("Range")]
         [Export] public float DefaultMinMidi = 36f;  // C2 — fallback low
         [Export] public float DefaultMaxMidi = 84f;  // C6 — fallback high
@@ -45,12 +47,11 @@ namespace PitchGame
         {
             RangeMinMidi = DefaultMinMidi;
             RangeMaxMidi = DefaultMaxMidi;
-            _controlPanel = GetTree().Root.FindChild("SongControlPanel", true, false) as SongControlPanel;
         }
 
         public override void _Process(double delta)
         {
-            _keyShift = _controlPanel?.KeyShiftSemitones ?? 0f;
+            _keyShift = ControlPanel?.KeyShiftSemitones ?? 0f;
             UpdateRange((float)delta);
             QueueRedraw();
         }

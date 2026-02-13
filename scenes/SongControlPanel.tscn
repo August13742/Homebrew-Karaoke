@@ -1,25 +1,31 @@
 [gd_scene format=3 uid="uid://08h24ixt4lfm"]
 
 [ext_resource type="Script" uid="uid://cavippsaf3026" path="res://scripts/SongControlPanel.cs" id="1_script"]
-[ext_resource type="Texture2D" uid="uid://b4wtguq8qv6uc" path="res://UI/Asset 84@2x.png" id="2_nrhlm"]
-[ext_resource type="Texture2D" uid="uid://dej055ccvqg3o" path="res://UI/Asset 80@2x.png" id="3_m76mi"]
-[ext_resource type="Texture2D" uid="uid://cyadaybrq2eqy" path="res://UI/Asset 83@2x.png" id="4_ydk87"]
+[ext_resource type="Texture2D" uid="uid://dej055ccvqg3o" path="res://UI/Asset 80@2x.png" id="2_pause"]
+[ext_resource type="Texture2D" uid="uid://cyadaybrq2eqy" path="res://UI/Asset 83@2x.png" id="3_back"]
+[ext_resource type="PackedScene" uid="uid://playback_control" path="res://scenes/components/PlaybackControl.tscn" id="4_playback"]
+[ext_resource type="PackedScene" uid="uid://volume_control" path="res://scenes/components/VolumeControl.tscn" id="5_volume"]
+[ext_resource type="PackedScene" uid="uid://key_shift_control" path="res://scenes/components/KeyShiftControl.tscn" id="6_keyshift"]
 
-[node name="SongControlPanel" type="PanelContainer"]
+[node name="SongControlPanel" type="PanelContainer" node_paths=PackedStringArray("Playback", "KeyShift", "MusicVolume", "VocalVolume", "BtnBack", "LblSongTitle")]
 anchors_preset = 10
 anchor_right = 1.0
-offset_bottom = 68.0
+offset_bottom = 80.0
 grow_horizontal = 2
 script = ExtResource("1_script")
-IconPlay = ExtResource("2_nrhlm")
-IconPause = ExtResource("3_m76mi")
+Playback = NodePath("VBoxContainer/Controls/PlaybackControl")
+KeyShift = NodePath("VBoxContainer/Controls/KeyShiftControl")
+MusicVolume = NodePath("VBoxContainer/Controls/MusicVolume")
+VocalVolume = NodePath("VBoxContainer/Controls/VocalVolume")
+BtnBack = NodePath("VBoxContainer/Controls/BtnBack")
+LblSongTitle = NodePath("VBoxContainer/Controls/SongTitleContainer/LblSongTitle")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 2
 
 [node name="Controls" type="HBoxContainer" parent="VBoxContainer"]
 layout_mode = 2
-theme_override_constants/separation = 16
+theme_override_constants/separation = 12
 
 [node name="BtnBack" type="Button" parent="VBoxContainer/Controls"]
 unique_name_in_owner = true
@@ -27,12 +33,12 @@ layout_mode = 2
 size_flags_horizontal = 0
 focus_mode = 0
 text = "      "
-icon = ExtResource("4_ydk87")
+icon = ExtResource("3_back")
 icon_alignment = 1
 expand_icon = true
 
 [node name="SongTitleContainer" type="Control" parent="VBoxContainer/Controls"]
-custom_minimum_size = Vector2(200, 0)
+custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 clip_contents = true
 
@@ -51,114 +57,31 @@ text = "Song Title"
 [node name="VSeparator0" type="VSeparator" parent="VBoxContainer/Controls"]
 layout_mode = 2
 
-[node name="BtnRewind" type="Button" parent="VBoxContainer/Controls"]
+[node name="PlaybackControl" parent="VBoxContainer/Controls" instance=ExtResource("4_playback")]
 unique_name_in_owner = true
 layout_mode = 2
-focus_mode = 0
-text = "<< 5s"
 
-[node name="BtnRewind1" type="Button" parent="VBoxContainer/Controls"]
+[node name="VSeparator1" type="VSeparator" parent="VBoxContainer/Controls"]
+layout_mode = 2
+
+[node name="MusicVolume" parent="VBoxContainer/Controls" instance=ExtResource("5_volume")]
 unique_name_in_owner = true
 layout_mode = 2
-focus_mode = 0
-text = "<< 1s"
+LabelText = "Music"
+DefaultValue = 0.75
 
-[node name="BtnPlay" type="Button" parent="VBoxContainer/Controls"]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(40, 0)
+[node name="VSeparator2" type="VSeparator" parent="VBoxContainer/Controls"]
 layout_mode = 2
-focus_mode = 0
-icon = ExtResource("3_m76mi")
-icon_alignment = 1
-expand_icon = true
 
-[node name="BtnForward1" type="Button" parent="VBoxContainer/Controls"]
+[node name="VocalVolume" parent="VBoxContainer/Controls" instance=ExtResource("5_volume")]
 unique_name_in_owner = true
 layout_mode = 2
-focus_mode = 0
-text = "1s >>"
-
-[node name="BtnForward" type="Button" parent="VBoxContainer/Controls"]
-unique_name_in_owner = true
-layout_mode = 2
-focus_mode = 0
-text = "5s >>"
-
-[node name="LblTime" type="Label" parent="VBoxContainer/Controls"]
-unique_name_in_owner = true
-layout_mode = 2
-theme_override_font_sizes/font_size = 24
-text = "00:00"
-
-[node name="VSeparator" type="VSeparator" parent="VBoxContainer/Controls"]
-layout_mode = 2
-
-[node name="VolumeControls" type="HBoxContainer" parent="VBoxContainer/Controls"]
-layout_mode = 2
-theme_override_constants/separation = 8
-
-[node name="LblMusic" type="Label" parent="VBoxContainer/Controls/VolumeControls"]
-layout_mode = 2
-text = "Music"
-
-[node name="SliderMusicVol" type="HSlider" parent="VBoxContainer/Controls/VolumeControls"]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(80, 0)
-layout_mode = 2
-size_flags_vertical = 4
-focus_mode = 0
-max_value = 1.5
-step = 0.05
-value = 0.75
-
-[node name="VSeparator2" type="VSeparator" parent="VBoxContainer/Controls/VolumeControls"]
-layout_mode = 2
-
-[node name="LblVocal" type="Label" parent="VBoxContainer/Controls/VolumeControls"]
-layout_mode = 2
-text = "Vocal"
-
-[node name="SliderVocalVol" type="HSlider" parent="VBoxContainer/Controls/VolumeControls"]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(80, 0)
-layout_mode = 2
-size_flags_vertical = 4
-focus_mode = 0
-max_value = 1.5
-step = 0.05
-value = 1.0
+LabelText = "Vocal"
+DefaultValue = 1.0
 
 [node name="VSeparator3" type="VSeparator" parent="VBoxContainer/Controls"]
 layout_mode = 2
 
-[node name="KeyControls" type="HBoxContainer" parent="VBoxContainer/Controls"]
-layout_mode = 2
-theme_override_constants/separation = 4
-
-[node name="LblKey" type="Label" parent="VBoxContainer/Controls/KeyControls"]
-layout_mode = 2
-text = "Key"
-
-[node name="BtnKeyDown" type="Button" parent="VBoxContainer/Controls/KeyControls"]
+[node name="KeyShiftControl" parent="VBoxContainer/Controls" instance=ExtResource("6_keyshift")]
 unique_name_in_owner = true
 layout_mode = 2
-focus_mode = 0
-text = "▼"
-
-[node name="LblKeyShift" type="Label" parent="VBoxContainer/Controls/KeyControls"]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(30, 0)
-layout_mode = 2
-horizontal_alignment = 1
-text = "0"
-
-[node name="BtnKeyUp" type="Button" parent="VBoxContainer/Controls/KeyControls"]
-unique_name_in_owner = true
-layout_mode = 2
-focus_mode = 0
-text = "▲"
-
-[node name="SliderProgress" type="HSlider" parent="VBoxContainer"]
-unique_name_in_owner = true
-layout_mode = 2
-focus_mode = 0

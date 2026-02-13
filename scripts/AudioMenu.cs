@@ -16,6 +16,7 @@ namespace PitchGame
 
             if (DeviceSelector != null)
             {
+                DeviceSelector.FocusMode = FocusModeEnum.None;
                 PopulateDevices();
                 DeviceSelector.ItemSelected += OnDeviceSelected;
             }

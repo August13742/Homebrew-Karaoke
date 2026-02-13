@@ -3,12 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
+using PitchGame;
 
 public partial class ScrollingLyrics : Control
 {
-    [ExportCategory("Data")]
-    [Export] public string LyricsFilePath = "TestSong/Voyaging Star's Farewell_karaoke.json";
-
     [ExportCategory("Visuals")]
     [Export] public Font LyricFont; // MANDATORY: Assign .ttf or .tres
     [Export] public int FontSize = 52;
@@ -21,7 +19,7 @@ public partial class ScrollingLyrics : Control
     private Label _waitIndicator;
     private Label _debugLabel;
     private GDScript _rendererScript;
-
+    public string LyricsFilePath = "";
     // State
     public LyricData Data { get; private set; }
     private List<List<LyricWord>> _wordsByLine = new();
@@ -48,7 +46,13 @@ public partial class ScrollingLyrics : Control
         }
 
         SetupUI();
-        LoadLyrics();
+        
+        // Only auto-load if a path was set via Inspector (backward compatibility)
+        if (!string.IsNullOrEmpty(LyricsFilePath))
+        {
+            LoadLyrics();
+        }
+        
         Resized += OnResized;
     }
 
@@ -107,10 +111,24 @@ public partial class ScrollingLyrics : Control
         }
     }
 
-    private void LoadLyrics()
+    public void LoadLyrics(string overridePath = null)
     {
-        string path = ProjectSettings.GlobalizePath("res://" + LyricsFilePath);
-        if (!FileAccess.FileExists(path)) { _debugLabel.Text = "File not found"; return; }
+        if (overridePath != null) LyricsFilePath = overridePath;
+        if (string.IsNullOrEmpty(LyricsFilePath)) return;
+
+        string path = LyricsFilePath;
+        if (!path.StartsWith("res://") && !path.StartsWith("user://") && !path.IsAbsolutePath())
+        {
+            path = "res://" + path;
+        }
+
+        if (!FileAccess.FileExists(path)) 
+        { 
+            _debugLabel.Text = $"File not found: {path}";
+            _debugLabel.Visible = true;
+            GD.PrintErr($"[ScrollingLyrics] File not found: {path}");
+            return; 
+        }
 
         try 
         {
@@ -118,6 +136,10 @@ public partial class ScrollingLyrics : Control
             Data = JsonSerializer.Deserialize<LyricData>(file.GetAsText());
             
             if (Data?.Words == null) return;
+
+            // Reset state for new song
+            _wordsByLine.Clear();
+            ResetState();
 
             // Bucket sort words
             var grouped = Data.Words.GroupBy(w => w.LineId).OrderBy(g => g.Key);
@@ -127,7 +149,12 @@ public partial class ScrollingLyrics : Control
 
             _debugLabel.Visible = false;
         }
-        catch (Exception e) { _debugLabel.Text = e.Message; }
+        catch (Exception e) 
+        { 
+            _debugLabel.Text = e.Message; 
+            _debugLabel.Visible = true;
+            GD.PrintErr($"[ScrollingLyrics] Error loading lyrics: {e.Message}");
+        }
     }
 
     public override void _Process(double delta)

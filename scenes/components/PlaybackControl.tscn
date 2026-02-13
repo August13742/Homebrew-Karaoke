@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://cyoyg64dhjnx3"]
+
+[ext_resource type="Script" uid="uid://cabhvq6jw6lrr" path="res://scripts/PlaybackControl.cs" id="1_script"]
+
+[node name="PlaybackControl" type="VBoxContainer" unique_id=1402525005]
+offset_right = 437.0
+offset_bottom = 229.0
+theme_override_constants/separation = 4
+script = ExtResource("1_script")
+
+[node name="SliderProgress" type="HSlider" parent="." unique_id=1602747956]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+focus_mode = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1740316671]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="BtnRewind" type="Button" parent="HBoxContainer" unique_id=1565879306]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+text = "<< 5s"
+
+[node name="BtnRewind1" type="Button" parent="HBoxContainer" unique_id=493324702]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+text = "<< 1s"
+
+[node name="BtnPlay" type="Button" parent="HBoxContainer" unique_id=1112782597]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+focus_mode = 0
+text = ">"
+
+[node name="BtnForward1" type="Button" parent="HBoxContainer" unique_id=2018320710]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+text = "1s >>"
+
+[node name="BtnForward" type="Button" parent="HBoxContainer" unique_id=75379184]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+text = "5s >>"
+
+[node name="LblTime" type="Label" parent="HBoxContainer" unique_id=641258062]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "00:00"
