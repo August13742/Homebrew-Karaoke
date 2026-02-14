@@ -29,13 +29,14 @@ https://github.com/user-attachments/assets/85d923c6-b2e2-44b8-8031-625c21e34942
 
 ---
 
-Most notorious bug is lyrics hallucination & accuracy.\
+Most notorious bug is **lyrics hallucination & accuracy**.\
 Tested QwenASR/Force-Aligner, WhisperX & WhisperASR (and hybrids like Whisper + QwenFA / Whisper + WhisperX-FA),\
 turns out Whisper(with very loose parameters) is still best for this. 
 
 
 
-However, since the parameter is very forgiving, it will hallucinate lyrics when there is only silence. <- Maybe I can do something to try to solve it?(2026/2/11) <- already implemented (2026 2/14), results should be much better now
+However, since the parameter is very forgiving, it will hallucinate lyrics when there is only silence. <- Maybe I can do something to try to solve it?(2026/2/11) <- already implemented (2026 2/14), results should be much better now. \
+Though, non-hallucination (semantic / pronunciation) errors might not be fixable without looking into alternative models.
 
 
 ---
