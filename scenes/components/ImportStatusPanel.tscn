@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://c6xk5xq6m8p2n"]
 
-[ext_resource type="Script" path="res://scripts/Jukebox/ImportStatusPanel.cs" id="1_script"]
+[ext_resource type="Script" uid="uid://5yp5copnk532" path="res://scripts/Jukebox/ImportStatusPanel.cs" id="1_script"]
 
-[node name="ImportStatusPanel" type="Control"]
+[node name="ImportStatusPanel" type="Control" unique_id=605645053]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +11,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_script")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1941621745]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -20,54 +20,86 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 0.470588)
 
-[node name="PanelContainer" type="PanelContainer" parent="."]
-custom_minimum_size = Vector2(400, 300)
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=319658891]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(800, 700)
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -200.0
-offset_top = -150.0
-offset_right = 200.0
-offset_bottom = 150.0
+offset_left = -250.0
+offset_top = -200.0
+offset_right = 250.0
+offset_bottom = 200.0
 grow_horizontal = 2
 grow_vertical = 2
+pivot_offset = Vector2(250, 200)
 
-[node name="VBox" type="VBoxContainer" parent="PanelContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=1516004010]
 layout_mode = 2
-theme_override_constants/separation = 10
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
 
-[node name="Label" type="Label" parent="PanelContainer/VBox"]
+[node name="VBox" type="VBoxContainer" parent="PanelContainer/MarginContainer" unique_id=686281223]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="LblStatus" type="Label" parent="PanelContainer/MarginContainer/VBox" unique_id=913556548]
+unique_name_in_owner = true
 layout_mode = 2
 theme_override_font_sizes/font_size = 24
 text = "Importing Song..."
 horizontal_alignment = 1
 
-[node name="ProgressBar" type="ProgressBar" parent="PanelContainer/VBox"]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(0, 30)
+[node name="HSeparator" type="HSeparator" parent="PanelContainer/MarginContainer/VBox" unique_id=731507561]
 layout_mode = 2
 
-[node name="LblStatus" type="Label" parent="PanelContainer/VBox"]
+[node name="OverallBox" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBox" unique_id=1408514545]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PanelContainer/MarginContainer/VBox/OverallBox" unique_id=1977367858]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6, 0.6, 0.6, 1)
+theme_override_font_sizes/font_size = 12
+text = "OVERALL PROGRESS"
+
+[node name="OverallProgressBar" type="ProgressBar" parent="PanelContainer/MarginContainer/VBox/OverallBox" unique_id=38747925]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+show_percentage = false
+
+[node name="StageBox" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBox" unique_id=1627383459]
+layout_mode = 2
+
+[node name="LblStage" type="Label" parent="PanelContainer/MarginContainer/VBox/StageBox" unique_id=1062158570]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Stage: Preparation"
-horizontal_alignment = 1
+theme_override_font_sizes/font_size = 14
+text = "Current Stage: Separation"
 
-[node name="LogBox" type="RichTextLabel" parent="PanelContainer/VBox"]
+[node name="StageProgressBar" type="ProgressBar" parent="PanelContainer/MarginContainer/VBox/StageBox" unique_id=850890930]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+
+[node name="LogBox" type="RichTextLabel" parent="PanelContainer/MarginContainer/VBox" unique_id=1804682455]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/default_color = Color(0.819608, 0.819608, 0.819608, 1)
 theme_override_font_sizes/normal_font_size = 12
 bbcode_enabled = true
+text = "[color=gray]Initialising pipeline...[/color]"
 scroll_following = true
 
-[node name="BtnClose" type="Button" parent="PanelContainer/VBox"]
+[node name="BtnClose" type="Button" parent="PanelContainer/MarginContainer/VBox" unique_id=1294445030]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(100, 40)
+custom_minimum_size = Vector2(120, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 disabled = true

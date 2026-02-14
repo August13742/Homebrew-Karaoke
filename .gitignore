@@ -15,5 +15,7 @@ data_*/
 mono_crash.*.json
 *.wav
 *.wav.import
+*.ogg
+*.ogg.import
 
 /.agent/

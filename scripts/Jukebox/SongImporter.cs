@@ -2,6 +2,7 @@ using Godot;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -16,6 +17,18 @@ namespace PitchGame
 
         private readonly string[] _supportedExtensions = { "mp3", "wav", "flac", "ogg", "m4a", "aac" };
         private bool _isImporting = false;
+        private System.Diagnostics.Process _currentProcess;
+
+        public void CancelImport()
+        {
+            if (_currentProcess != null && !_currentProcess.HasExited)
+            {
+                try {
+                    _currentProcess.Kill(true); // Kill entire tree (uv + python)
+                    GD.Print("[SongImporter] Import cancelled by user.");
+                } catch { }
+            }
+        }
 
         public void ProcessFiles(string[] files)
         {
@@ -60,8 +73,12 @@ namespace PitchGame
             string musicPath = ProjectSettings.GlobalizePath("res://Music");
             string outputDir = Path.Combine(musicPath); // main.py karaoke creates a subfolder by default
 
-            GD.Print($"[SongImporter] Importing {fileName} to {outputDir}");
-            EmitSignal(SignalName.ImportStarted, fileName);
+            GD.Print($"[SongImporter] Importing {fileName}");
+            GD.Print($"[SongImporter] Input: {inputPath}");
+            GD.Print($"[SongImporter] Output directory: {outputDir}");
+            
+            CallDeferred(MethodName.EmitSignal, SignalName.ImportStarted, fileName);
+            CallDeferred(MethodName.EmitSignal, SignalName.ImportLog, $"Starting import of {fileName}...");
 
             try
             {
@@ -69,6 +86,16 @@ namespace PitchGame
                 string pythonRoot = ProjectSettings.GlobalizePath("res://Audio-Processing-Utilities");
                 string mainPy = Path.Combine(pythonRoot, "main.py");
                 
+                if (!File.Exists(inputPath))
+                {
+                    throw new FileNotFoundException($"Input file not found: {inputPath}");
+                }
+                
+                if (!Directory.Exists(pythonRoot))
+                {
+                    throw new DirectoryNotFoundException($"Python utilities directory not found: {pythonRoot}");
+                }
+
                 string[] args = { 
                     "run", 
                     mainPy, 
@@ -77,22 +104,19 @@ namespace PitchGame
                     outputDir 
                 };
 
-                // We use uv from PATH. 
-                // Note: On Linux, 'uv' should be in the shell environment.
-                
-                int pid = OS.CreateProcess("uv", args, true); // true to open child's stdout/stderr pipes? 
-                // Actually OS.CreateProcess doesn't return pipes easily in C# Godot 4.
-                // Better to use System.Diagnostics.Process for fine-grained IO control.
+                GD.Print($"[SongImporter] Python root: {pythonRoot}");
+                GD.Print($"[SongImporter] Arguments: {string.Join(" ", args)}");
                 
                 await RunProcessWithOutput("uv", args, pythonRoot);
                 
-                EmitSignal(SignalName.ImportCompleted, songName, true);
+                CallDeferred(MethodName.EmitSignal, SignalName.ImportLog, $"[color=green]Import completed successfully![/color]");
+                CallDeferred(MethodName.EmitSignal, SignalName.ImportCompleted, songName, true);
             }
             catch (Exception e)
             {
-                GD.PrintErr($"[SongImporter] Error during import: {e.Message}");
-                EmitSignal(SignalName.ImportLog, $"Exception: {e.Message}");
-                EmitSignal(SignalName.ImportCompleted, songName, false);
+                GD.PrintErr($"[SongImporter] Error during import: {e.GetType().Name}: {e.Message}\n{e.StackTrace}");
+                CallDeferred(MethodName.EmitSignal, SignalName.ImportLog, $"[color=red]Error: {e.Message}[/color]");
+                CallDeferred(MethodName.EmitSignal, SignalName.ImportCompleted, songName, false);
             }
             finally
             {
@@ -113,64 +137,123 @@ namespace PitchGame
                 WorkingDirectory = workingDir
             };
 
-            using (var process = new System.Diagnostics.Process { StartInfo = startInfo })
+            try
             {
-                process.Start();
+                _currentProcess = new System.Diagnostics.Process { StartInfo = startInfo };
+                
+                // Log the command being executed
+                GD.Print($"[SongImporter] Executing: {command} {string.Join(" ", QuoteArgs(args))}");
+                GD.Print($"[SongImporter] Working directory: {workingDir}");
+                
+                if (!_currentProcess.Start())
+                {
+                    throw new Exception("Failed to start process");
+                }
 
-                // Handle stderr for progress
+                var errors = new List<string>();
+                var errorsCopy = errors; // Capture for closure
+
+                // Handle stderr for progress and logs
                 var errorTask = Task.Run(async () =>
                 {
-                    while (!process.StandardError.EndOfStream)
+                    try
                     {
-                        var line = await process.StandardError.ReadLineAsync();
-                        if (string.IsNullOrWhiteSpace(line)) continue;
-
-                        try
+                        string line;
+                        while ((line = await _currentProcess.StandardError.ReadLineAsync()) != null)
                         {
-                            if (line.StartsWith("{"))
+                            if (string.IsNullOrWhiteSpace(line)) continue;
+
+                            errorsCopy.Add(line);
+
+                            try
                             {
-                                var doc = JsonDocument.Parse(line);
-                                if (doc.RootElement.TryGetProperty("type", out var type) && type.GetString() == "progress")
+                                // Try to parse as JSON progress
+                                if (line.StartsWith("{"))
                                 {
-                                    string stage = doc.RootElement.GetProperty("stage").GetString();
-                                    float progress = (float)doc.RootElement.GetProperty("progress").GetDouble();
-                                    CallDeferred(MethodName.EmitSignal, SignalName.ImportProgress, stage, progress);
+                                    var doc = JsonDocument.Parse(line);
+                                    if (doc.RootElement.TryGetProperty("type", out var type) && type.GetString() == "progress")
+                                    {
+                                        string stage = doc.RootElement.GetProperty("stage").GetString();
+                                        float progress = (float)doc.RootElement.GetProperty("progress").GetDouble();
+                                        GD.Print($"[SongImporter] Progress: {stage} {progress * 100:F0}%");
+                                        CallDeferred(MethodName.EmitSignal, SignalName.ImportProgress, stage, progress);
+                                    }
+                                    else
+                                    {
+                                        // Non-progress JSON, log it
+                                        CallDeferred(MethodName.EmitSignal, SignalName.ImportLog, $"[JSON] {line}");
+                                    }
+                                }
+                                else
+                                {
+                                    // Human-readable log line
+                                    string styledLine = line;
+                                    // Basic anchor highlighting
+                                    if (line.Contains("[1/5]")) styledLine = $"[color=yellow][SEP][/color] {line}";
+                                    else if (line.Contains("[2/5]")) styledLine = $"[color=orange][ENH][/color] {line}";
+                                    else if (line.Contains("[3/5]")) styledLine = $"[color=cyan][ASR][/color] {line}";
+                                    else if (line.Contains("[4/5]")) styledLine = $"[color=pink][ALN][/color] {line}";
+                                    else if (line.Contains("[5/5]")) styledLine = $"[color=magenta][PTH][/color] {line}";
+                                    else if (line.Contains("[DONE]")) styledLine = $"[color=green][OK][/color] {line}";
+                                    else if (line.Contains("[ERR]")) styledLine = $"[color=red][ERR][/color] {line}";
+                                    
+                                    GD.Print($"[SongImporter] Stderr: {line}");
+                                    CallDeferred(MethodName.EmitSignal, SignalName.ImportLog, styledLine);
                                 }
                             }
-                            else
+                            catch (Exception ex)
                             {
-                                CallDeferred(MethodName.EmitSignal, SignalName.ImportLog, line);
+                                GD.PrintErr($"[SongImporter] Error parsing stderr line: {ex.Message}");
+                                CallDeferred(MethodName.EmitSignal, SignalName.ImportLog, $"[color=orange]LOG: {line}[/color]");
                             }
                         }
-                        catch
-                        {
-                            CallDeferred(MethodName.EmitSignal, SignalName.ImportLog, line);
-                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        GD.PrintErr($"[SongImporter] Error reading stderr: {ex.Message}");
                     }
                 });
 
                 // Handle stdout (the final result)
                 var outputTask = Task.Run(async () =>
                 {
-                    while (!process.StandardOutput.EndOfStream)
+                    try
                     {
-                        var line = await process.StandardOutput.ReadLineAsync();
-                        if (!string.IsNullOrWhiteSpace(line))
+                        string line;
+                        while ((line = await _currentProcess.StandardOutput.ReadLineAsync()) != null)
                         {
-                             GD.Print($"[Python STDOUT] {line}");
+                            if (!string.IsNullOrWhiteSpace(line))
+                            {
+                                GD.Print($"[SongImporter] Stdout: {line}");
+                            }
                         }
+                    }
+                    catch (Exception ex)
+                    {
+                        GD.PrintErr($"[SongImporter] Error reading stdout: {ex.Message}");
                     }
                 });
 
+                // Wait for both streams and process to complete
                 await Task.WhenAll(errorTask, outputTask);
-                process.WaitForExit();
+                _currentProcess.WaitForExit();
 
-                if (process.ExitCode != 0)
+                GD.Print($"[SongImporter] Process exited with code: {_currentProcess.ExitCode}");
+
+                if (_currentProcess.ExitCode != 0)
                 {
-                    throw new Exception($"Process failed with exit code {process.ExitCode}");
+                    string errorLog = string.Join("\n", errors.TakeLast(10)); // Last 10 error lines
+                    throw new Exception($"Process failed with exit code {_currentProcess.ExitCode}:\n{errorLog}");
                 }
             }
+            finally
+            {
+                _currentProcess?.Dispose();
+                _currentProcess = null;
+            }
         }
+
+        
 
         private List<string> QuoteArgs(string[] args)
         {

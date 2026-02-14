@@ -69,8 +69,8 @@ namespace PitchGame
 
             var musicRes = new MusicResource
             {
-                Clip = GD.Load<AudioStream>(data.InstrumentalPath),
-                VocalClip = GD.Load<AudioStream>(data.VocalsPath),
+                Clip = ExternalAudioLoader.LoadAudio(data.InstrumentalPath),
+                VocalClip = ExternalAudioLoader.LoadAudio(data.VocalsPath),
                 Volume = 1.0f,
                 FadeTime = 1.0f,
                 Loop = true

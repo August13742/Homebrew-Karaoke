@@ -4,1662 +4,1616 @@
     "title": "Voyaging Star's Farewell",
     "language": "en",
     "duration_seconds": 225.048,
-    "created_at": "2026-02-13T21:26:53.385361+00:00"
+    "created_at": "2026-02-14T03:07:45.072770+00:00"
   },
   "audio": {
-    "original": "Voyaging Star's Farewell.mp3",
-    "vocals": "vocals.wav",
-    "instrumental": "instrumental.wav"
+    "original": "Voyaging Star's Farewell.m4a",
+    "vocals": "vocals.ogg",
+    "instrumental": "instrumental.ogg"
   },
   "lines": [
     {
       "id": 0,
-      "text": "The last snowflake once fell on my nose",
-      "start": 22.4,
-      "end": 27.62,
+      "text": "The snowflake once fell on my nose, now flying backwards to last winter",
+      "start": 22.65,
+      "end": 32.17,
       "word_start_index": 0,
-      "word_end_index": 8
+      "word_end_index": 13
     },
     {
       "id": 1,
-      "text": "Now flying backwards to last winter",
-      "start": 27.62,
-      "end": 32.16,
-      "word_start_index": 8,
-      "word_end_index": 14
+      "text": "I realize that hellos are goodbyes the moment I softly let go of your hand",
+      "start": 33.95,
+      "end": 45.19,
+      "word_start_index": 13,
+      "word_end_index": 28
     },
     {
       "id": 2,
-      "text": "I realize that hellos are goodbyes",
-      "start": 34.0,
-      "end": 39.52,
-      "word_start_index": 14,
-      "word_end_index": 20
-    },
-    {
-      "id": 3,
-      "text": "The moment I softly let go of your hand",
-      "start": 39.52,
-      "end": 45.26,
-      "word_start_index": 20,
-      "word_end_index": 29
-    },
-    {
-      "id": 4,
-      "text": "Wings of fruit, trembling branches",
-      "start": 45.26,
-      "end": 49.84,
-      "word_start_index": 29,
+      "text": "Wings of fruit, the trembling branches",
+      "start": 46.45,
+      "end": 50.27,
+      "word_start_index": 28,
       "word_end_index": 34
     },
     {
-      "id": 5,
-      "text": "A soul for soul bound to soar",
-      "start": 50.68,
-      "end": 53.9,
+      "id": 3,
+      "text": "A soul for a soul bound to soar",
+      "start": 50.27,
+      "end": 53.91,
       "word_start_index": 34,
-      "word_end_index": 41
+      "word_end_index": 42
+    },
+    {
+      "id": 4,
+      "text": "To the very edge of the staring ocean",
+      "start": 53.91,
+      "end": 57.51,
+      "word_start_index": 42,
+      "word_end_index": 50
+    },
+    {
+      "id": 5,
+      "text": "And if, and if, I mean to fall apart",
+      "start": 57.51,
+      "end": 61.89,
+      "word_start_index": 50,
+      "word_end_index": 59
     },
     {
       "id": 6,
-      "text": "To the very edge of the staring ocean",
-      "start": 53.9,
-      "end": 57.5,
-      "word_start_index": 41,
-      "word_end_index": 49
-    },
-    {
-      "id": 7,
-      "text": "If and if I'm meant to fall apart",
-      "start": 57.5,
-      "end": 61.9,
-      "word_start_index": 49,
-      "word_end_index": 57
-    },
-    {
-      "id": 8,
-      "text": "I will decide where you are for all time",
-      "start": 61.9,
-      "end": 67.24,
-      "word_start_index": 57,
-      "word_end_index": 66
-    },
-    {
-      "id": 9,
-      "text": "Above all years",
-      "start": 67.24,
-      "end": 69.38,
-      "word_start_index": 66,
+      "text": "I will be set where you are for all time",
+      "start": 61.89,
+      "end": 67.23,
+      "word_start_index": 59,
       "word_end_index": 69
     },
     {
-      "id": 10,
-      "text": "May your path be clear",
-      "start": 70.18,
-      "end": 72.26,
+      "id": 7,
+      "text": "But oh yeah",
+      "start": 67.23,
+      "end": 69.35,
       "word_start_index": 69,
-      "word_end_index": 74
+      "word_end_index": 72
+    },
+    {
+      "id": 8,
+      "text": "May your path be clear",
+      "start": 69.35,
+      "end": 72.27,
+      "word_start_index": 72,
+      "word_end_index": 77
+    },
+    {
+      "id": 9,
+      "text": "May you get aware, dreams are all crystallized",
+      "start": 72.27,
+      "end": 78.79,
+      "word_start_index": 77,
+      "word_end_index": 85
+    },
+    {
+      "id": 10,
+      "text": "Will, please, crack a little smile",
+      "start": 78.79,
+      "end": 83.51,
+      "word_start_index": 85,
+      "word_end_index": 91
     },
     {
       "id": 11,
-      "text": "May you get aware",
-      "start": 72.26,
-      "end": 74.84,
-      "word_start_index": 74,
-      "word_end_index": 78
+      "text": "You belong in this world you've chosen as your own",
+      "start": 84.23,
+      "end": 91.61,
+      "word_start_index": 91,
+      "word_end_index": 101
     },
     {
       "id": 12,
-      "text": "Dreams are all crystallized",
-      "start": 74.84,
-      "end": 78.5,
-      "word_start_index": 78,
-      "word_end_index": 82
+      "text": "Don't worry, I'm well aware that",
+      "start": 91.61,
+      "end": 96.17,
+      "word_start_index": 101,
+      "word_end_index": 108
     },
     {
       "id": 13,
-      "text": "Sweet, please, crack a little smile",
-      "start": 78.5,
-      "end": 83.5,
-      "word_start_index": 82,
-      "word_end_index": 88
-    },
-    {
-      "id": 14,
-      "text": "You and me alone",
-      "start": 84.3,
-      "end": 86.3,
-      "word_start_index": 88,
-      "word_end_index": 92
-    },
-    {
-      "id": 15,
-      "text": "In this world you've chosen as your own",
-      "start": 87.02,
-      "end": 91.6,
-      "word_start_index": 92,
-      "word_end_index": 100
-    },
-    {
-      "id": 16,
-      "text": "Don't worry, I'm well aware",
-      "start": 91.6,
-      "end": 95.06,
-      "word_start_index": 100,
-      "word_end_index": 105
-    },
-    {
-      "id": 17,
-      "text": "That there's no free smell in the end",
-      "start": 95.64,
-      "end": 101.02,
-      "word_start_index": 105,
+      "text": "All snowflakes melt in the end",
+      "start": 96.71,
+      "end": 100.97,
+      "word_start_index": 108,
       "word_end_index": 113
     },
     {
-      "id": 18,
-      "text": "Witches sigh on one little palm spring",
-      "start": 103.58,
-      "end": 107.56,
+      "id": 14,
+      "text": "Witches sigh on warmth and hope of spring",
+      "start": 103.71,
+      "end": 107.61,
       "word_start_index": 113,
-      "word_end_index": 120
+      "word_end_index": 121
     },
     {
-      "id": 19,
-      "text": "So I'll dance, flamboyantly into that good night land",
-      "start": 107.56,
-      "end": 114.92,
-      "word_start_index": 120,
-      "word_end_index": 129
+      "id": 15,
+      "text": "So Elden's flamboyant to that good night",
+      "start": 107.61,
+      "end": 114.43,
+      "word_start_index": 121,
+      "word_end_index": 128
     },
     {
-      "id": 20,
-      "text": "Bold voyage, may your path be clear",
-      "start": 124.26,
-      "end": 129.42,
-      "word_start_index": 129,
+      "id": 16,
+      "text": "Bove, oh yes",
+      "start": 124.47,
+      "end": 126.55,
+      "word_start_index": 128,
+      "word_end_index": 132
+    },
+    {
+      "id": 17,
+      "text": "May your path be clear",
+      "start": 127.37,
+      "end": 129.35,
+      "word_start_index": 132,
       "word_end_index": 136
     },
     {
-      "id": 21,
-      "text": "May you get aware, dreams are all crystallized",
-      "start": 129.42,
-      "end": 136.06,
+      "id": 18,
+      "text": "May you get aware",
+      "start": 129.35,
+      "end": 131.99,
       "word_start_index": 136,
-      "word_end_index": 144
+      "word_end_index": 140
+    },
+    {
+      "id": 19,
+      "text": "Dreams are all crystallized with",
+      "start": 131.99,
+      "end": 136.47,
+      "word_start_index": 140,
+      "word_end_index": 145
+    },
+    {
+      "id": 20,
+      "text": "Please, crack a little smile",
+      "start": 136.47,
+      "end": 140.65,
+      "word_start_index": 145,
+      "word_end_index": 150
+    },
+    {
+      "id": 21,
+      "text": "You'll be alone",
+      "start": 141.33,
+      "end": 143.41,
+      "word_start_index": 150,
+      "word_end_index": 153
     },
     {
       "id": 22,
-      "text": "Please, crack a little smile",
-      "start": 136.06,
-      "end": 140.62,
-      "word_start_index": 144,
-      "word_end_index": 149
+      "text": "In this world you've chosen",
+      "start": 143.93,
+      "end": 146.89,
+      "word_start_index": 153,
+      "word_end_index": 158
     },
     {
       "id": 23,
-      "text": "You'll be alone in this world you've chosen",
-      "start": 141.34,
-      "end": 146.86,
-      "word_start_index": 149,
-      "word_end_index": 157
+      "text": "As your own",
+      "start": 146.89,
+      "end": 148.87,
+      "word_start_index": 158,
+      "word_end_index": 161
     },
     {
       "id": 24,
-      "text": "As your own",
-      "start": 146.86,
-      "end": 148.72,
-      "word_start_index": 157,
-      "word_end_index": 160
+      "text": "Tiny, it's such a dazzling riddle",
+      "start": 148.87,
+      "end": 153.69,
+      "word_start_index": 161,
+      "word_end_index": 167
     },
     {
       "id": 25,
-      "text": "It's such a dancing way to get yourself",
-      "start": 149.98,
-      "end": 156.06,
-      "word_start_index": 160,
-      "word_end_index": 168
+      "text": "Guess I'll spend my whole life unraveling",
+      "start": 154.59,
+      "end": 159.95,
+      "word_start_index": 167,
+      "word_end_index": 174
     },
     {
       "id": 26,
-      "text": "Spend my whole life unraveling",
-      "start": 156.06,
-      "end": 159.92,
-      "word_start_index": 168,
-      "word_end_index": 173
+      "text": "The world where my curse made everything I have",
+      "start": 159.95,
+      "end": 165.29,
+      "word_start_index": 174,
+      "word_end_index": 183
     },
     {
       "id": 27,
-      "text": "And though it might cost me everything I have",
-      "start": 159.92,
-      "end": 165.22,
-      "word_start_index": 173,
-      "word_end_index": 182
+      "text": "I never regret, wouldn't have it any other way",
+      "start": 165.29,
+      "end": 171.37,
+      "word_start_index": 183,
+      "word_end_index": 192
     },
     {
       "id": 28,
-      "text": "I never regret, wouldn't have been any other way",
-      "start": 165.22,
-      "end": 171.4,
-      "word_start_index": 182,
-      "word_end_index": 191
+      "text": "Cause those who trace their light on their lonely roads",
+      "start": 171.37,
+      "end": 176.73,
+      "word_start_index": 192,
+      "word_end_index": 203
     },
     {
       "id": 29,
-      "text": "Cause those two trees don't lie on their lonely road",
-      "start": 171.4,
-      "end": 176.7,
-      "word_start_index": 191,
-      "word_end_index": 201
+      "text": "Will find their destination in the cosmos",
+      "start": 177.27,
+      "end": 182.63,
+      "word_start_index": 203,
+      "word_end_index": 209
     },
     {
       "id": 30,
-      "text": "We'll find their destination, see the cosmos",
-      "start": 177.26,
-      "end": 182.76,
-      "word_start_index": 201,
-      "word_end_index": 208
+      "text": "Meeting you in the swirling snowfalls",
+      "start": 182.63,
+      "end": 187.99,
+      "word_start_index": 209,
+      "word_end_index": 216
     },
     {
       "id": 31,
-      "text": "Me, I'd like to see this world with snow",
-      "start": 182.76,
-      "end": 187.54,
-      "word_start_index": 208,
-      "word_end_index": 217
-    },
-    {
-      "id": 32,
-      "text": "For the most beautiful thing ever happened to me",
-      "start": 187.54,
-      "end": 194.76,
-      "word_start_index": 217,
-      "word_end_index": 226
-    },
-    {
-      "id": 33,
-      "text": "Thank you.",
-      "start": 194.76,
-      "end": 194.98,
-      "word_start_index": 226,
-      "word_end_index": 228
+      "text": "The most beautiful thing ever happened to me",
+      "start": 188.65,
+      "end": 194.73,
+      "word_start_index": 216,
+      "word_end_index": 223
     }
   ],
   "words": [
     {
       "text": "The",
-      "start": 22.4,
-      "end": 23.42,
-      "line_id": 0
-    },
-    {
-      "text": "last",
-      "start": 23.42,
-      "end": 24.0,
+      "start": 22.65,
+      "end": 23.51,
       "line_id": 0
     },
     {
       "text": "snowflake",
-      "start": 24.0,
-      "end": 25.22,
+      "start": 23.51,
+      "end": 25.23,
       "line_id": 0
     },
     {
       "text": "once",
-      "start": 25.22,
-      "end": 25.6,
+      "start": 25.23,
+      "end": 25.61,
       "line_id": 0
     },
     {
       "text": "fell",
-      "start": 25.6,
-      "end": 25.92,
+      "start": 25.61,
+      "end": 25.89,
       "line_id": 0
     },
     {
       "text": "on",
-      "start": 25.92,
-      "end": 26.12,
+      "start": 25.89,
+      "end": 26.19,
       "line_id": 0
     },
     {
       "text": "my",
-      "start": 26.12,
-      "end": 26.56,
+      "start": 26.19,
+      "end": 26.59,
       "line_id": 0
     },
     {
-      "text": "nose",
-      "start": 26.56,
-      "end": 27.62,
+      "text": "nose,",
+      "start": 26.59,
+      "end": 27.69,
       "line_id": 0
     },
     {
-      "text": "Now",
-      "start": 27.62,
-      "end": 28.62,
-      "line_id": 1
+      "text": "now",
+      "start": 28.01,
+      "end": 28.57,
+      "line_id": 0
     },
     {
       "text": "flying",
-      "start": 28.62,
-      "end": 29.04,
-      "line_id": 1
+      "start": 28.57,
+      "end": 29.01,
+      "line_id": 0
     },
     {
       "text": "backwards",
-      "start": 29.04,
-      "end": 30.1,
-      "line_id": 1
+      "start": 29.01,
+      "end": 30.09,
+      "line_id": 0
     },
     {
       "text": "to",
-      "start": 30.1,
-      "end": 31.02,
-      "line_id": 1
+      "start": 30.09,
+      "end": 31.05,
+      "line_id": 0
     },
     {
       "text": "last",
-      "start": 31.02,
-      "end": 31.56,
-      "line_id": 1
+      "start": 31.05,
+      "end": 31.57,
+      "line_id": 0
     },
     {
       "text": "winter",
-      "start": 31.56,
-      "end": 32.16,
+      "start": 31.57,
+      "end": 32.17,
+      "line_id": 0
+    },
+    {
+      "text": "I",
+      "start": 33.95,
+      "end": 35.15,
+      "line_id": 1
+    },
+    {
+      "text": "realize",
+      "start": 35.15,
+      "end": 36.35,
+      "line_id": 1
+    },
+    {
+      "text": "that",
+      "start": 36.35,
+      "end": 36.95,
+      "line_id": 1
+    },
+    {
+      "text": "hellos",
+      "start": 36.95,
+      "end": 37.77,
+      "line_id": 1
+    },
+    {
+      "text": "are",
+      "start": 37.77,
+      "end": 37.99,
+      "line_id": 1
+    },
+    {
+      "text": "goodbyes",
+      "start": 37.99,
+      "end": 39.53,
+      "line_id": 1
+    },
+    {
+      "text": "the",
+      "start": 39.53,
+      "end": 39.87,
+      "line_id": 1
+    },
+    {
+      "text": "moment",
+      "start": 39.87,
+      "end": 40.33,
       "line_id": 1
     },
     {
       "text": "I",
-      "start": 34.0,
-      "end": 35.18,
-      "line_id": 2
-    },
-    {
-      "text": "realize",
-      "start": 35.18,
-      "end": 36.36,
-      "line_id": 2
-    },
-    {
-      "text": "that",
-      "start": 36.36,
-      "end": 37.02,
-      "line_id": 2
-    },
-    {
-      "text": "hellos",
-      "start": 37.02,
-      "end": 37.78,
-      "line_id": 2
-    },
-    {
-      "text": "are",
-      "start": 37.78,
-      "end": 37.98,
-      "line_id": 2
-    },
-    {
-      "text": "goodbyes",
-      "start": 37.98,
-      "end": 39.52,
-      "line_id": 2
-    },
-    {
-      "text": "The",
-      "start": 39.52,
-      "end": 39.88,
-      "line_id": 3
-    },
-    {
-      "text": "moment",
-      "start": 39.88,
-      "end": 40.36,
-      "line_id": 3
-    },
-    {
-      "text": "I",
-      "start": 40.36,
-      "end": 40.78,
-      "line_id": 3
+      "start": 40.33,
+      "end": 40.81,
+      "line_id": 1
     },
     {
       "text": "softly",
-      "start": 40.78,
-      "end": 42.0,
-      "line_id": 3
+      "start": 40.81,
+      "end": 42.03,
+      "line_id": 1
     },
     {
       "text": "let",
-      "start": 42.0,
-      "end": 42.78,
-      "line_id": 3
+      "start": 42.03,
+      "end": 42.77,
+      "line_id": 1
     },
     {
       "text": "go",
-      "start": 42.78,
-      "end": 43.3,
-      "line_id": 3
+      "start": 42.77,
+      "end": 43.29,
+      "line_id": 1
     },
     {
       "text": "of",
-      "start": 43.3,
-      "end": 43.88,
-      "line_id": 3
+      "start": 43.29,
+      "end": 43.89,
+      "line_id": 1
     },
     {
       "text": "your",
-      "start": 43.88,
-      "end": 44.34,
-      "line_id": 3
+      "start": 43.89,
+      "end": 44.41,
+      "line_id": 1
     },
     {
       "text": "hand",
-      "start": 44.34,
-      "end": 45.26,
-      "line_id": 3
+      "start": 44.41,
+      "end": 45.19,
+      "line_id": 1
     },
     {
       "text": "Wings",
-      "start": 45.26,
-      "end": 47.28,
-      "line_id": 4
+      "start": 46.45,
+      "end": 47.29,
+      "line_id": 2
     },
     {
       "text": "of",
-      "start": 47.28,
-      "end": 47.52,
-      "line_id": 4
+      "start": 47.29,
+      "end": 47.53,
+      "line_id": 2
     },
     {
       "text": "fruit,",
-      "start": 47.52,
-      "end": 47.86,
-      "line_id": 4
+      "start": 47.53,
+      "end": 47.87,
+      "line_id": 2
+    },
+    {
+      "text": "the",
+      "start": 48.01,
+      "end": 48.39,
+      "line_id": 2
     },
     {
       "text": "trembling",
-      "start": 48.04,
-      "end": 48.62,
-      "line_id": 4
+      "start": 48.39,
+      "end": 48.87,
+      "line_id": 2
     },
     {
       "text": "branches",
-      "start": 48.62,
-      "end": 49.84,
-      "line_id": 4
+      "start": 48.87,
+      "end": 50.27,
+      "line_id": 2
     },
     {
       "text": "A",
-      "start": 50.68,
-      "end": 51.3,
-      "line_id": 5
+      "start": 50.27,
+      "end": 51.19,
+      "line_id": 3
     },
     {
       "text": "soul",
-      "start": 51.3,
-      "end": 51.52,
-      "line_id": 5
+      "start": 51.19,
+      "end": 51.55,
+      "line_id": 3
     },
     {
       "text": "for",
-      "start": 51.52,
-      "end": 51.86,
-      "line_id": 5
+      "start": 51.55,
+      "end": 51.85,
+      "line_id": 3
+    },
+    {
+      "text": "a",
+      "start": 51.85,
+      "end": 51.95,
+      "line_id": 3
     },
     {
       "text": "soul",
-      "start": 51.86,
-      "end": 52.14,
-      "line_id": 5
+      "start": 51.95,
+      "end": 52.17,
+      "line_id": 3
     },
     {
       "text": "bound",
-      "start": 52.14,
-      "end": 52.94,
-      "line_id": 5
+      "start": 52.17,
+      "end": 52.93,
+      "line_id": 3
     },
     {
       "text": "to",
-      "start": 52.94,
-      "end": 53.26,
-      "line_id": 5
+      "start": 52.93,
+      "end": 53.25,
+      "line_id": 3
     },
     {
       "text": "soar",
-      "start": 53.26,
-      "end": 53.9,
-      "line_id": 5
+      "start": 53.25,
+      "end": 53.91,
+      "line_id": 3
     },
     {
       "text": "To",
-      "start": 53.9,
-      "end": 54.72,
-      "line_id": 6
+      "start": 53.91,
+      "end": 54.65,
+      "line_id": 4
     },
     {
       "text": "the",
-      "start": 54.72,
-      "end": 54.98,
-      "line_id": 6
+      "start": 54.65,
+      "end": 54.99,
+      "line_id": 4
     },
     {
       "text": "very",
-      "start": 54.98,
-      "end": 55.52,
-      "line_id": 6
+      "start": 54.99,
+      "end": 55.53,
+      "line_id": 4
     },
     {
       "text": "edge",
-      "start": 55.52,
-      "end": 55.84,
-      "line_id": 6
+      "start": 55.53,
+      "end": 55.89,
+      "line_id": 4
     },
     {
       "text": "of",
-      "start": 55.84,
-      "end": 56.16,
-      "line_id": 6
+      "start": 55.89,
+      "end": 56.17,
+      "line_id": 4
     },
     {
       "text": "the",
-      "start": 56.16,
-      "end": 56.34,
-      "line_id": 6
+      "start": 56.17,
+      "end": 56.33,
+      "line_id": 4
     },
     {
       "text": "staring",
-      "start": 56.34,
-      "end": 56.8,
-      "line_id": 6
+      "start": 56.33,
+      "end": 56.79,
+      "line_id": 4
     },
     {
       "text": "ocean",
-      "start": 56.8,
-      "end": 57.5,
-      "line_id": 6
+      "start": 56.79,
+      "end": 57.51,
+      "line_id": 4
     },
     {
-      "text": "If",
-      "start": 57.5,
-      "end": 58.46,
-      "line_id": 7
+      "text": "And",
+      "start": 57.51,
+      "end": 57.91,
+      "line_id": 5
+    },
+    {
+      "text": "if,",
+      "start": 57.91,
+      "end": 58.91,
+      "line_id": 5
     },
     {
       "text": "and",
-      "start": 58.46,
-      "end": 58.98,
-      "line_id": 7
+      "start": 59.01,
+      "end": 59.01,
+      "line_id": 5
     },
     {
-      "text": "if",
-      "start": 58.98,
-      "end": 59.4,
-      "line_id": 7
-    },
-    {
-      "text": "I'm",
-      "start": 59.4,
-      "end": 59.92,
-      "line_id": 7
-    },
-    {
-      "text": "meant",
-      "start": 59.92,
-      "end": 60.16,
-      "line_id": 7
-    },
-    {
-      "text": "to",
-      "start": 60.16,
-      "end": 60.38,
-      "line_id": 7
-    },
-    {
-      "text": "fall",
-      "start": 60.38,
-      "end": 60.86,
-      "line_id": 7
-    },
-    {
-      "text": "apart",
-      "start": 60.86,
-      "end": 61.9,
-      "line_id": 7
+      "text": "if,",
+      "start": 59.01,
+      "end": 59.45,
+      "line_id": 5
     },
     {
       "text": "I",
-      "start": 61.9,
-      "end": 62.74,
-      "line_id": 8
+      "start": 59.49,
+      "end": 59.79,
+      "line_id": 5
+    },
+    {
+      "text": "mean",
+      "start": 59.79,
+      "end": 60.01,
+      "line_id": 5
+    },
+    {
+      "text": "to",
+      "start": 60.01,
+      "end": 60.33,
+      "line_id": 5
+    },
+    {
+      "text": "fall",
+      "start": 60.33,
+      "end": 60.85,
+      "line_id": 5
+    },
+    {
+      "text": "apart",
+      "start": 60.85,
+      "end": 61.89,
+      "line_id": 5
+    },
+    {
+      "text": "I",
+      "start": 61.89,
+      "end": 62.75,
+      "line_id": 6
     },
     {
       "text": "will",
-      "start": 62.74,
-      "end": 62.96,
-      "line_id": 8
-    },
-    {
-      "text": "decide",
-      "start": 62.96,
-      "end": 63.58,
-      "line_id": 8
-    },
-    {
-      "text": "where",
-      "start": 63.58,
-      "end": 64.72,
-      "line_id": 8
-    },
-    {
-      "text": "you",
-      "start": 64.72,
-      "end": 65.04,
-      "line_id": 8
-    },
-    {
-      "text": "are",
-      "start": 65.04,
-      "end": 65.72,
-      "line_id": 8
-    },
-    {
-      "text": "for",
-      "start": 65.72,
-      "end": 66.12,
-      "line_id": 8
-    },
-    {
-      "text": "all",
-      "start": 66.12,
-      "end": 66.64,
-      "line_id": 8
-    },
-    {
-      "text": "time",
-      "start": 66.64,
-      "end": 67.24,
-      "line_id": 8
-    },
-    {
-      "text": "Above",
-      "start": 67.24,
-      "end": 68.18,
-      "line_id": 9
-    },
-    {
-      "text": "all",
-      "start": 68.18,
-      "end": 68.78,
-      "line_id": 9
-    },
-    {
-      "text": "years",
-      "start": 68.78,
-      "end": 69.38,
-      "line_id": 9
-    },
-    {
-      "text": "May",
-      "start": 70.18,
-      "end": 70.74,
-      "line_id": 10
-    },
-    {
-      "text": "your",
-      "start": 70.74,
-      "end": 71.1,
-      "line_id": 10
-    },
-    {
-      "text": "path",
-      "start": 71.1,
-      "end": 71.4,
-      "line_id": 10
+      "start": 62.75,
+      "end": 62.93,
+      "line_id": 6
     },
     {
       "text": "be",
-      "start": 71.4,
-      "end": 71.72,
-      "line_id": 10
+      "start": 62.93,
+      "end": 63.27,
+      "line_id": 6
     },
     {
-      "text": "clear",
-      "start": 71.72,
-      "end": 72.26,
-      "line_id": 10
+      "text": "set",
+      "start": 63.27,
+      "end": 63.69,
+      "line_id": 6
     },
     {
-      "text": "May",
-      "start": 72.26,
-      "end": 73.6,
-      "line_id": 11
+      "text": "where",
+      "start": 63.69,
+      "end": 64.73,
+      "line_id": 6
     },
     {
       "text": "you",
-      "start": 73.6,
-      "end": 73.96,
-      "line_id": 11
-    },
-    {
-      "text": "get",
-      "start": 73.96,
-      "end": 74.26,
-      "line_id": 11
-    },
-    {
-      "text": "aware",
-      "start": 74.26,
-      "end": 74.84,
-      "line_id": 11
-    },
-    {
-      "text": "Dreams",
-      "start": 74.84,
-      "end": 75.8,
-      "line_id": 12
+      "start": 64.73,
+      "end": 65.05,
+      "line_id": 6
     },
     {
       "text": "are",
-      "start": 75.8,
-      "end": 76.16,
-      "line_id": 12
+      "start": 65.05,
+      "end": 65.71,
+      "line_id": 6
+    },
+    {
+      "text": "for",
+      "start": 65.71,
+      "end": 66.13,
+      "line_id": 6
     },
     {
       "text": "all",
-      "start": 76.16,
-      "end": 76.6,
-      "line_id": 12
+      "start": 66.13,
+      "end": 66.67,
+      "line_id": 6
+    },
+    {
+      "text": "time",
+      "start": 66.67,
+      "end": 67.23,
+      "line_id": 6
+    },
+    {
+      "text": "But",
+      "start": 67.23,
+      "end": 67.95,
+      "line_id": 7
+    },
+    {
+      "text": "oh",
+      "start": 67.95,
+      "end": 68.59,
+      "line_id": 7
+    },
+    {
+      "text": "yeah",
+      "start": 68.59,
+      "end": 69.35,
+      "line_id": 7
+    },
+    {
+      "text": "May",
+      "start": 69.35,
+      "end": 70.67,
+      "line_id": 8
+    },
+    {
+      "text": "your",
+      "start": 70.67,
+      "end": 71.11,
+      "line_id": 8
+    },
+    {
+      "text": "path",
+      "start": 71.11,
+      "end": 71.39,
+      "line_id": 8
+    },
+    {
+      "text": "be",
+      "start": 71.39,
+      "end": 71.73,
+      "line_id": 8
+    },
+    {
+      "text": "clear",
+      "start": 71.73,
+      "end": 72.27,
+      "line_id": 8
+    },
+    {
+      "text": "May",
+      "start": 72.27,
+      "end": 73.59,
+      "line_id": 9
+    },
+    {
+      "text": "you",
+      "start": 73.59,
+      "end": 73.99,
+      "line_id": 9
+    },
+    {
+      "text": "get",
+      "start": 73.99,
+      "end": 74.25,
+      "line_id": 9
+    },
+    {
+      "text": "aware,",
+      "start": 74.25,
+      "end": 74.85,
+      "line_id": 9
+    },
+    {
+      "text": "dreams",
+      "start": 75.07,
+      "end": 75.79,
+      "line_id": 9
+    },
+    {
+      "text": "are",
+      "start": 75.79,
+      "end": 76.15,
+      "line_id": 9
+    },
+    {
+      "text": "all",
+      "start": 76.15,
+      "end": 76.65,
+      "line_id": 9
     },
     {
       "text": "crystallized",
-      "start": 76.6,
-      "end": 78.5,
-      "line_id": 12
+      "start": 76.65,
+      "end": 78.79,
+      "line_id": 9
     },
     {
-      "text": "Sweet,",
-      "start": 78.5,
-      "end": 79.18,
-      "line_id": 13
+      "text": "Will,",
+      "start": 78.79,
+      "end": 79.29,
+      "line_id": 10
     },
     {
       "text": "please,",
-      "start": 79.56,
-      "end": 80.78,
-      "line_id": 13
+      "start": 80.05,
+      "end": 80.97,
+      "line_id": 10
     },
     {
       "text": "crack",
-      "start": 81.12,
-      "end": 82.1,
-      "line_id": 13
+      "start": 81.69,
+      "end": 82.17,
+      "line_id": 10
     },
     {
       "text": "a",
-      "start": 82.1,
-      "end": 82.56,
-      "line_id": 13
+      "start": 82.17,
+      "end": 82.55,
+      "line_id": 10
     },
     {
       "text": "little",
-      "start": 82.56,
-      "end": 83.06,
-      "line_id": 13
+      "start": 82.55,
+      "end": 82.99,
+      "line_id": 10
     },
     {
       "text": "smile",
-      "start": 83.06,
-      "end": 83.5,
-      "line_id": 13
+      "start": 82.99,
+      "end": 83.51,
+      "line_id": 10
     },
     {
       "text": "You",
-      "start": 84.3,
-      "end": 85.12,
+      "start": 84.23,
+      "end": 85.13,
+      "line_id": 11
+    },
+    {
+      "text": "belong",
+      "start": 85.13,
+      "end": 85.55,
+      "line_id": 11
+    },
+    {
+      "text": "in",
+      "start": 85.55,
+      "end": 87.49,
+      "line_id": 11
+    },
+    {
+      "text": "this",
+      "start": 87.49,
+      "end": 88.03,
+      "line_id": 11
+    },
+    {
+      "text": "world",
+      "start": 88.03,
+      "end": 88.77,
+      "line_id": 11
+    },
+    {
+      "text": "you've",
+      "start": 88.77,
+      "end": 89.09,
+      "line_id": 11
+    },
+    {
+      "text": "chosen",
+      "start": 89.09,
+      "end": 89.81,
+      "line_id": 11
+    },
+    {
+      "text": "as",
+      "start": 89.81,
+      "end": 90.49,
+      "line_id": 11
+    },
+    {
+      "text": "your",
+      "start": 90.49,
+      "end": 90.81,
+      "line_id": 11
+    },
+    {
+      "text": "own",
+      "start": 90.81,
+      "end": 91.61,
+      "line_id": 11
+    },
+    {
+      "text": "Don't",
+      "start": 91.61,
+      "end": 92.33,
+      "line_id": 12
+    },
+    {
+      "text": "worry,",
+      "start": 92.33,
+      "end": 93.35,
+      "line_id": 12
+    },
+    {
+      "text": "I'm",
+      "start": 93.67,
+      "end": 94.17,
+      "line_id": 12
+    },
+    {
+      "text": "well",
+      "start": 94.17,
+      "end": 94.49,
+      "line_id": 12
+    },
+    {
+      "text": "aware",
+      "start": 94.49,
+      "end": 95.05,
+      "line_id": 12
+    },
+    {
+      "text": "that",
+      "start": 95.05,
+      "end": 96.17,
+      "line_id": 12
+    },
+    {
+      "text": "All",
+      "start": 96.65,
+      "end": 97.23,
+      "line_id": 12
+    },
+    {
+      "text": "snowflakes",
+      "start": 97.23,
+      "end": 98.49,
+      "line_id": 13
+    },
+    {
+      "text": "melt",
+      "start": 98.49,
+      "end": 99.09,
+      "line_id": 13
+    },
+    {
+      "text": "in",
+      "start": 99.09,
+      "end": 100.05,
+      "line_id": 13
+    },
+    {
+      "text": "the",
+      "start": 100.05,
+      "end": 100.41,
+      "line_id": 13
+    },
+    {
+      "text": "end",
+      "start": 100.41,
+      "end": 100.97,
+      "line_id": 13
+    },
+    {
+      "text": "Witches",
+      "start": 103.71,
+      "end": 104.75,
+      "line_id": 14
+    },
+    {
+      "text": "sigh",
+      "start": 104.75,
+      "end": 104.85,
+      "line_id": 14
+    },
+    {
+      "text": "on",
+      "start": 104.85,
+      "end": 105.55,
+      "line_id": 14
+    },
+    {
+      "text": "warmth",
+      "start": 105.55,
+      "end": 105.99,
       "line_id": 14
     },
     {
       "text": "and",
-      "start": 85.12,
-      "end": 85.44,
+      "start": 105.99,
+      "end": 106.25,
       "line_id": 14
     },
     {
-      "text": "me",
-      "start": 85.44,
-      "end": 85.62,
+      "text": "hope",
+      "start": 106.25,
+      "end": 106.57,
       "line_id": 14
     },
     {
-      "text": "alone",
-      "start": 85.62,
-      "end": 86.3,
+      "text": "of",
+      "start": 106.57,
+      "end": 106.87,
       "line_id": 14
-    },
-    {
-      "text": "In",
-      "start": 87.02,
-      "end": 87.62,
-      "line_id": 15
-    },
-    {
-      "text": "this",
-      "start": 87.62,
-      "end": 88.1,
-      "line_id": 15
-    },
-    {
-      "text": "world",
-      "start": 88.1,
-      "end": 88.74,
-      "line_id": 15
-    },
-    {
-      "text": "you've",
-      "start": 88.74,
-      "end": 89.08,
-      "line_id": 15
-    },
-    {
-      "text": "chosen",
-      "start": 89.08,
-      "end": 89.82,
-      "line_id": 15
-    },
-    {
-      "text": "as",
-      "start": 89.82,
-      "end": 90.5,
-      "line_id": 15
-    },
-    {
-      "text": "your",
-      "start": 90.5,
-      "end": 90.8,
-      "line_id": 15
-    },
-    {
-      "text": "own",
-      "start": 90.8,
-      "end": 91.6,
-      "line_id": 15
-    },
-    {
-      "text": "Don't",
-      "start": 91.6,
-      "end": 92.34,
-      "line_id": 16
-    },
-    {
-      "text": "worry,",
-      "start": 92.34,
-      "end": 93.34,
-      "line_id": 16
-    },
-    {
-      "text": "I'm",
-      "start": 93.66,
-      "end": 94.16,
-      "line_id": 16
-    },
-    {
-      "text": "well",
-      "start": 94.16,
-      "end": 94.46,
-      "line_id": 16
-    },
-    {
-      "text": "aware",
-      "start": 94.46,
-      "end": 95.06,
-      "line_id": 16
-    },
-    {
-      "text": "That",
-      "start": 95.64,
-      "end": 96.34,
-      "line_id": 17
-    },
-    {
-      "text": "there's",
-      "start": 96.34,
-      "end": 97.44,
-      "line_id": 17
-    },
-    {
-      "text": "no",
-      "start": 97.44,
-      "end": 97.58,
-      "line_id": 17
-    },
-    {
-      "text": "free",
-      "start": 97.58,
-      "end": 97.96,
-      "line_id": 17
-    },
-    {
-      "text": "smell",
-      "start": 97.96,
-      "end": 99.0,
-      "line_id": 17
-    },
-    {
-      "text": "in",
-      "start": 99.0,
-      "end": 99.8,
-      "line_id": 17
-    },
-    {
-      "text": "the",
-      "start": 99.8,
-      "end": 100.42,
-      "line_id": 17
-    },
-    {
-      "text": "end",
-      "start": 100.42,
-      "end": 101.02,
-      "line_id": 17
-    },
-    {
-      "text": "Witches",
-      "start": 103.58,
-      "end": 104.78,
-      "line_id": 18
-    },
-    {
-      "text": "sigh",
-      "start": 104.78,
-      "end": 104.96,
-      "line_id": 18
-    },
-    {
-      "text": "on",
-      "start": 104.96,
-      "end": 105.56,
-      "line_id": 18
-    },
-    {
-      "text": "one",
-      "start": 105.56,
-      "end": 105.86,
-      "line_id": 18
-    },
-    {
-      "text": "little",
-      "start": 105.86,
-      "end": 106.36,
-      "line_id": 18
-    },
-    {
-      "text": "palm",
-      "start": 106.36,
-      "end": 106.9,
-      "line_id": 18
     },
     {
       "text": "spring",
-      "start": 106.9,
-      "end": 107.56,
-      "line_id": 18
+      "start": 106.87,
+      "end": 107.61,
+      "line_id": 14
     },
     {
       "text": "So",
-      "start": 107.56,
-      "end": 108.58,
-      "line_id": 19
+      "start": 107.61,
+      "end": 108.59,
+      "line_id": 15
     },
     {
-      "text": "I'll",
-      "start": 108.58,
-      "end": 109.08,
-      "line_id": 19
+      "text": "Elden's",
+      "start": 108.59,
+      "end": 110.23,
+      "line_id": 15
     },
     {
-      "text": "dance,",
-      "start": 109.08,
-      "end": 109.5,
-      "line_id": 19
-    },
-    {
-      "text": "flamboyantly",
-      "start": 110.54,
-      "end": 112.16,
-      "line_id": 19
-    },
-    {
-      "text": "into",
-      "start": 112.16,
-      "end": 112.88,
-      "line_id": 19
-    },
-    {
-      "text": "that",
-      "start": 112.88,
-      "end": 113.34,
-      "line_id": 19
-    },
-    {
-      "text": "good",
-      "start": 113.34,
-      "end": 113.7,
-      "line_id": 19
-    },
-    {
-      "text": "night",
-      "start": 113.7,
-      "end": 114.42,
-      "line_id": 19
-    },
-    {
-      "text": "land",
-      "start": 114.42,
-      "end": 114.92,
-      "line_id": 19
-    },
-    {
-      "text": "Bold",
-      "start": 124.26,
-      "end": 125.26,
-      "line_id": 20
-    },
-    {
-      "text": "voyage,",
-      "start": 125.26,
-      "end": 126.26,
-      "line_id": 20
-    },
-    {
-      "text": "may",
-      "start": 126.66,
-      "end": 127.88,
-      "line_id": 20
-    },
-    {
-      "text": "your",
-      "start": 127.88,
-      "end": 128.24,
-      "line_id": 20
-    },
-    {
-      "text": "path",
-      "start": 128.24,
-      "end": 128.6,
-      "line_id": 20
-    },
-    {
-      "text": "be",
-      "start": 128.6,
-      "end": 128.84,
-      "line_id": 20
-    },
-    {
-      "text": "clear",
-      "start": 128.84,
-      "end": 129.42,
-      "line_id": 20
-    },
-    {
-      "text": "May",
-      "start": 129.42,
-      "end": 130.74,
-      "line_id": 21
-    },
-    {
-      "text": "you",
-      "start": 130.74,
-      "end": 131.12,
-      "line_id": 21
-    },
-    {
-      "text": "get",
-      "start": 131.12,
-      "end": 131.44,
-      "line_id": 21
-    },
-    {
-      "text": "aware,",
-      "start": 131.44,
-      "end": 132.0,
-      "line_id": 21
-    },
-    {
-      "text": "dreams",
-      "start": 132.44,
-      "end": 132.96,
-      "line_id": 21
-    },
-    {
-      "text": "are",
-      "start": 132.96,
-      "end": 133.28,
-      "line_id": 21
-    },
-    {
-      "text": "all",
-      "start": 133.28,
-      "end": 133.78,
-      "line_id": 21
-    },
-    {
-      "text": "crystallized",
-      "start": 133.78,
-      "end": 136.06,
-      "line_id": 21
-    },
-    {
-      "text": "Please,",
-      "start": 136.06,
-      "end": 137.3,
-      "line_id": 22
-    },
-    {
-      "text": "crack",
-      "start": 137.3,
-      "end": 139.22,
-      "line_id": 22
-    },
-    {
-      "text": "a",
-      "start": 139.22,
-      "end": 139.68,
-      "line_id": 22
-    },
-    {
-      "text": "little",
-      "start": 139.68,
-      "end": 140.14,
-      "line_id": 22
-    },
-    {
-      "text": "smile",
-      "start": 140.14,
-      "end": 140.62,
-      "line_id": 22
-    },
-    {
-      "text": "You'll",
-      "start": 141.34,
-      "end": 142.34,
-      "line_id": 23
-    },
-    {
-      "text": "be",
-      "start": 142.34,
-      "end": 142.76,
-      "line_id": 23
-    },
-    {
-      "text": "alone",
-      "start": 142.76,
-      "end": 143.42,
-      "line_id": 23
-    },
-    {
-      "text": "in",
-      "start": 143.42,
-      "end": 144.72,
-      "line_id": 23
-    },
-    {
-      "text": "this",
-      "start": 144.72,
-      "end": 145.14,
-      "line_id": 23
-    },
-    {
-      "text": "world",
-      "start": 145.14,
-      "end": 145.74,
-      "line_id": 23
-    },
-    {
-      "text": "you've",
-      "start": 145.74,
-      "end": 146.22,
-      "line_id": 23
-    },
-    {
-      "text": "chosen",
-      "start": 146.22,
-      "end": 146.86,
-      "line_id": 23
-    },
-    {
-      "text": "As",
-      "start": 146.86,
-      "end": 147.6,
-      "line_id": 24
-    },
-    {
-      "text": "your",
-      "start": 147.6,
-      "end": 147.94,
-      "line_id": 24
-    },
-    {
-      "text": "own",
-      "start": 147.94,
-      "end": 148.72,
-      "line_id": 24
-    },
-    {
-      "text": "It's",
-      "start": 149.98,
-      "end": 151.24,
-      "line_id": 25
-    },
-    {
-      "text": "such",
-      "start": 151.24,
-      "end": 151.52,
-      "line_id": 25
-    },
-    {
-      "text": "a",
-      "start": 151.52,
-      "end": 151.72,
-      "line_id": 25
-    },
-    {
-      "text": "dancing",
-      "start": 151.72,
-      "end": 152.6,
-      "line_id": 25
-    },
-    {
-      "text": "way",
-      "start": 152.6,
-      "end": 153.46,
-      "line_id": 25
+      "text": "flamboyant",
+      "start": 110.23,
+      "end": 112.03,
+      "line_id": 15
     },
     {
       "text": "to",
-      "start": 153.46,
-      "end": 153.64,
-      "line_id": 25
+      "start": 112.03,
+      "end": 112.81,
+      "line_id": 15
+    },
+    {
+      "text": "that",
+      "start": 112.81,
+      "end": 113.31,
+      "line_id": 15
+    },
+    {
+      "text": "good",
+      "start": 113.31,
+      "end": 113.67,
+      "line_id": 15
+    },
+    {
+      "text": "night",
+      "start": 113.67,
+      "end": 114.43,
+      "line_id": 15
+    },
+    {
+      "text": "Bove,",
+      "start": 124.47,
+      "end": 125.51,
+      "line_id": 16
+    },
+    {
+      "text": "oh",
+      "start": 125.51,
+      "end": 125.87,
+      "line_id": 16
+    },
+    {
+      "text": "yes",
+      "start": 125.87,
+      "end": 126.55,
+      "line_id": 16
+    },
+    {
+      "text": "May",
+      "start": 127.35,
+      "end": 127.87,
+      "line_id": 16
+    },
+    {
+      "text": "your",
+      "start": 127.87,
+      "end": 128.27,
+      "line_id": 17
+    },
+    {
+      "text": "path",
+      "start": 128.27,
+      "end": 128.61,
+      "line_id": 17
+    },
+    {
+      "text": "be",
+      "start": 128.61,
+      "end": 128.85,
+      "line_id": 17
+    },
+    {
+      "text": "clear",
+      "start": 128.85,
+      "end": 129.35,
+      "line_id": 17
+    },
+    {
+      "text": "May",
+      "start": 129.35,
+      "end": 130.79,
+      "line_id": 18
+    },
+    {
+      "text": "you",
+      "start": 130.79,
+      "end": 131.15,
+      "line_id": 18
     },
     {
       "text": "get",
-      "start": 153.64,
-      "end": 155.12,
+      "start": 131.15,
+      "end": 131.41,
+      "line_id": 18
+    },
+    {
+      "text": "aware",
+      "start": 131.41,
+      "end": 131.99,
+      "line_id": 18
+    },
+    {
+      "text": "Dreams",
+      "start": 131.99,
+      "end": 132.95,
+      "line_id": 19
+    },
+    {
+      "text": "are",
+      "start": 132.95,
+      "end": 133.29,
+      "line_id": 19
+    },
+    {
+      "text": "all",
+      "start": 133.29,
+      "end": 133.83,
+      "line_id": 19
+    },
+    {
+      "text": "crystallized",
+      "start": 133.83,
+      "end": 135.99,
+      "line_id": 19
+    },
+    {
+      "text": "with",
+      "start": 135.99,
+      "end": 136.47,
+      "line_id": 19
+    },
+    {
+      "text": "Please,",
+      "start": 136.47,
+      "end": 138.37,
+      "line_id": 20
+    },
+    {
+      "text": "crack",
+      "start": 138.41,
+      "end": 139.27,
+      "line_id": 20
+    },
+    {
+      "text": "a",
+      "start": 139.27,
+      "end": 139.67,
+      "line_id": 20
+    },
+    {
+      "text": "little",
+      "start": 139.67,
+      "end": 140.13,
+      "line_id": 20
+    },
+    {
+      "text": "smile",
+      "start": 140.13,
+      "end": 140.65,
+      "line_id": 20
+    },
+    {
+      "text": "You'll",
+      "start": 141.33,
+      "end": 142.35,
+      "line_id": 21
+    },
+    {
+      "text": "be",
+      "start": 142.35,
+      "end": 142.69,
+      "line_id": 21
+    },
+    {
+      "text": "alone",
+      "start": 142.69,
+      "end": 143.41,
+      "line_id": 21
+    },
+    {
+      "text": "In",
+      "start": 143.93,
+      "end": 144.73,
+      "line_id": 22
+    },
+    {
+      "text": "this",
+      "start": 144.73,
+      "end": 145.13,
+      "line_id": 22
+    },
+    {
+      "text": "world",
+      "start": 145.13,
+      "end": 145.71,
+      "line_id": 22
+    },
+    {
+      "text": "you've",
+      "start": 145.71,
+      "end": 146.21,
+      "line_id": 22
+    },
+    {
+      "text": "chosen",
+      "start": 146.21,
+      "end": 146.89,
+      "line_id": 22
+    },
+    {
+      "text": "As",
+      "start": 146.89,
+      "end": 147.59,
+      "line_id": 23
+    },
+    {
+      "text": "your",
+      "start": 147.59,
+      "end": 147.95,
+      "line_id": 23
+    },
+    {
+      "text": "own",
+      "start": 147.95,
+      "end": 148.87,
+      "line_id": 23
+    },
+    {
+      "text": "Tiny,",
+      "start": 148.87,
+      "end": 149.53,
+      "line_id": 24
+    },
+    {
+      "text": "it's",
+      "start": 150.51,
+      "end": 151.33,
+      "line_id": 24
+    },
+    {
+      "text": "such",
+      "start": 151.33,
+      "end": 151.63,
+      "line_id": 24
+    },
+    {
+      "text": "a",
+      "start": 151.63,
+      "end": 151.81,
+      "line_id": 24
+    },
+    {
+      "text": "dazzling",
+      "start": 151.81,
+      "end": 152.95,
+      "line_id": 24
+    },
+    {
+      "text": "riddle",
+      "start": 152.95,
+      "end": 153.69,
+      "line_id": 24
+    },
+    {
+      "text": "Guess",
+      "start": 154.59,
+      "end": 155.27,
       "line_id": 25
     },
     {
-      "text": "yourself",
-      "start": 155.12,
-      "end": 156.06,
+      "text": "I'll",
+      "start": 155.27,
+      "end": 156.27,
       "line_id": 25
     },
     {
-      "text": "Spend",
-      "start": 156.06,
-      "end": 156.88,
+      "text": "spend",
+      "start": 156.27,
+      "end": 156.81,
+      "line_id": 25
+    },
+    {
+      "text": "my",
+      "start": 156.81,
+      "end": 157.21,
+      "line_id": 25
+    },
+    {
+      "text": "whole",
+      "start": 157.21,
+      "end": 157.61,
+      "line_id": 25
+    },
+    {
+      "text": "life",
+      "start": 157.61,
+      "end": 157.99,
+      "line_id": 25
+    },
+    {
+      "text": "unraveling",
+      "start": 157.99,
+      "end": 159.95,
+      "line_id": 25
+    },
+    {
+      "text": "The",
+      "start": 159.95,
+      "end": 160.71,
+      "line_id": 26
+    },
+    {
+      "text": "world",
+      "start": 160.71,
+      "end": 161.25,
+      "line_id": 26
+    },
+    {
+      "text": "where",
+      "start": 161.25,
+      "end": 161.97,
       "line_id": 26
     },
     {
       "text": "my",
-      "start": 156.88,
-      "end": 157.22,
+      "start": 161.97,
+      "end": 162.59,
       "line_id": 26
     },
     {
-      "text": "whole",
-      "start": 157.22,
-      "end": 157.6,
+      "text": "curse",
+      "start": 162.59,
+      "end": 162.99,
       "line_id": 26
     },
     {
-      "text": "life",
-      "start": 157.6,
-      "end": 157.98,
+      "text": "made",
+      "start": 162.99,
+      "end": 163.27,
       "line_id": 26
     },
     {
-      "text": "unraveling",
-      "start": 157.98,
-      "end": 159.92,
+      "text": "everything",
+      "start": 163.27,
+      "end": 163.91,
       "line_id": 26
     },
     {
-      "text": "And",
-      "start": 159.92,
-      "end": 160.04,
+      "text": "I",
+      "start": 163.91,
+      "end": 164.77,
+      "line_id": 26
+    },
+    {
+      "text": "have",
+      "start": 164.77,
+      "end": 165.29,
+      "line_id": 26
+    },
+    {
+      "text": "I",
+      "start": 165.29,
+      "end": 166.49,
       "line_id": 27
     },
     {
-      "text": "though",
-      "start": 160.04,
-      "end": 160.92,
+      "text": "never",
+      "start": 166.49,
+      "end": 166.79,
+      "line_id": 27
+    },
+    {
+      "text": "regret,",
+      "start": 166.79,
+      "end": 167.77,
+      "line_id": 27
+    },
+    {
+      "text": "wouldn't",
+      "start": 168.11,
+      "end": 169.27,
+      "line_id": 27
+    },
+    {
+      "text": "have",
+      "start": 169.27,
+      "end": 169.45,
       "line_id": 27
     },
     {
       "text": "it",
-      "start": 160.92,
-      "end": 161.94,
+      "start": 169.45,
+      "end": 170.03,
       "line_id": 27
-    },
-    {
-      "text": "might",
-      "start": 161.94,
-      "end": 162.56,
-      "line_id": 27
-    },
-    {
-      "text": "cost",
-      "start": 162.56,
-      "end": 163.02,
-      "line_id": 27
-    },
-    {
-      "text": "me",
-      "start": 163.02,
-      "end": 163.26,
-      "line_id": 27
-    },
-    {
-      "text": "everything",
-      "start": 163.26,
-      "end": 163.9,
-      "line_id": 27
-    },
-    {
-      "text": "I",
-      "start": 163.9,
-      "end": 164.76,
-      "line_id": 27
-    },
-    {
-      "text": "have",
-      "start": 164.76,
-      "end": 165.22,
-      "line_id": 27
-    },
-    {
-      "text": "I",
-      "start": 165.22,
-      "end": 166.48,
-      "line_id": 28
-    },
-    {
-      "text": "never",
-      "start": 166.48,
-      "end": 166.8,
-      "line_id": 28
-    },
-    {
-      "text": "regret,",
-      "start": 166.8,
-      "end": 167.76,
-      "line_id": 28
-    },
-    {
-      "text": "wouldn't",
-      "start": 168.12,
-      "end": 169.24,
-      "line_id": 28
-    },
-    {
-      "text": "have",
-      "start": 169.24,
-      "end": 169.28,
-      "line_id": 28
-    },
-    {
-      "text": "been",
-      "start": 169.28,
-      "end": 170.06,
-      "line_id": 28
     },
     {
       "text": "any",
-      "start": 170.06,
-      "end": 170.62,
-      "line_id": 28
+      "start": 170.03,
+      "end": 170.59,
+      "line_id": 27
     },
     {
       "text": "other",
-      "start": 170.62,
-      "end": 170.98,
-      "line_id": 28
+      "start": 170.59,
+      "end": 170.95,
+      "line_id": 27
     },
     {
       "text": "way",
-      "start": 170.98,
-      "end": 171.4,
-      "line_id": 28
+      "start": 170.95,
+      "end": 171.37,
+      "line_id": 27
     },
     {
       "text": "Cause",
-      "start": 171.4,
-      "end": 171.74,
-      "line_id": 29
+      "start": 171.37,
+      "end": 171.79,
+      "line_id": 28
     },
     {
       "text": "those",
-      "start": 171.74,
-      "end": 172.32,
-      "line_id": 29
+      "start": 171.79,
+      "end": 172.61,
+      "line_id": 28
     },
     {
-      "text": "two",
-      "start": 172.32,
-      "end": 173.44,
-      "line_id": 29
+      "text": "who",
+      "start": 172.61,
+      "end": 173.37,
+      "line_id": 28
     },
     {
-      "text": "trees",
-      "start": 173.44,
-      "end": 174.04,
-      "line_id": 29
+      "text": "trace",
+      "start": 173.37,
+      "end": 174.05,
+      "line_id": 28
     },
     {
-      "text": "don't",
-      "start": 174.04,
-      "end": 174.4,
-      "line_id": 29
+      "text": "their",
+      "start": 174.05,
+      "end": 174.29,
+      "line_id": 28
     },
     {
-      "text": "lie",
-      "start": 174.4,
-      "end": 174.74,
-      "line_id": 29
+      "text": "light",
+      "start": 174.29,
+      "end": 174.67,
+      "line_id": 28
     },
     {
       "text": "on",
-      "start": 174.74,
-      "end": 175.06,
-      "line_id": 29
+      "start": 174.67,
+      "end": 175.13,
+      "line_id": 28
     },
     {
       "text": "their",
-      "start": 175.06,
-      "end": 175.36,
-      "line_id": 29
+      "start": 175.13,
+      "end": 175.37,
+      "line_id": 28
     },
     {
       "text": "lonely",
-      "start": 175.36,
-      "end": 176.0,
-      "line_id": 29
+      "start": 175.37,
+      "end": 176.05,
+      "line_id": 28
     },
     {
-      "text": "road",
-      "start": 176.0,
-      "end": 176.7,
-      "line_id": 29
+      "text": "roads",
+      "start": 176.05,
+      "end": 176.73,
+      "line_id": 28
     },
     {
-      "text": "We'll",
-      "start": 177.26,
-      "end": 178.42,
-      "line_id": 30
+      "text": "Will",
+      "start": 177.23,
+      "end": 177.91,
+      "line_id": 28
     },
     {
       "text": "find",
-      "start": 178.42,
-      "end": 179.14,
-      "line_id": 30
+      "start": 177.91,
+      "end": 179.01,
+      "line_id": 29
     },
     {
       "text": "their",
-      "start": 179.14,
-      "end": 179.72,
-      "line_id": 30
+      "start": 179.01,
+      "end": 179.71,
+      "line_id": 29
     },
     {
-      "text": "destination,",
-      "start": 179.72,
-      "end": 180.48,
-      "line_id": 30
+      "text": "destination",
+      "start": 179.71,
+      "end": 180.39,
+      "line_id": 29
     },
     {
-      "text": "see",
-      "start": 180.48,
-      "end": 181.28,
-      "line_id": 30
+      "text": "in",
+      "start": 180.39,
+      "end": 181.27,
+      "line_id": 29
     },
     {
       "text": "the",
-      "start": 181.28,
-      "end": 181.82,
-      "line_id": 30
+      "start": 181.27,
+      "end": 181.95,
+      "line_id": 29
     },
     {
       "text": "cosmos",
-      "start": 181.82,
-      "end": 182.76,
+      "start": 181.95,
+      "end": 182.63,
+      "line_id": 29
+    },
+    {
+      "text": "Meeting",
+      "start": 182.63,
+      "end": 184.51,
       "line_id": 30
     },
     {
-      "text": "Me,",
-      "start": 182.76,
-      "end": 183.6,
-      "line_id": 31
+      "text": "you",
+      "start": 184.51,
+      "end": 185.37,
+      "line_id": 30
     },
     {
-      "text": "I'd",
-      "start": 183.74,
-      "end": 184.4,
-      "line_id": 31
-    },
-    {
-      "text": "like",
-      "start": 184.4,
-      "end": 184.88,
-      "line_id": 31
-    },
-    {
-      "text": "to",
-      "start": 184.88,
-      "end": 184.88,
-      "line_id": 31
-    },
-    {
-      "text": "see",
-      "start": 184.88,
-      "end": 185.64,
-      "line_id": 31
-    },
-    {
-      "text": "this",
-      "start": 185.64,
-      "end": 186.16,
-      "line_id": 31
-    },
-    {
-      "text": "world",
-      "start": 186.16,
-      "end": 186.62,
-      "line_id": 31
-    },
-    {
-      "text": "with",
-      "start": 186.62,
-      "end": 187.12,
-      "line_id": 31
-    },
-    {
-      "text": "snow",
-      "start": 187.12,
-      "end": 187.54,
-      "line_id": 31
-    },
-    {
-      "text": "For",
-      "start": 187.54,
-      "end": 187.98,
-      "line_id": 32
+      "text": "in",
+      "start": 185.37,
+      "end": 185.77,
+      "line_id": 30
     },
     {
       "text": "the",
-      "start": 187.98,
-      "end": 189.32,
-      "line_id": 32
+      "start": 185.77,
+      "end": 186.09,
+      "line_id": 30
+    },
+    {
+      "text": "swirling",
+      "start": 186.09,
+      "end": 187.07,
+      "line_id": 30
+    },
+    {
+      "text": "snowfalls",
+      "start": 187.07,
+      "end": 187.99,
+      "line_id": 30
+    },
+    {
+      "text": "The",
+      "start": 188.61,
+      "end": 189.29,
+      "line_id": 30
     },
     {
       "text": "most",
-      "start": 189.32,
-      "end": 190.44,
-      "line_id": 32
+      "start": 189.29,
+      "end": 190.45,
+      "line_id": 31
     },
     {
       "text": "beautiful",
-      "start": 190.44,
-      "end": 191.28,
-      "line_id": 32
+      "start": 190.45,
+      "end": 191.27,
+      "line_id": 31
     },
     {
       "text": "thing",
-      "start": 191.28,
-      "end": 192.2,
-      "line_id": 32
+      "start": 191.27,
+      "end": 192.19,
+      "line_id": 31
     },
     {
       "text": "ever",
-      "start": 192.2,
-      "end": 193.32,
-      "line_id": 32
+      "start": 192.19,
+      "end": 193.01,
+      "line_id": 31
     },
     {
       "text": "happened",
-      "start": 193.32,
-      "end": 193.86,
-      "line_id": 32
+      "start": 193.01,
+      "end": 193.95,
+      "line_id": 31
     },
     {
       "text": "to",
-      "start": 193.86,
-      "end": 194.32,
-      "line_id": 32
+      "start": 193.95,
+      "end": 194.35,
+      "line_id": 31
     },
     {
       "text": "me",
-      "start": 194.32,
-      "end": 194.76,
-      "line_id": 32
-    },
-    {
-      "text": "Thank",
-      "start": 194.76,
-      "end": 194.98,
-      "line_id": 33
-    },
-    {
-      "text": "you.",
-      "start": 194.98,
-      "end": 194.98,
-      "line_id": 33
+      "start": 194.35,
+      "end": 194.73,
+      "line_id": 31
     }
   ],
   "pitch": [
     {
       "time": 23.4,
-      "midi": 57,
-      "note": "A3"
+      "midi": 58,
+      "note": "A#3"
     },
     {
       "time": 23.5,
@@ -1838,8 +1792,8 @@
     },
     {
       "time": 27.3,
-      "midi": 60,
-      "note": "C4"
+      "midi": 59,
+      "note": "B3"
     },
     {
       "time": 27.4,
@@ -1872,14 +1826,9 @@
       "note": "B3"
     },
     {
-      "time": 28.5,
+      "time": 28.6,
       "midi": 64,
       "note": "E4"
-    },
-    {
-      "time": 28.6,
-      "midi": 65,
-      "note": "F4"
     },
     {
       "time": 28.7,
@@ -1908,8 +1857,8 @@
     },
     {
       "time": 29.2,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 61,
+      "note": "C#4"
     },
     {
       "time": 29.3,
@@ -1948,8 +1897,8 @@
     },
     {
       "time": 30.0,
-      "midi": 58,
-      "note": "A#3"
+      "midi": 59,
+      "note": "B3"
     },
     {
       "time": 30.3,
@@ -2007,11 +1956,6 @@
       "note": "C#4"
     },
     {
-      "time": 31.7,
-      "midi": 61,
-      "note": "C#4"
-    },
-    {
       "time": 31.8,
       "midi": 61,
       "note": "C#4"
@@ -2053,11 +1997,6 @@
     },
     {
       "time": 32.6,
-      "midi": 59,
-      "note": "B3"
-    },
-    {
-      "time": 32.7,
       "midi": 59,
       "note": "B3"
     },
@@ -2238,13 +2177,13 @@
     },
     {
       "time": 38.7,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 62,
+      "note": "D4"
     },
     {
       "time": 38.8,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 62,
+      "note": "D4"
     },
     {
       "time": 38.9,
@@ -2278,8 +2217,8 @@
     },
     {
       "time": 39.8,
-      "midi": 60,
-      "note": "C4"
+      "midi": 59,
+      "note": "B3"
     },
     {
       "time": 39.9,
@@ -2358,8 +2297,8 @@
     },
     {
       "time": 41.8,
-      "midi": 59,
-      "note": "B3"
+      "midi": 58,
+      "note": "A#3"
     },
     {
       "time": 41.9,
@@ -2422,24 +2361,19 @@
       "note": "C#4"
     },
     {
-      "time": 43.1,
-      "midi": 61,
-      "note": "C#4"
-    },
-    {
       "time": 43.2,
       "midi": 61,
       "note": "C#4"
     },
     {
       "time": 43.3,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 62,
+      "note": "D4"
     },
     {
       "time": 43.4,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 62,
+      "note": "D4"
     },
     {
       "time": 43.5,
@@ -2477,14 +2411,9 @@
       "note": "B3"
     },
     {
-      "time": 44.2,
-      "midi": 59,
-      "note": "B3"
-    },
-    {
       "time": 44.3,
-      "midi": 59,
-      "note": "B3"
+      "midi": 58,
+      "note": "A#3"
     },
     {
       "time": 44.4,
@@ -2503,18 +2432,13 @@
     },
     {
       "time": 44.7,
-      "midi": 59,
-      "note": "B3"
+      "midi": 58,
+      "note": "A#3"
     },
     {
       "time": 44.8,
-      "midi": 59,
-      "note": "B3"
-    },
-    {
-      "time": 44.9,
-      "midi": 59,
-      "note": "B3"
+      "midi": 58,
+      "note": "A#3"
     },
     {
       "time": 45.0,
@@ -2543,33 +2467,18 @@
     },
     {
       "time": 45.5,
-      "midi": 57,
-      "note": "A3"
-    },
-    {
-      "time": 45.6,
-      "midi": 57,
-      "note": "A3"
-    },
-    {
-      "time": 46.1,
-      "midi": 58,
-      "note": "A#3"
-    },
-    {
-      "time": 46.2,
-      "midi": 58,
-      "note": "A#3"
+      "midi": 56,
+      "note": "G#3"
     },
     {
       "time": 46.3,
-      "midi": 58,
-      "note": "A#3"
+      "midi": 57,
+      "note": "A3"
     },
     {
       "time": 46.4,
-      "midi": 58,
-      "note": "A#3"
+      "midi": 57,
+      "note": "A3"
     },
     {
       "time": 46.5,
@@ -2883,8 +2792,8 @@
     },
     {
       "time": 53.7,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 60,
+      "note": "C4"
     },
     {
       "time": 53.8,
@@ -2903,8 +2812,8 @@
     },
     {
       "time": 54.1,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 60,
+      "note": "C4"
     },
     {
       "time": 54.6,
@@ -2918,8 +2827,8 @@
     },
     {
       "time": 54.8,
-      "midi": 59,
-      "note": "B3"
+      "midi": 60,
+      "note": "C4"
     },
     {
       "time": 54.9,
@@ -2998,8 +2907,8 @@
     },
     {
       "time": 56.5,
-      "midi": 58,
-      "note": "A#3"
+      "midi": 59,
+      "note": "B3"
     },
     {
       "time": 56.6,
@@ -3013,8 +2922,8 @@
     },
     {
       "time": 56.8,
-      "midi": 58,
-      "note": "A#3"
+      "midi": 59,
+      "note": "B3"
     },
     {
       "time": 56.9,
@@ -3038,8 +2947,8 @@
     },
     {
       "time": 57.3,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 60,
+      "note": "C4"
     },
     {
       "time": 57.4,
@@ -3133,33 +3042,28 @@
     },
     {
       "time": 59.2,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 62,
+      "note": "D4"
     },
     {
       "time": 59.3,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 62,
+      "note": "D4"
     },
     {
       "time": 59.4,
-      "midi": 63,
-      "note": "D#4"
-    },
-    {
-      "time": 59.5,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 62,
+      "note": "D4"
     },
     {
       "time": 59.8,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 62,
+      "note": "D4"
     },
     {
       "time": 59.9,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 62,
+      "note": "D4"
     },
     {
       "time": 60.0,
@@ -3473,8 +3377,8 @@
     },
     {
       "time": 67.4,
-      "midi": 59,
-      "note": "B3"
+      "midi": 58,
+      "note": "A#3"
     },
     {
       "time": 67.5,
@@ -3548,63 +3452,63 @@
     },
     {
       "time": 69.0,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 69.1,
-      "midi": 69,
-      "note": "A4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 69.2,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 69.3,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 69.4,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 69.5,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 69.6,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 69.7,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 69.8,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 69.9,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 70.0,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 70.1,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 70.2,
@@ -3613,13 +3517,13 @@
     },
     {
       "time": 70.6,
-      "midi": 74,
-      "note": "D5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 70.7,
-      "midi": 74,
-      "note": "D5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 70.8,
@@ -3640,11 +3544,6 @@
       "time": 71.1,
       "midi": 74,
       "note": "D5"
-    },
-    {
-      "time": 71.2,
-      "midi": 73,
-      "note": "C#5"
     },
     {
       "time": 71.3,
@@ -3673,11 +3572,6 @@
     },
     {
       "time": 71.8,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
-      "time": 71.9,
       "midi": 71,
       "note": "B4"
     },
@@ -3768,8 +3662,8 @@
     },
     {
       "time": 74.2,
-      "midi": 71,
-      "note": "B4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 74.3,
@@ -3818,13 +3712,18 @@
     },
     {
       "time": 75.2,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 67,
+      "note": "G4"
     },
     {
       "time": 75.3,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 67,
+      "note": "G4"
+    },
+    {
+      "time": 75.4,
+      "midi": 67,
+      "note": "G4"
     },
     {
       "time": 75.6,
@@ -3833,23 +3732,23 @@
     },
     {
       "time": 75.7,
-      "midi": 65,
-      "note": "F4"
+      "midi": 66,
+      "note": "F#4"
     },
     {
       "time": 75.8,
-      "midi": 65,
-      "note": "F4"
+      "midi": 66,
+      "note": "F#4"
     },
     {
       "time": 75.9,
-      "midi": 65,
-      "note": "F4"
+      "midi": 66,
+      "note": "F#4"
     },
     {
       "time": 76.0,
-      "midi": 65,
-      "note": "F4"
+      "midi": 66,
+      "note": "F#4"
     },
     {
       "time": 76.1,
@@ -3903,8 +3802,8 @@
     },
     {
       "time": 77.1,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 77.2,
@@ -3913,8 +3812,8 @@
     },
     {
       "time": 77.3,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 77.4,
@@ -4002,6 +3901,11 @@
       "note": "B4"
     },
     {
+      "time": 79.1,
+      "midi": 71,
+      "note": "B4"
+    },
+    {
       "time": 79.2,
       "midi": 71,
       "note": "B4"
@@ -4047,59 +3951,54 @@
       "note": "B4"
     },
     {
-      "time": 80.1,
-      "midi": 69,
-      "note": "A4"
-    },
-    {
       "time": 80.7,
-      "midi": 69,
-      "note": "A4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 80.8,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 80.9,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 81.0,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 81.1,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 81.2,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 81.3,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 81.4,
-      "midi": 72,
-      "note": "C5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 81.5,
-      "midi": 72,
-      "note": "C5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 82.1,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 82.2,
@@ -4108,11 +4007,6 @@
     },
     {
       "time": 82.3,
-      "midi": 73,
-      "note": "C#5"
-    },
-    {
-      "time": 82.4,
       "midi": 73,
       "note": "C#5"
     },
@@ -4218,18 +4112,18 @@
     },
     {
       "time": 84.8,
-      "midi": 67,
-      "note": "G4"
+      "midi": 68,
+      "note": "G#4"
     },
     {
       "time": 84.9,
-      "midi": 67,
-      "note": "G4"
+      "midi": 68,
+      "note": "G#4"
     },
     {
       "time": 85.0,
-      "midi": 67,
-      "note": "G4"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 85.1,
@@ -4243,8 +4137,8 @@
     },
     {
       "time": 85.3,
-      "midi": 74,
-      "note": "D5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 85.4,
@@ -4253,8 +4147,8 @@
     },
     {
       "time": 85.5,
-      "midi": 74,
-      "note": "D5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 85.6,
@@ -4263,8 +4157,8 @@
     },
     {
       "time": 85.7,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 85.8,
@@ -4422,11 +4316,6 @@
       "note": "A#4"
     },
     {
-      "time": 89.2,
-      "midi": 70,
-      "note": "A#4"
-    },
-    {
       "time": 89.3,
       "midi": 70,
       "note": "A#4"
@@ -4488,13 +4377,18 @@
     },
     {
       "time": 90.5,
+      "midi": 69,
+      "note": "A4"
+    },
+    {
+      "time": 90.6,
       "midi": 70,
       "note": "A#4"
     },
     {
       "time": 90.7,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 90.8,
@@ -4503,38 +4397,38 @@
     },
     {
       "time": 90.9,
-      "midi": 71,
-      "note": "B4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 91.0,
-      "midi": 71,
-      "note": "B4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 91.1,
-      "midi": 69,
-      "note": "A4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 91.2,
-      "midi": 69,
-      "note": "A4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 91.3,
-      "midi": 69,
-      "note": "A4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 91.4,
-      "midi": 69,
-      "note": "A4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 91.5,
-      "midi": 69,
-      "note": "A4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 91.6,
@@ -4643,11 +4537,6 @@
     },
     {
       "time": 93.7,
-      "midi": 63,
-      "note": "D#4"
-    },
-    {
-      "time": 93.8,
       "midi": 63,
       "note": "D#4"
     },
@@ -4772,14 +4661,14 @@
       "note": "B3"
     },
     {
-      "time": 96.6,
-      "midi": 59,
-      "note": "B3"
+      "time": 97.0,
+      "midi": 61,
+      "note": "C#4"
     },
     {
       "time": 97.1,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 64,
+      "note": "E4"
     },
     {
       "time": 97.2,
@@ -4808,11 +4697,6 @@
     },
     {
       "time": 97.7,
-      "midi": 66,
-      "note": "F#4"
-    },
-    {
-      "time": 97.8,
       "midi": 66,
       "note": "F#4"
     },
@@ -4858,8 +4742,8 @@
     },
     {
       "time": 98.9,
-      "midi": 58,
-      "note": "A#3"
+      "midi": 59,
+      "note": "B3"
     },
     {
       "time": 99.0,
@@ -4908,13 +4792,13 @@
     },
     {
       "time": 100.0,
-      "midi": 59,
-      "note": "B3"
+      "midi": 60,
+      "note": "C4"
     },
     {
       "time": 100.1,
-      "midi": 60,
-      "note": "C4"
+      "midi": 61,
+      "note": "C#4"
     },
     {
       "time": 100.2,
@@ -4978,63 +4862,33 @@
     },
     {
       "time": 101.4,
-      "midi": 59,
-      "note": "B3"
-    },
-    {
-      "time": 101.5,
-      "midi": 59,
-      "note": "B3"
-    },
-    {
-      "time": 101.6,
-      "midi": 59,
-      "note": "B3"
-    },
-    {
-      "time": 101.7,
-      "midi": 59,
-      "note": "B3"
-    },
-    {
-      "time": 101.8,
-      "midi": 59,
-      "note": "B3"
-    },
-    {
-      "time": 101.9,
-      "midi": 59,
-      "note": "B3"
-    },
-    {
-      "time": 102.0,
-      "midi": 59,
-      "note": "B3"
-    },
-    {
-      "time": 103.3,
-      "midi": 56,
-      "note": "G#3"
-    },
-    {
-      "time": 103.4,
-      "midi": 56,
-      "note": "G#3"
-    },
-    {
-      "time": 103.5,
-      "midi": 56,
-      "note": "G#3"
-    },
-    {
-      "time": 103.6,
       "midi": 60,
       "note": "C4"
     },
     {
+      "time": 103.3,
+      "midi": 65,
+      "note": "F4"
+    },
+    {
+      "time": 103.4,
+      "midi": 65,
+      "note": "F4"
+    },
+    {
+      "time": 103.5,
+      "midi": 65,
+      "note": "F4"
+    },
+    {
+      "time": 103.6,
+      "midi": 63,
+      "note": "D#4"
+    },
+    {
       "time": 103.7,
-      "midi": 62,
-      "note": "D4"
+      "midi": 63,
+      "note": "D#4"
     },
     {
       "time": 103.8,
@@ -5157,11 +5011,6 @@
       "note": "G#4"
     },
     {
-      "time": 106.7,
-      "midi": 68,
-      "note": "G#4"
-    },
-    {
       "time": 106.8,
       "midi": 68,
       "note": "G#4"
@@ -5238,8 +5087,8 @@
     },
     {
       "time": 109.0,
-      "midi": 60,
-      "note": "C4"
+      "midi": 59,
+      "note": "B3"
     },
     {
       "time": 109.1,
@@ -5308,13 +5157,18 @@
     },
     {
       "time": 110.4,
-      "midi": 58,
-      "note": "A#3"
+      "midi": 57,
+      "note": "A3"
     },
     {
-      "time": 110.5,
-      "midi": 58,
-      "note": "A#3"
+      "time": 110.6,
+      "midi": 57,
+      "note": "A3"
+    },
+    {
+      "time": 110.7,
+      "midi": 57,
+      "note": "A3"
     },
     {
       "time": 111.4,
@@ -5338,8 +5192,8 @@
     },
     {
       "time": 111.8,
-      "midi": 60,
-      "note": "C4"
+      "midi": 59,
+      "note": "B3"
     },
     {
       "time": 111.9,
@@ -5413,8 +5267,8 @@
     },
     {
       "time": 113.3,
-      "midi": 62,
-      "note": "D4"
+      "midi": 61,
+      "note": "C#4"
     },
     {
       "time": 113.4,
@@ -5488,13 +5342,18 @@
     },
     {
       "time": 114.9,
-      "midi": 67,
-      "note": "G4"
+      "midi": 68,
+      "note": "G#4"
     },
     {
       "time": 115.0,
-      "midi": 67,
-      "note": "G4"
+      "midi": 68,
+      "note": "G#4"
+    },
+    {
+      "time": 115.1,
+      "midi": 68,
+      "note": "G#4"
     },
     {
       "time": 124.8,
@@ -5503,8 +5362,8 @@
     },
     {
       "time": 124.9,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 69,
+      "note": "A4"
     },
     {
       "time": 125.0,
@@ -5578,108 +5437,113 @@
     },
     {
       "time": 126.4,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 126.5,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 126.6,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 126.7,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 126.8,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 126.9,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 127.0,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 127.1,
-      "midi": 74,
-      "note": "D5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 127.2,
-      "midi": 74,
-      "note": "D5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 127.3,
-      "midi": 74,
-      "note": "D5"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 127.4,
+      "midi": 77,
+      "note": "F5"
+    },
+    {
+      "time": 127.5,
+      "midi": 77,
+      "note": "F5"
+    },
+    {
+      "time": 127.6,
+      "midi": 76,
+      "note": "E5"
+    },
+    {
+      "time": 127.7,
+      "midi": 73,
+      "note": "C#5"
+    },
+    {
+      "time": 127.8,
+      "midi": 73,
+      "note": "C#5"
+    },
+    {
+      "time": 127.9,
+      "midi": 73,
+      "note": "C#5"
+    },
+    {
+      "time": 128.0,
       "midi": 74,
       "note": "D5"
     },
     {
-      "time": 127.6,
-      "midi": 68,
-      "note": "G#4"
-    },
-    {
-      "time": 127.7,
-      "midi": 68,
-      "note": "G#4"
-    },
-    {
-      "time": 127.8,
-      "midi": 64,
-      "note": "E4"
-    },
-    {
-      "time": 127.9,
-      "midi": 61,
-      "note": "C#4"
-    },
-    {
-      "time": 128.0,
-      "midi": 56,
-      "note": "G#3"
-    },
-    {
       "time": 128.1,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 128.2,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 128.3,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 128.4,
-      "midi": 57,
-      "note": "A3"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 128.5,
-      "midi": 71,
-      "note": "B4"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 128.6,
@@ -5702,54 +5566,49 @@
       "note": "B4"
     },
     {
-      "time": 129.0,
+      "time": 129.1,
       "midi": 71,
       "note": "B4"
     },
     {
-      "time": 129.1,
+      "time": 129.2,
+      "midi": 69,
+      "note": "A4"
+    },
+    {
+      "time": 129.3,
       "midi": 68,
       "note": "G#4"
     },
     {
-      "time": 129.2,
-      "midi": 66,
-      "note": "F#4"
-    },
-    {
-      "time": 129.3,
-      "midi": 66,
-      "note": "F#4"
-    },
-    {
       "time": 129.4,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 68,
+      "note": "G#4"
     },
     {
       "time": 129.5,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 68,
+      "note": "G#4"
     },
     {
       "time": 129.6,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 68,
+      "note": "G#4"
     },
     {
       "time": 129.7,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 68,
+      "note": "G#4"
     },
     {
       "time": 129.8,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 68,
+      "note": "G#4"
     },
     {
       "time": 129.9,
-      "midi": 56,
-      "note": "G#3"
+      "midi": 68,
+      "note": "G#4"
     },
     {
       "time": 130.0,
@@ -5768,48 +5627,43 @@
     },
     {
       "time": 130.6,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 130.7,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 130.8,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 130.9,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 131.0,
-      "midi": 67,
-      "note": "G4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 131.1,
-      "midi": 70,
-      "note": "A#4"
-    },
-    {
-      "time": 131.2,
-      "midi": 67,
-      "note": "G4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 131.3,
-      "midi": 67,
-      "note": "G4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 131.4,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 131.5,
@@ -5858,18 +5712,13 @@
     },
     {
       "time": 132.4,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 66,
+      "note": "F#4"
     },
     {
       "time": 132.5,
-      "midi": 68,
-      "note": "G#4"
-    },
-    {
-      "time": 132.6,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 66,
+      "note": "F#4"
     },
     {
       "time": 132.7,
@@ -5943,11 +5792,6 @@
     },
     {
       "time": 134.1,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
-      "time": 134.2,
       "midi": 73,
       "note": "C#5"
     },
@@ -5958,8 +5802,8 @@
     },
     {
       "time": 134.4,
-      "midi": 71,
-      "note": "B4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 134.5,
@@ -6048,8 +5892,8 @@
     },
     {
       "time": 136.2,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 136.3,
@@ -6102,59 +5946,49 @@
       "note": "B4"
     },
     {
-      "time": 137.3,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
-      "time": 137.4,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
       "time": 137.7,
       "midi": 71,
       "note": "B4"
     },
     {
       "time": 137.8,
-      "midi": 72,
-      "note": "C5"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 137.9,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 138.0,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 138.1,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 138.2,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 138.3,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 138.4,
-      "midi": 74,
-      "note": "D5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 138.5,
-      "midi": 74,
-      "note": "D5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 138.7,
@@ -6168,43 +6002,43 @@
     },
     {
       "time": 139.3,
-      "midi": 74,
-      "note": "D5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 139.4,
-      "midi": 72,
-      "note": "C5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 139.5,
-      "midi": 69,
-      "note": "A4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 139.6,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 139.7,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 139.8,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 139.9,
-      "midi": 69,
-      "note": "A4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 140.0,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 140.1,
@@ -6223,8 +6057,8 @@
     },
     {
       "time": 140.4,
-      "midi": 71,
-      "note": "B4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 140.5,
@@ -6308,23 +6142,23 @@
     },
     {
       "time": 142.5,
+      "midi": 75,
+      "note": "D#5"
+    },
+    {
+      "time": 142.6,
       "midi": 74,
       "note": "D5"
     },
     {
-      "time": 142.6,
+      "time": 142.7,
       "midi": 73,
       "note": "C#5"
     },
     {
-      "time": 142.7,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
       "time": 142.8,
-      "midi": 71,
-      "note": "B4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 142.9,
@@ -6393,16 +6227,6 @@
     },
     {
       "time": 144.2,
-      "midi": 66,
-      "note": "F#4"
-    },
-    {
-      "time": 144.3,
-      "midi": 66,
-      "note": "F#4"
-    },
-    {
-      "time": 144.4,
       "midi": 66,
       "note": "F#4"
     },
@@ -6497,11 +6321,6 @@
       "note": "A#4"
     },
     {
-      "time": 146.3,
-      "midi": 70,
-      "note": "A#4"
-    },
-    {
       "time": 146.4,
       "midi": 70,
       "note": "A#4"
@@ -6543,26 +6362,31 @@
     },
     {
       "time": 147.2,
-      "midi": 71,
-      "note": "B4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 147.3,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 69,
+      "note": "A4"
     },
     {
       "time": 147.4,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 69,
+      "note": "A4"
     },
     {
       "time": 147.5,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 69,
+      "note": "A4"
     },
     {
       "time": 147.6,
+      "midi": 69,
+      "note": "A4"
+    },
+    {
+      "time": 147.7,
       "midi": 70,
       "note": "A#4"
     },
@@ -6633,53 +6457,53 @@
     },
     {
       "time": 149.1,
-      "midi": 69,
-      "note": "A4"
-    },
-    {
-      "time": 149.2,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 149.3,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 149.4,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 149.5,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 149.6,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 149.7,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 149.8,
-      "midi": 64,
-      "note": "E4"
+      "midi": 75,
+      "note": "D#5"
+    },
+    {
+      "time": 149.9,
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 150.0,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 150.1,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 150.2,
@@ -6703,18 +6527,28 @@
     },
     {
       "time": 150.6,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
-      "time": 151.0,
       "midi": 72,
       "note": "C5"
     },
     {
-      "time": 151.1,
+      "time": 150.7,
+      "midi": 72,
+      "note": "C5"
+    },
+    {
+      "time": 150.9,
+      "midi": 72,
+      "note": "C5"
+    },
+    {
+      "time": 151.0,
       "midi": 73,
       "note": "C#5"
+    },
+    {
+      "time": 151.1,
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 151.2,
@@ -6743,68 +6577,68 @@
     },
     {
       "time": 151.8,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 151.9,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 152.0,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 152.1,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 152.2,
-      "midi": 67,
-      "note": "G4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 152.3,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 152.4,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 152.5,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 152.6,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 152.7,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 152.8,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 152.9,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 153.0,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 153.1,
@@ -6843,98 +6677,103 @@
     },
     {
       "time": 153.8,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 153.9,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 154.0,
-      "midi": 65,
-      "note": "F4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 154.1,
-      "midi": 65,
-      "note": "F4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 154.2,
-      "midi": 65,
-      "note": "F4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 154.3,
-      "midi": 65,
-      "note": "F4"
+      "midi": 73,
+      "note": "C#5"
+    },
+    {
+      "time": 154.7,
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 154.8,
-      "midi": 65,
-      "note": "F4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 154.9,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 155.0,
-      "midi": 65,
-      "note": "F4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 155.1,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 155.2,
-      "midi": 65,
-      "note": "F4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 155.3,
-      "midi": 65,
-      "note": "F4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 155.4,
-      "midi": 65,
-      "note": "F4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 155.5,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 155.6,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 155.7,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 155.8,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 156.0,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 67,
+      "note": "G4"
     },
     {
       "time": 156.1,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 67,
+      "note": "G4"
     },
     {
       "time": 156.2,
@@ -6943,23 +6782,18 @@
     },
     {
       "time": 156.3,
-      "midi": 67,
-      "note": "G4"
-    },
-    {
-      "time": 156.5,
-      "midi": 67,
-      "note": "G4"
-    },
-    {
-      "time": 156.6,
       "midi": 72,
       "note": "C5"
+    },
+    {
+      "time": 156.4,
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 156.8,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 156.9,
@@ -7128,13 +6962,13 @@
     },
     {
       "time": 160.2,
-      "midi": 72,
-      "note": "C5"
-    },
-    {
-      "time": 160.4,
       "midi": 73,
       "note": "C#5"
+    },
+    {
+      "time": 160.3,
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 160.7,
@@ -7163,18 +6997,23 @@
     },
     {
       "time": 161.2,
-      "midi": 74,
-      "note": "D5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 161.3,
-      "midi": 74,
-      "note": "D5"
+      "midi": 75,
+      "note": "D#5"
+    },
+    {
+      "time": 161.4,
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 161.5,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 161.6,
@@ -7203,13 +7042,23 @@
     },
     {
       "time": 162.1,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 75,
+      "note": "D#5"
+    },
+    {
+      "time": 162.2,
+      "midi": 75,
+      "note": "D#5"
+    },
+    {
+      "time": 162.3,
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 162.4,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 162.5,
@@ -7218,11 +7067,16 @@
     },
     {
       "time": 162.6,
-      "midi": 74,
-      "note": "D5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 162.7,
+      "midi": 75,
+      "note": "D#5"
+    },
+    {
+      "time": 162.8,
       "midi": 75,
       "note": "D#5"
     },
@@ -7233,11 +7087,6 @@
     },
     {
       "time": 163.0,
-      "midi": 75,
-      "note": "D#5"
-    },
-    {
-      "time": 163.1,
       "midi": 75,
       "note": "D#5"
     },
@@ -7288,8 +7137,8 @@
     },
     {
       "time": 164.1,
-      "midi": 71,
-      "note": "B4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 164.2,
@@ -7367,44 +7216,39 @@
       "note": "C#5"
     },
     {
-      "time": 165.7,
-      "midi": 74,
-      "note": "D5"
-    },
-    {
       "time": 166.2,
-      "midi": 74,
-      "note": "D5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 166.3,
-      "midi": 74,
-      "note": "D5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 166.4,
-      "midi": 59,
-      "note": "B3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 166.5,
-      "midi": 59,
-      "note": "B3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 166.6,
-      "midi": 59,
-      "note": "B3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 166.7,
-      "midi": 59,
-      "note": "B3"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 166.8,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 166.9,
@@ -7418,8 +7262,8 @@
     },
     {
       "time": 167.1,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 167.2,
@@ -7438,8 +7282,8 @@
     },
     {
       "time": 167.5,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 167.6,
@@ -7552,16 +7396,6 @@
       "note": "B4"
     },
     {
-      "time": 170.1,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
-      "time": 170.2,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
       "time": 170.3,
       "midi": 72,
       "note": "C5"
@@ -7647,44 +7481,54 @@
       "note": "G#4"
     },
     {
-      "time": 172.0,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
       "time": 172.1,
-      "midi": 71,
-      "note": "B4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 172.2,
-      "midi": 71,
-      "note": "B4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 172.3,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 172.4,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
+    },
+    {
+      "time": 172.5,
+      "midi": 75,
+      "note": "D#5"
+    },
+    {
+      "time": 172.6,
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 172.7,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 172.8,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
+    },
+    {
+      "time": 172.9,
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 173.0,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 173.2,
@@ -7703,103 +7547,103 @@
     },
     {
       "time": 173.5,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 173.9,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 174.0,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 174.1,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 174.2,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 174.3,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 174.4,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 174.5,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 174.6,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 174.7,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 174.8,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 174.9,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 175.0,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 175.1,
-      "midi": 65,
-      "note": "F4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 175.2,
-      "midi": 65,
-      "note": "F4"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 175.3,
-      "midi": 65,
-      "note": "F4"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 175.4,
-      "midi": 59,
-      "note": "B3"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 175.5,
-      "midi": 59,
-      "note": "B3"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 175.6,
-      "midi": 59,
-      "note": "B3"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 175.7,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 175.8,
@@ -7808,8 +7652,8 @@
     },
     {
       "time": 175.9,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 176.0,
@@ -7818,8 +7662,8 @@
     },
     {
       "time": 176.1,
-      "midi": 71,
-      "note": "B4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 176.2,
@@ -7868,28 +7712,8 @@
     },
     {
       "time": 177.1,
-      "midi": 73,
-      "note": "C#5"
-    },
-    {
-      "time": 177.2,
-      "midi": 73,
-      "note": "C#5"
-    },
-    {
-      "time": 177.3,
-      "midi": 73,
-      "note": "C#5"
-    },
-    {
-      "time": 177.4,
-      "midi": 73,
-      "note": "C#5"
-    },
-    {
-      "time": 177.6,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 177.7,
@@ -7943,11 +7767,6 @@
     },
     {
       "time": 178.7,
-      "midi": 73,
-      "note": "C#5"
-    },
-    {
-      "time": 178.8,
       "midi": 73,
       "note": "C#5"
     },
@@ -8013,33 +7832,33 @@
     },
     {
       "time": 180.3,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 180.4,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 180.5,
-      "midi": 54,
-      "note": "F#3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 180.6,
-      "midi": 54,
-      "note": "F#3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 180.7,
-      "midi": 54,
-      "note": "F#3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 180.8,
-      "midi": 71,
-      "note": "B4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 180.9,
@@ -8058,8 +7877,8 @@
     },
     {
       "time": 181.2,
-      "midi": 71,
-      "note": "B4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 181.3,
@@ -8143,53 +7962,73 @@
     },
     {
       "time": 182.9,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
-      "time": 183.0,
-      "midi": 71,
-      "note": "B4"
-    },
-    {
-      "time": 183.1,
       "midi": 72,
       "note": "C5"
     },
     {
+      "time": 183.0,
+      "midi": 72,
+      "note": "C5"
+    },
+    {
+      "time": 183.1,
+      "midi": 73,
+      "note": "C#5"
+    },
+    {
       "time": 183.4,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 183.5,
-      "midi": 65,
-      "note": "F4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 183.6,
-      "midi": 65,
-      "note": "F4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 183.7,
-      "midi": 65,
-      "note": "F4"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 183.8,
-      "midi": 65,
-      "note": "F4"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 183.9,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 184.0,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 76,
+      "note": "E5"
+    },
+    {
+      "time": 184.1,
+      "midi": 76,
+      "note": "E5"
+    },
+    {
+      "time": 184.2,
+      "midi": 76,
+      "note": "E5"
+    },
+    {
+      "time": 184.3,
+      "midi": 76,
+      "note": "E5"
+    },
+    {
+      "time": 184.4,
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 184.6,
@@ -8208,93 +8047,83 @@
     },
     {
       "time": 184.9,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 185.0,
-      "midi": 68,
-      "note": "G#4"
-    },
-    {
-      "time": 185.1,
-      "midi": 68,
-      "note": "G#4"
-    },
-    {
-      "time": 185.2,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 185.3,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 185.4,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 185.5,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 185.6,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 185.7,
-      "midi": 71,
-      "note": "B4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 185.8,
-      "midi": 71,
-      "note": "B4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 185.9,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 186.0,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 186.1,
-      "midi": 65,
-      "note": "F4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 186.2,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 186.4,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 74,
+      "note": "D5"
     },
     {
       "time": 186.5,
-      "midi": 61,
-      "note": "C#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 186.6,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 186.7,
-      "midi": 70,
-      "note": "A#4"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 186.8,
@@ -8308,103 +8137,83 @@
     },
     {
       "time": 187.0,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 187.1,
-      "midi": 65,
-      "note": "F4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 187.4,
-      "midi": 64,
-      "note": "E4"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 187.5,
-      "midi": 64,
-      "note": "E4"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 187.6,
-      "midi": 65,
-      "note": "F4"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 187.7,
-      "midi": 65,
-      "note": "F4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 187.8,
-      "midi": 64,
-      "note": "E4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 187.9,
-      "midi": 54,
-      "note": "F#3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 188.0,
-      "midi": 54,
-      "note": "F#3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 188.1,
-      "midi": 54,
-      "note": "F#3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 188.2,
-      "midi": 54,
-      "note": "F#3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 188.3,
-      "midi": 54,
-      "note": "F#3"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 188.4,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 188.5,
-      "midi": 63,
-      "note": "D#4"
-    },
-    {
-      "time": 188.6,
-      "midi": 69,
-      "note": "A4"
-    },
-    {
-      "time": 188.7,
-      "midi": 66,
-      "note": "F#4"
-    },
-    {
-      "time": 188.9,
-      "midi": 63,
-      "note": "D#4"
-    },
-    {
-      "time": 189.0,
-      "midi": 64,
-      "note": "E4"
+      "midi": 72,
+      "note": "C5"
     },
     {
       "time": 189.1,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 189.2,
-      "midi": 66,
-      "note": "F#4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 189.3,
@@ -8508,18 +8317,18 @@
     },
     {
       "time": 191.6,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 191.7,
-      "midi": 72,
-      "note": "C5"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 191.8,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 73,
+      "note": "C#5"
     },
     {
       "time": 191.9,
@@ -8558,28 +8367,28 @@
     },
     {
       "time": 192.6,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 192.7,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 192.8,
-      "midi": 60,
-      "note": "C4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 192.9,
-      "midi": 60,
-      "note": "C4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 193.0,
-      "midi": 68,
-      "note": "G#4"
+      "midi": 70,
+      "note": "A#4"
     },
     {
       "time": 193.1,
@@ -8588,13 +8397,13 @@
     },
     {
       "time": 193.2,
-      "midi": 72,
-      "note": "C5"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 193.3,
-      "midi": 72,
-      "note": "C5"
+      "midi": 71,
+      "note": "B4"
     },
     {
       "time": 193.4,
@@ -8623,48 +8432,43 @@
     },
     {
       "time": 193.9,
-      "midi": 73,
-      "note": "C#5"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 194.0,
-      "midi": 65,
-      "note": "F4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 194.1,
-      "midi": 63,
-      "note": "D#4"
-    },
-    {
-      "time": 194.2,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 194.3,
-      "midi": 63,
-      "note": "D#4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 194.4,
-      "midi": 65,
-      "note": "F4"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 194.5,
-      "midi": 74,
-      "note": "D5"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 194.6,
-      "midi": 74,
-      "note": "D5"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 194.7,
-      "midi": 74,
-      "note": "D5"
+      "midi": 76,
+      "note": "E5"
     },
     {
       "time": 194.8,
@@ -8673,13 +8477,13 @@
     },
     {
       "time": 194.9,
-      "midi": 65,
-      "note": "F4"
+      "midi": 75,
+      "note": "D#5"
     },
     {
       "time": 195.0,
-      "midi": 64,
-      "note": "E4"
+      "midi": 75,
+      "note": "D#5"
     }
   ]
 }

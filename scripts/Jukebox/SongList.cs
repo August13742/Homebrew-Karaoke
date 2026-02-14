@@ -69,12 +69,19 @@ namespace PitchGame
             {
                 Name = path.GetFile(),
                 FolderPath = path,
-                VocalsPath = $"{path}/vocals.wav",
-                InstrumentalPath = $"{path}/instrumental.wav",
                 KaraokeJsonPath = $"{path}/karaoke.json"
             };
+
+            // Check for .ogg first (runtime preferred) then .wav (legacy/imported)
+            string vOgg = $"{path}/vocals.ogg";
+            string iOgg = $"{path}/instrumental.ogg";
+            string vWav = $"{path}/vocals.wav";
+            string iWav = $"{path}/instrumental.wav";
+
+            data.VocalsPath = FileAccess.FileExists(vOgg) ? vOgg : vWav;
+            data.InstrumentalPath = FileAccess.FileExists(iOgg) ? iOgg : iWav;
             
-            // Basic validation: all files must exist
+            // Basic validation: required files must exist
             data.IsValid = FileAccess.FileExists(data.VocalsPath) && 
                            FileAccess.FileExists(data.InstrumentalPath) && 
                            FileAccess.FileExists(data.KaraokeJsonPath);
