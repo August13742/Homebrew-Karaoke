@@ -5,6 +5,7 @@ Still in very early prototyping stage. Intended to be used with my [Audio-Proces
 
 Pitch detection &scoring works but needs a lot of tweaking.
 
+Currently We have:
 - Scrolling Lyrics
 - Pitch Key Adjustments
 - Input Pitch Matching (procedurual, quality varies)
