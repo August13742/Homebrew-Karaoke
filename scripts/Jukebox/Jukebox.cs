@@ -12,6 +12,9 @@ namespace PitchGame
         private SongInspector _songInspector;
         private Button _btnBack;
         
+        private SongImporter _songImporter;
+        private ImportStatusPanel _importStatusPanel;
+        
         public override void _Ready()
         {
             _songList = GetNode<SongList>("%SongList");
@@ -30,6 +33,34 @@ namespace PitchGame
             };
             
             _btnBack.Pressed += OnBackInternal;
+
+            SetupImporter();
+        }
+
+        private void SetupImporter()
+        {
+            // Add SongImporter logic node
+            _songImporter = new SongImporter();
+            _songImporter.Name = "SongImporter";
+            AddChild(_songImporter);
+
+            // Instantiate UI
+            var panelScene = GD.Load<PackedScene>("res://scenes/components/ImportStatusPanel.tscn");
+            _importStatusPanel = panelScene.Instantiate<ImportStatusPanel>();
+            AddChild(_importStatusPanel);
+
+            // Wire signals
+            _songImporter.ImportStarted += (fileName) => _importStatusPanel.Start(fileName);
+            _songImporter.ImportProgress += (stage, progress) => _importStatusPanel.UpdateProgress(stage, progress);
+            _songImporter.ImportLog += (msg) => _importStatusPanel.AddLog(msg);
+            _songImporter.ImportCompleted += (name, success) => 
+            {
+                _importStatusPanel.Complete(name, success);
+                if (success) _songList.Refresh();
+            };
+
+            // Hook into OS file drop
+            GetTree().Root.FilesDropped += (files) => _songImporter.ProcessFiles(files);
         }
         
         private void PlaySongPreview(SongData data)
